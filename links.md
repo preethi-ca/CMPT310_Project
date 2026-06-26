@@ -1,0 +1,11 @@
+# Documentation links
+ - [Open Street Maps](https://osmnx.readthedocs.io/en/stable/)
+ - [Geopandas](https://geopandas.org/en/stable/docs.html)
+ - [Us Census](https://pypi.org/project/census/)
+ - [Us Census](https://cenpy-devs.github.io/cenpy/)
+ - [Can Census](https://pycancensus.readthedocs.io/en/latest/)
+ - [Walk Score (free trial)](https://www.walkscore.com/professional/api.php)
+ - [Transit Data](gtfs-kit)
+ - [Google Places (trial)](https://developers.google.com/maps/documentation/javascript/place)
+ - [Yelp Places (trial)](https://docs.developer.yelp.com/docs/places-intro)
+ 
