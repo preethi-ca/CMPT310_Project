@@ -8,4 +8,4 @@
  - [Transit Data](gtfs-kit)
  - [Google Places (trial)](https://developers.google.com/maps/documentation/javascript/place)
  - [Yelp Places (trial)](https://docs.developer.yelp.com/docs/places-intro)
- 
+ - [Scikit Learn](https://scikit-learn.org/0.21/documentation.html)
