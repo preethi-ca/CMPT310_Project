@@ -5,7 +5,7 @@
  - [Us Census](https://cenpy-devs.github.io/cenpy/)
  - [Can Census](https://pycancensus.readthedocs.io/en/latest/)
  - [Walk Score (free trial)](https://www.walkscore.com/professional/api.php)
- - [Transit Data](gtfs-kit)
+ - [Transit Data]([gtfs-kit](https://araichev.codeberg.page/gtfs_kit_docs/))
  - [Google Places (trial)](https://developers.google.com/maps/documentation/javascript/place)
  - [Yelp Places (trial)](https://docs.developer.yelp.com/docs/places-intro)
  - [Scikit Learn](https://scikit-learn.org/0.21/documentation.html)
