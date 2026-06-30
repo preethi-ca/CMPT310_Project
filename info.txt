@@ -1,0 +1,34 @@
+Source: https://www12.statcan.gc.ca/census-recensement/2021/dp-pd/prof/index.cfm?Lang=E
+
+
+city,
+median_income,
+population,
+pop_density_sqkm,
+age_demographic
+
+VANCOUVER:
+median_income (2020): 40,800
+population (2021): 2,642,825
+Population density per square kilometre: 918.0
+median age: 40.8
+
+
+BURNABY:
+median_income (2020): 38,400
+population (2021): 249,125
+Population density per square kilometre: 2,750.7
+median age: 40.4
+
+
+NEW Westminster:
+median_income (2020): 44,800
+population (2021): 78,916
+Population density per square kilometre: 5,052.4
+median age: 40.4	
+
+SURREY:
+median_income (2020): 37,600
+population (2021): 568,322
+Population density per square kilometre: 1,797.9
+median age: 38.4
