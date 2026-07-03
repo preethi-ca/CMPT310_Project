@@ -1,546 +1,546 @@
-store_name,city,latitude,longitude,target_rating,target_is_successful,competitor_count_500m
-Miku,Vancouver,49.28691298612272,-123.11304877258942,4.4,1,18
-The Flying Pig - Yaletown,Vancouver,49.27501,-123.122,4.0,1,19
-Phnom Penh,Vancouver,49.278431,-123.098205,4.2,1,3
-Kingyo,Vancouver,49.29073911099211,-123.13705023185994,4.4,1,13
-Fanny Bay Oyster Bar & Shellfish Market,Vancouver,49.2787525,-123.1138689,4.4,1,15
-Cactus Club Cafe,Vancouver,49.288953168131265,-123.1170999,4.2,1,16
-Saku,Vancouver,49.2631006,-123.11667523250104,4.3,1,9
-Nemesis Coffee,Vancouver,49.28281595985871,-123.11027107703038,4.4,1,19
-Saku,Vancouver,49.28923400821203,-123.13230361739016,4.5,1,13
-Manoush'eh,Vancouver,49.276653,-123.125728,4.8,1,23
-Guu with Garlic,Vancouver,49.290249,-123.1338142,4.3,1,13
-Ramen DANBO - Robson,Vancouver,49.2874959131639,-123.128934167326,4.4,1,13
-Chinatown BBQ,Vancouver,49.280294,-123.1015,4.4,1,10
-Lunch Lady,Vancouver,49.27497,-123.06915,4.2,1,1
-Tendon Kohaku,Vancouver,49.28107123873706,-123.12179426645872,4.3,1,17
-Blue Water Cafe,Vancouver,49.2761945,-123.1209935,4.4,1,23
-Kosoo,Vancouver,49.28494,-123.12592,4.3,1,13
-Din Tai Fung 鼎泰豐,Vancouver,49.28562,-123.124798,4.4,1,15
-Ask For Luigi,Vancouver,49.2844485,-123.0976786,4.1,1,3
-Joe Fortes Seafood & Chop House,Vancouver,49.284968691771624,-123.12455980835064,4.0,1,17
-Chambar,Vancouver,49.2801460007961,-123.109925328073,4.2,1,20
-Fat Mao Noodles,Vancouver,49.27982129999999,-123.1267997,4.4,1,15
-Hello Nori ,Vancouver,49.28559747478766,-123.1261163,4.5,1,12
-AnnaLena,Vancouver,49.2708261,-123.1467714,4.5,1,4
-Tom Sushi,Vancouver,49.2815608,-123.1327476,4.7,1,5
-The Fish Counter,Vancouver,49.250774041930285,-123.1012792,4.4,1,4
-Nightingale,Vancouver,49.2874110331456,-123.117770967577,4.2,1,18
-Cardero's Restaurant & Marine Pub,Vancouver,49.2914561357511,-123.127575841549,3.9,0,9
-OEB Breakfast Co. - Yaletown,Vancouver,49.273438,-123.119289,4.3,1,12
-La Belle Patate,Vancouver,49.2820547306569,-123.133442922354,4.2,1,4
-Happy Noodle House,Vancouver,49.27664,-123.12578,4.6,1,23
-Jam Cafe on Beatty,Vancouver,49.2802586,-123.1096376,4.4,1,20
-Alouette Bistro,Vancouver,49.2853,-123.11829,4.3,1,23
-Japadog,Vancouver,49.28023880376068,-123.1183512558197,3.9,0,23
-Kishimoto Japanese Kitchen,Vancouver,49.2665099,-123.06935,4.4,1,0
-Lupo,Vancouver,49.278222058049096,-123.11735347768747,4.3,1,20
-Salmon n' Bannock,Vancouver,49.2631378,-123.1296705,4.5,1,2
-Botanist,Vancouver,49.2882901,-123.116555,4.3,1,15
-Medina Cafe,Vancouver,49.2804429972571,-123.117036269849,4.2,1,18
-Kokoro Tokyo Mazesoba,Vancouver,49.2833927,-123.115078,4.1,1,21
-Elisa,Vancouver,49.27597599917006,-123.12142339325408,4.3,1,21
-The Magnet,Vancouver,49.28242131064444,-123.11118325952978,4.6,1,19
-Okeya Kyujiro,Vancouver,49.27581579131156,-123.1197521,4.8,1,19
-Cockney Kings Fish & Chips,Vancouver,49.272672,-123.148627,4.8,1,3
-Maruhachi Ra-men,Vancouver,49.2905691,-123.1333951,4.3,1,13
-Sura Korean Cuisine,Vancouver,49.2888601838143,-123.131742169312,4.1,1,13
-Hokkaido Ramen Santouka,Vancouver,49.263127,-123.1168917,4.2,1,9
-Riley's Vancouver,Vancouver,49.287641996861865,-123.1151089,4.3,1,17
-The Red Accordion,Vancouver,49.29025,-123.131768,4.6,1,13
-Social Corner- Coal Harbour,Vancouver,49.28789956950066,-123.11817217614248,4.4,1,16
-Indian Delicacy,Vancouver,49.28749,-123.12141,4.5,1,19
-Tokyo In April,Vancouver,49.2806813,-123.1073936,4.4,1,17
-Cactus Club Cafe,Vancouver,49.28554081466174,-123.11881637137162,4.1,1,23
-Peaceful Restaurant,Vancouver,49.263147,-123.116143,3.6,0,9
-Mazahr Lebanese Kitchen,Vancouver,49.2615511,-123.1383052,4.7,1,0
-Nuba in Gastown,Vancouver,49.2827625062516,-123.109646101134,4.0,1,18
-Hokkaido Ramen Santouka,Vancouver,49.290236,-123.133811,4.2,1,13
-Caveman Cafe,Vancouver,49.280802324947445,-123.10703500282293,4.4,1,17
-Tap & Barrel - Convention Centre,Vancouver,49.289845529586,-123.116857235515,3.8,0,13
-Fritz European Fry House,Vancouver,49.2772045,-123.1265253,4.2,1,21
-Raisu,Vancouver,49.2679990419609,-123.158381134272,4.3,1,0
-Nero Waffles,Vancouver,49.27834403099929,-123.122044653573,4.4,1,28
-Alchemy Bar and Kitchen,Vancouver,49.27422,-123.124,4.3,1,17
-LOCAL Public Eatery Gastown,Vancouver,49.2836468,-123.1039495,4.3,1,12
-Nook,Vancouver,49.2917554,-123.1352974,4.2,1,11
-JOEY Burrard,Vancouver,49.282606,-123.1231879,4.1,1,20
-Mount Everest Kitchen & Grill,Vancouver,49.28343057225757,-123.1142148824853,4.6,1,21
-Sawasdee Thai Restaurant,Vancouver,49.24703,-123.1008,4.0,1,1
-The Sandbar Seafood Restaurant,Vancouver,49.271502,-123.134151,3.7,0,2
-Shizen Ya,Vancouver,49.2808844,-123.1246278,4.3,1,18
-Dinesty Dumpling House,Vancouver,49.2908176,-123.1343912,3.9,0,12
-Kozak Ukrainian Restaurant,Vancouver,49.28266968028282,-123.1045676752585,4.6,1,15
-Linh Cafe,Vancouver,49.2746716,-123.12989802,3.9,0,10
-Rodney's Oyster House,Vancouver,49.274326,-123.123131,4.0,1,19
-Oyster Express,Vancouver,49.2792784082144,-123.097397130932,4.5,1,5
-Zarak By Afghan Kitchen,Vancouver,49.266224,-123.1006089,4.5,1,3
-Pourhouse Restaurant,Vancouver,49.2841134475502,-123.10842879595,4.0,1,17
-Anh and Chi,Vancouver,49.2550314422938,-123.100882202153,4.0,1,5
-Calabash Bistro,Vancouver,49.281004479966,-123.104228199529,4.0,1,13
-Le Crocodile Restaurant,Vancouver,49.2825393,-123.1252052,4.3,1,16
-Gyu-Kaku Japanese BBQ,Vancouver,49.28031,-123.12467,4.0,1,15
-La Taqueria Pinche Taco Shop,Vancouver,49.263617,-123.112593,4.2,1,7
-España Restaurant,Vancouver,49.2880552,-123.1404114,4.2,1,4
-Wow Full Noodle House,Vancouver,49.28255,-123.1145,4.7,1,22
-Sooda Korean BBQ,Vancouver,49.28256,-123.10628,4.6,1,15
-Ramen DANBO - Kitsilano,Vancouver,49.26828,-123.146431,4.3,1,3
-Superbaba,Vancouver,49.2633297,-123.1012681,4.6,1,3
-Encore Suite,Vancouver,49.2776420028873,-123.109174971689,4.3,1,9
-Peaked Pies,Vancouver,49.2896489,-123.1384797,4.4,1,12
-Vij's Restaurant,Vancouver,49.25754,-123.11479,4.0,1,3
-Burger Crush,Vancouver,49.27977707759172,-123.12350184856516,4.3,1,23
-St Lawrence Restaurant,Vancouver,49.2832584031253,-123.097993419888,4.4,1,6
-Fable Diner,Vancouver,49.2630749,-123.1019822,3.9,0,3
-The Mexican Antojitos Y Cantina,Vancouver,49.2787726,-123.1240268,4.3,1,27
-Pholicious,Vancouver,49.28297,-123.11279,4.3,1,21
-ARC Restaurant,Vancouver,49.28733537787621,-123.11385049155078,4.0,1,15
-Maruhachi Ra-Men,Vancouver,49.27854065320407,-123.1157914,4.1,1,18
-Pink Peppercorn Seafood House,Vancouver,49.2493583,-123.0739159,4.3,1,0
-Hawksworth Restaurant,Vancouver,49.2833971,-123.1191704,4.1,1,21
-Published on Main,Vancouver,49.25283186017385,-123.10116032897228,4.3,1,4
-John 3:16 Malaysian Delights,Vancouver,49.26371,-123.12812,4.2,1,3
-Zakkushi on Denman,Vancouver,49.291208,-123.136248,4.2,1,12
-Brix & Mortar,Vancouver,49.275633270546194,-123.12192123186074,4.1,1,20
-Burgoo Bistros,Vancouver,49.25765498958033,-123.100815,3.9,0,3
-The Mackenzie Room,Vancouver,49.2832349,-123.0948578,4.5,1,3
-Osteria Savio Volpe,Vancouver,49.2574913,-123.0909344,4.2,1,0
-Suyo Modern Peruvian,Vancouver,49.2540292,-123.1010659958052,4.5,1,5
-Jeju,Vancouver,49.26228121460416,-123.0920469229725,4.5,1,1
-Axum Restaurant,Vancouver,49.2814936637038,-123.07779582314,4.4,1,0
-Mr Shawarma,Vancouver,49.28526,-123.12075,4.4,1,22
-Bodega On Main,Vancouver,49.27548853708847,-123.09968391901442,3.8,0,2
-New Fuji,Vancouver,49.27082027992868,-123.14700923860072,4.3,1,4
-Tap & Barrel - Bridges,Vancouver,49.2727468,-123.1359964,4.3,1,2
-Vonns,Vancouver,49.28724,-123.14124,4.5,1,3
-Seaport City Seafood Restaurant,Vancouver,49.263921119674905,-123.115152,4.2,1,7
-Chop Steakhouse & Bar,Vancouver,49.28853572427664,-123.11514429303064,4.2,1,14
-Moose's Down Under,Vancouver,49.285638,-123.11634,3.9,0,20
-Homura Yakiniku,Vancouver,49.263136,-123.125637,4.4,1,3
-Indian Roti Kitchen,Vancouver,49.25901,-123.11538,4.5,1,8
-Alley 16,Vancouver,49.257017,-123.11474,4.6,1,3
-iDen & Quan Ju De Beijing Duck House,Vancouver,49.26021,-123.1148451,3.6,0,10
-Zab Zaab Thai Cuisine,Vancouver,49.27493,-123.12321,4.5,1,19
-Banana Leaf,Vancouver,49.26302,-123.1225,3.7,0,6
-Yasma,Vancouver,49.293372954206546,-123.1321844713631,4.4,1,10
-Ignite Pizzeria,Vancouver,49.27724,-123.11858,4.6,1,22
-Earls Kitchen + Bar,Vancouver,49.281536,-123.12368,3.6,0,19
-TAKO,Vancouver,49.278816,-123.1078822,4.0,1,16
-Earls Kitchen + Bar,Vancouver,49.285968141691775,-123.12656576441812,3.8,0,12
-Tableau Bar Bistro,Vancouver,49.287494,-123.1235689,4.0,1,14
-Kook Korean BBQ,Vancouver,49.26894,-123.04565,4.2,1,0
-Jerusalem Shawarma,Vancouver,49.280356,-123.118634,4.7,1,22
-Toyokan Bowl,Vancouver,49.27055,-123.14762,4.7,1,4
-Toshi Sushi,Vancouver,49.256699,-123.101936,4.2,1,4
-Banana Leaf,Vancouver,49.28001,-123.13009,3.6,0,14
-Browns Socialhouse QE Theatre,Vancouver,49.279919,-123.112788,4.3,1,21
-Captain's Oven Pizza,Vancouver,49.287574432889535,-123.121025,4.4,1,19
-Kaide Sushi,Vancouver,49.2742161,-123.1270679,4.3,1,12
-Teahouse in Stanley Park,Vancouver,49.3012529987012,-123.157079257071,4.1,1,0
-Marulilu Cafe,Vancouver,49.26338,-123.11415,4.0,1,8
-ONIGIRI YA,Vancouver,49.26339,-123.11652,4.6,1,9
-Kulinarya,Vancouver,49.2744901,-123.0693269,4.0,1,1
-Song,Vancouver,49.2629749,-123.0986667,4.4,1,4
-Five Sails Restaurant,Vancouver,49.2880313351364,-123.113292160758,4.4,1,12
-The Greek By Anatoli,Vancouver,49.276285,-123.1197178,3.8,0,22
-Meat & Bread,Vancouver,49.2826255017147,-123.109336831057,4.2,1,18
-Maxine's Cafe & Bar,Vancouver,49.27807,-123.13131,4.3,1,9
-Minami,Vancouver,49.2752733,-123.1207029,4.1,1,19
-Vancouver European Deli,Vancouver,49.2820012,-123.1339713,4.2,1,4
-Dovetail,Vancouver,49.27599363324675,-123.120331,4.3,1,21
-Jinmi,Vancouver,49.27852246473989,-123.1143514,4.6,1,16
-CHOCHO Hot Pot,Burnaby,49.231234,-123.006943,4.6,1,21
-Saku,Burnaby,49.26543,-123.005428,4.5,1,13
-The Meat Up,Burnaby,49.2254546362785,-122.98992646931154,4.0,1,5
-Wild Thyme,Burnaby,49.2092291,-122.932308,4.4,1,5
-White Lotus Cafe,Burnaby,49.2656111504516,-122.97883607144,4.5,1,1
-Gokudo Shabu Shabu,Burnaby,49.230168460812294,-123.0038528105504,4.4,1,21
-Atlas Steak + Fish,Burnaby,49.256747,-123.006931,4.0,1,1
-Takara Sushi,Burnaby,49.2545851,-123.0220016,4.4,1,4
-Wild Flour Pizza,Burnaby,49.2584540319258,-122.955439905848,4.7,1,0
-John 3:16 Malaysian Delights,Burnaby,49.22494698851795,-122.9900406,4.5,1,7
-Shanghai Dimsum House,Burnaby,49.2294464,-123.0044077,4.0,1,22
-Safari Snack House And Grill,Burnaby,49.239118670642895,-122.96287338465577,3.9,0,3
-Haidilao Hotpot Brentwood,Burnaby,49.267417,-123.00189,4.6,1,11
-STEM Japanese Eatery,Burnaby,49.21497276456137,-122.98816101534425,4.2,1,3
-Burnaby Mountain Clubhouse,Burnaby,49.265138,-122.943048,4.1,1,0
-Grand Chinese Restaurant,Burnaby,49.266893,-123.004262,4.0,1,12
-Singapore Hawker,Burnaby,49.218768,-122.96447913871704,4.1,1,5
-Kokoro Tokyo Mazesoba,Burnaby,49.228287011321385,-123.00315331667662,4.0,1,20
-Masita Korean Cuisine,Burnaby,49.218978345984,-122.969008660356,3.9,0,3
-The Dolar Shop - Station Square,Burnaby,49.2277884925998,-123.00316795158996,4.3,1,19
-Little Minh's,Burnaby,49.1990675,-122.9799962,4.3,1,1
-Siam Le Bien,Burnaby,49.2813,-123.01068,4.3,1,10
-Green & Oak Malaysian Restaurant,Burnaby,49.28081,-123.02185,3.9,0,4
-Sooda Korean BBQ,Burnaby,49.2680924,-123.0003773,4.1,1,11
-Birdies,Burnaby,49.2655537242762,-123.01959240000002,4.0,1,1
-Korea Noodle House,Burnaby,49.229066,-123.004751,4.2,1,22
-The Viet Noodle Guy,Burnaby,49.26721987665755,-123.00572763320037,4.1,1,13
-Horin Ramen,Burnaby,49.22901506843291,-123.00505047055158,4.5,1,22
-OEB Breakfast,Burnaby,49.267442,-123.002595,4.1,1,11
-Chào Mámi,Burnaby,49.2808832078838,-123.014717570458,4.0,1,9
-Sushi Taku,Burnaby,49.23982721439047,-123.03001648836062,4.3,1,0
-Tenen,Burnaby,49.21549,-122.98895,4.2,1,3
-Barcelos Flame Grilled Chicken,Burnaby,49.19813330438935,-122.97878590283268,3.8,0,1
-Portobello Restaurant,Burnaby,49.280764,-123.013394,4.7,1,10
-Jovo the Butcher,Burnaby,49.22185,-122.94565,5.0,1,9
-Cactus Club Cafe,Burnaby,49.22775581945971,-123.00329214418927,3.9,0,19
-SOCRATES in the Heights,Burnaby,49.2811430405355,-122.998363226652,4.5,1,3
-Argo Greek Cuisine Pizza Pasta,Burnaby,49.2544359,-123.02071005595984,4.2,1,4
-The Keg Steakhouse + Bar,Burnaby,49.2596278,-123.0019108,3.9,0,1
-Chettinad Dosa Palace,Burnaby,49.23933,-122.96364,3.2,0,3
-22's Grill,Burnaby,49.2430980643898,-122.969388433881,4.4,1,0
-Trattoria by Italian Kitchen,Burnaby,49.23020501851105,-123.0039327,3.2,0,21
-Gaon  Korean Cuisine,Burnaby,49.223246,-122.982823,4.2,1,5
-Chad Thai,Burnaby,49.2809351,-123.0160318,4.1,1,10
-Sushi U,Burnaby,49.2654624429451,-122.978147623681,4.5,1,1
-Big Way Hot Pot,Burnaby,49.2310987,-123.0083309711633,4.0,1,15
-Riverway Clubhouse Restaurant,Burnaby,49.200617,-122.990237,3.5,0,0
-Wang's Shanghai Cuisine,Burnaby,49.232843,-123.034814,4.3,1,1
-Green Leaf Cafe,Burnaby,49.2533051,-122.8982928,4.1,1,2
-Adam's Crepes,Burnaby,49.2149649,-122.9880349,4.6,1,3
-JOEY Burnaby,Burnaby,49.2669122,-123.0066466,3.7,0,13
-Chen,Burnaby,49.28086095595619,-123.0091730738817,4.1,1,10
-Cockney Kings Fish & Chips,Burnaby,49.28005299920758,-122.96652586933914,4.0,1,0
-MYST Asian Fusion,Burnaby,49.21936313246308,-122.9706842,3.6,0,3
-El Inka Latin Deli,Burnaby,49.24941,-123.01912,4.4,1,0
-Tendon Kohaku,Burnaby,49.2278910406839,-123.00348046083376,3.7,0,19
-Shanghai Fortune Cuisine,Burnaby,49.22954179328731,-123.0046759319506,3.9,0,22
-Chicko Chicken Korean Style,Burnaby,49.2191861,-122.9505083,4.1,1,4
-Kimbap Cheonguk,Burnaby,49.2446982,-122.8918313,4.4,1,1
-Viva Sue Pizza,Burnaby,49.2391579,-122.9625575,4.2,1,3
-Acqua Restaurant & Bar,Burnaby,49.2665315,-123.0105296,3.9,0,9
-Chao Shou Wang,Burnaby,49.2290734,-123.0048795,4.1,1,22
-Katsuya,Burnaby,49.26175,-122.89038,4.4,1,0
-Burnt Orange,Burnaby,49.280836,-123.007658,4.7,1,5
-Taku Japanese Kitchen,Burnaby,49.21462,-122.98827,4.8,1,3
-Hello Nori,Burnaby,49.26780681630291,-123.00235434393312,4.1,1,11
-Afghan Turkish Cuisine,Burnaby,49.2807738,-123.0028986,4.0,1,4
-#CHIBOP,Burnaby,49.2677387,-123.0064866,4.5,1,13
-Aroma Eatery,Burnaby,49.228417734136464,-123.00491628393937,4.4,1,22
-B&D Authentic Viet Cuisine,Burnaby,49.21818434432872,-122.9578841,3.8,0,3
-Mongo Bongo,Burnaby,49.2135179,-122.9193884,3.9,0,35
-NamPo,Burnaby,49.22620549734934,-122.9917955,4.4,1,5
-Kozak Ukranian Eatery,Burnaby,49.2114757572234,-122.918422905028,4.4,1,35
-Zaaki Cuisine,Burnaby,49.2131145,-122.9200483,4.6,1,35
-Agra Tandoori Restaurant,Burnaby,49.25443,-123.02066,3.9,0,4
-Olove Greek Kitchen,Burnaby,49.2804849,-122.9779067,4.0,1,0
-Arbab Kabab House,Burnaby,49.2225463822872,-122.948696562034,4.5,1,9
-Manjal South Indian Kitchen,Burnaby,49.2232674,-122.9428279,4.4,1,8
-Joy Sushi,Burnaby,49.2643086657704,-123.010636587766,3.9,0,6
-Blue Coast,Burnaby,49.23466,-123.0246,4.5,1,0
-The One Restaurant,Burnaby,49.2211721,-122.9774371,3.4,0,1
-La Forêt - Royal Oak,Burnaby,49.2203,-122.98637,4.2,1,3
-Pinoy Cravings,Burnaby,49.21947050000001,-122.9499774,4.3,1,5
-Indian Bombay Bistro,Burnaby,49.2231570510965,-122.932603361937,3.9,0,4
-The Bao Place,Burnaby,49.21942124951652,-122.9500496,4.3,1,5
-Anatolia's Gate Restaurant,Burnaby,49.2183151,-122.9579254,3.8,0,3
-Afghan Kabul Kebab Donair,Burnaby,49.2808,-123.01483,4.8,1,9
-Kokoro Tokyo Mazesoba,Burnaby,49.26695219266848,-123.00631798803806,4.3,1,13
-Earls Kitchen + Bar,Burnaby,49.2279486,-123.0027748,3.9,0,19
-Pearl Hot Pot,Burnaby,49.2188387,-122.964481,3.3,0,5
-La Forêt,Burnaby,49.2212819390063,-122.995836958493,3.7,0,1
-Indian Wok,Burnaby,49.2248408,-122.9884673,4.2,1,7
-Patsara Thai Restaurant,Burnaby,49.204305,-122.908055,4.0,1,25
-BIN 4 Burger Lounge,Burnaby,49.2641572,-123.022698,4.0,1,1
-Preference Noodle House,Burnaby,49.2218507521499,-122.994655126677,3.8,0,3
-Cayenne Bistro & Grill,Burnaby,49.2213856,-122.9309353,4.8,1,5
-H&P Noodle House,Burnaby,49.281271,-123.015823,3.9,0,10
-Pelicana Chicken,Burnaby,49.2526660046984,-122.898108288646,4.5,1,2
-Pizza Garden,Burnaby,49.2252262,-123.0037541,4.0,1,16
-Big Star Sandwich,Burnaby,49.2545219768061,-123.02208635956,4.1,1,4
-Maruhachi Ra-men,Burnaby,49.2244919,-122.9878563,4.0,1,8
-Sushi On,Burnaby,49.22336826591775,-122.9432077,4.2,1,7
-Taverna Greka Restaurant,Burnaby,49.2049414,-122.9043168,4.1,1,13
-Soup Meister,Burnaby,49.31028,-123.08191,4.3,1,0
-Balkan House,Burnaby,49.22219,-122.94393,3.4,0,7
-Sushi Garden Japanese Restaurant,Burnaby,49.2291877,-123.0013312,3.4,0,19
-Butchers Block BBQ,Burnaby,49.28129,-123.01453,3.8,0,9
-Ki Cafe,Burnaby,49.2208272,-122.9884543,3.9,0,6
-Fung May,Burnaby,49.2288939318384,-123.004783375498,3.4,0,22
-Hiel Cafe,Burnaby,49.2190187,-122.92795,4.3,1,4
-Saffron Indian Cuisine,Burnaby,49.2311623,-123.0085405,3.8,0,14
-Motonobu Udon,Burnaby,49.2813968,-123.0280718,4.2,1,1
-Gyubee Japanese Grill,Burnaby,49.1712466,-123.1351984,4.3,1,0
-Porker Face,Burnaby,49.266783,-123.004713,4.4,1,12
-No.1 Beef Noodle House,Burnaby,49.2425291,-123.004037333135,3.4,0,0
-Pokerrito,Burnaby,49.22800794065202,-123.00332564860584,4.4,1,19
-Sushi Modo,Burnaby,49.225836,-122.937422,4.3,1,3
-Dumpling King,Burnaby,49.23125,-123.02943,4.4,1,1
-Abyssinia Ethiopian Restaurant,Burnaby,49.2224351,-122.9437792,3.9,0,7
-Time & Place Kitchen | Bar,Burnaby,49.22869,-123.004102,3.7,0,22
-X-Site Grill & Bistro,Burnaby,49.2811349,-122.9993576,3.8,0,3
-Sushi Bar Kilala,Burnaby,49.2811517065771,-122.995635763696,4.3,1,2
-Chili Pepper House,Burnaby,49.236254639793266,-123.04171146419895,3.8,0,0
-50's Burgers,Burnaby,49.22481,-122.94043,3.7,0,6
-Hart House Restaurant,Burnaby,49.23804,-122.96671,3.7,0,3
-FusionCore Japanese Eatery,Burnaby,49.2194467307934,-122.927554920316,3.9,0,4
-2025 Cafe,Burnaby,49.226765,-122.993594,4.5,1,5
-Simba’s Grill,Burnaby,49.2545127,-123.0231251,4.0,1,4
-Big Way Hot Pot,Burnaby,49.23150769999999,-123.0094545,3.6,0,14
-Toyo Sushi,Burnaby,49.2809392,-123.0168779,4.2,1,9
-The Spud Shack Fry,Burnaby,49.20095020309591,-122.91302027887068,4.0,1,39
-John 3:16 Malaysian Delights,Burnaby,49.1641317,-123.1362195,4.1,1,0
-Piva Modern Italian,Burnaby,49.201547,-122.911386,4.0,1,42
-Bastion Coffee Kitchen,Burnaby,49.25150479712613,-122.96734118404277,4.7,1,0
-Mumbaiyaa Street Foods,Burnaby,49.28087,-123.012439,4.7,1,10
-La Querida,Burnaby,49.22946626623539,-123.0052947,4.6,1,22
-Midam Rice Cake House,Burnaby,49.24411305860233,-122.89468909572412,3.4,0,1
-Sushi Yoi,Burnaby,49.2678773,-123.0061449,3.3,0,12
-Thai Chef,Burnaby,49.25411106371749,-122.89388632944176,4.0,1,2
-The Old Spaghetti Factory,New Westminster,49.201925687134,-122.91260507829,3.5,0,42
-Queen's Meat & Deli,New Westminster,49.2135565,-122.9106876,5.0,1,0
-Artusi Restaurant,New Westminster,49.2105935011629,-122.917292262862,3.9,0,33
-Sixth Street Grill,New Westminster,49.2108238069653,-122.917073781025,3.7,0,33
-Han Lin Noodle House,New Westminster,49.210381277082135,-122.91715603819992,3.5,0,32
-El Santo,New Westminster,49.2022405,-122.9093807,3.7,0,40
-Taqueria Playa Tropical,New Westminster,49.2097840906051,-122.91639733055,3.7,0,32
-Columbia Street Sandwich,New Westminster,49.2034109,-122.9071758,4.6,1,26
-Cockney Kings Fish & Chips,New Westminster,49.2008661133601,-122.916763893224,4.0,1,30
-WhataFood Brazilian Street Food,New Westminster,49.2010175,-122.9131833,4.5,1,39
-Longtail Kitchen,New Westminster,49.1997723,-122.9124427,4.0,1,35
-Jokim Kitchen,New Westminster,49.2123946,-122.92115999999676,4.1,1,36
-L’Onore Pizza,New Westminster,49.21402,-122.89781,4.6,1,2
-Ikoi Sushi,New Westminster,49.23018,-122.89239,4.4,1,5
-Banette,New Westminster,49.212666374930784,-122.9200253,4.5,1,36
-Yianni's Greek Taverna,New Westminster,49.2124240808659,-122.919168452339,3.7,0,36
-Sushi Well,New Westminster,49.2126787,-122.9200936,4.0,1,36
-Banh Mi Bar Restaurant,New Westminster,49.20279527932723,-122.91101334289716,4.7,1,41
-The Old Bavaria Haus,New Westminster,49.208524,-122.914146,3.2,0,12
-The Tannenbaum Restaurant,New Westminster,49.201090932901955,-122.9177160369112,4.0,1,28
-Arvind's Curry & Cocktail,New Westminster,49.2107666,-122.917511,3.1,0,33
-North Noodle House,New Westminster,49.200992,-122.913094,3.9,0,39
-Big Star Sandwiches,New Westminster,49.2021828,-122.9094816,3.9,0,40
-Massawa Restaurant,New Westminster,49.21062,-122.91767,3.9,0,33
-Tina Vietnamese Cuisine,New Westminster,49.20230997138088,-122.91254500292511,4.5,1,42
-Re-Up BBQ,New Westminster,49.2000834965815,-122.911374465514,3.8,0,38
-Angelina's,New Westminster,49.200022,-122.91173,3.9,0,37
-Sanjo Sushi Asian Cuisine,New Westminster,49.212860664254805,-122.92019516255849,4.4,1,36
-Amelia Restaurant,New Westminster,49.20876,-122.93227,4.3,1,5
-Burger Heaven,New Westminster,49.20138,-122.91604,3.6,0,32
-4 Seasons Chaat House,New Westminster,49.210675,-122.917569,3.8,0,33
-Shiok,New Westminster,49.208416,-122.931803,4.6,1,5
-IT Char Burger,New Westminster,49.222413,-122.9122126,4.5,1,2
-Kioku Kitchen,New Westminster,49.2015316664854,-122.9134644,4.4,1,41
-Sichuan Yummy Food - Wonton House,New Westminster,49.20607,-122.92832,4.7,1,5
-Pho Chan,New Westminster,49.2228583293267,-122.914227216925,3.8,0,2
-Pho Ace,New Westminster,49.2131832,-122.9197982,4.0,1,35
-Anny's Dairy Bar,New Westminster,49.214855,-122.922433,4.2,1,26
-6th Ave Bread & Deli,New Westminster,49.2120019089755,-122.922128466349,4.4,1,36
-Shawarma Corner,New Westminster,49.2029499,-122.9086533,4.5,1,37
-Stefanos Restaurant,New Westminster,49.2054199,-122.90424,3.0,0,11
-Balai in the Borough,New Westminster,49.19034444678847,-122.949241,3.8,0,0
-Sushi Simagoya,New Westminster,49.1849621482515,-122.949424850882,4.6,1,0
-Victoria Sushi,New Westminster,49.213378,-122.89888,4.0,1,2
-Thai New West,New Westminster,49.229001,-122.89251,3.8,0,6
-Dine Kanadiyan,New Westminster,49.21197868804981,-122.9211672344025,3.7,0,36
-Flavor Balance Espresso Bar,New Westminster,49.21223,-122.9205,4.4,1,36
-Sora Sushi House,New Westminster,49.20252,-122.91375,4.5,1,42
-Bubble World,New Westminster,49.2048187,-122.9100876,3.3,0,29
-Tasty Indian Bistro,New Westminster,49.1547435,-122.8905949,4.3,1,1
-Kushi Mura Japanese Izakaya,New Westminster,49.2018489,-122.9127047,3.2,0,42
-Pho Angkor Noodle House,New Westminster,49.2012551,-122.9169549,4.5,1,30
-Mean Poutine,New Westminster,49.21308,-122.91995,4.3,1,35
-The Peri Peri Shack,New Westminster,49.20985443619279,-122.91650641534834,4.0,1,32
-Vadapav Mirchi By Geeta,New Westminster,49.20864846389665,-122.94274322034968,4.5,1,0
-The Chopped Leaf,New Westminster,49.2122867,-122.9190461,3.5,0,36
-Royal Tandoori Indian Restaurant,New Westminster,49.20512,-122.90983,3.7,0,27
-Woomi Sushi,New Westminster,49.2225852,-122.914627,4.3,1,2
-Sushi Heaven,New Westminster,49.2306827,-122.8929216,3.8,0,5
-Jim's Cafe,New Westminster,49.2120564,-122.9192509,3.9,0,36
-Big Way Hot Pot,New Westminster,49.20104990676527,-122.91260437496535,4.7,1,42
-Coasters Coffee,New Westminster,49.20435909515937,-122.9090041723834,4.3,1,29
-Rong Rong Tea House,New Westminster,49.2025566,-122.913414,3.7,0,42
-Donair Star,New Westminster,49.2083493,-122.93167515413184,4.0,1,5
-Kojima Sushi,New Westminster,49.2106056213379,-122.917495727539,2.8,0,33
-Chan's Garden,New Westminster,49.2298584,-122.8930588,3.7,0,5
-Sushi Yen,New Westminster,49.2038975160565,-122.908591367304,3.8,0,34
-Pizzeria Ludica,New Westminster,49.2040696455815,-122.909304314068,3.5,0,34
-The Flapper Lounge,New Westminster,49.2025634283609,-122.91249129921196,4.7,1,42
-Chaiiwala,New Westminster,49.21238,-122.920151,4.2,1,36
-Papa Johns Pizza,New Westminster,49.21329659729184,-122.91968736842948,3.1,0,35
-Mediterranean Donair House,New Westminster,49.215202,-122.9225917,3.8,0,25
-New Lakeview Seafood & Wunton,New Westminster,49.2204185639885,-122.930049553083,3.3,0,5
-The Hide Out Cafe,New Westminster,49.2029257,-122.9108691,4.2,1,41
-Peranakan Kitchen,New Westminster,49.206320079356665,-122.92838104069232,5.0,1,5
-Ho Fung,New Westminster,49.215071,-122.9227783,3.5,0,25
-Sushi Farm,New Westminster,49.2118195905541,-122.924703396857,4.1,1,27
-Epic Grill Silogs + Sans Rival,New Westminster,49.190376,-122.9364904,4.1,1,0
-Pamola Bakery and Deli,New Westminster,49.2000426090809,-122.911609739566,3.7,0,38
-Desi Turka Indian Cuisine,New Westminster,49.220269,-122.929508,3.9,0,5
-Pizza Pizzeria,New Westminster,49.2308488,-122.9058827,4.2,1,0
-Hi Dozo Sushi,New Westminster,49.212302836833665,-122.9218728,3.1,0,36
-Itilia Kitchen & Bar,New Westminster,49.20002557750679,-122.9117314,3.5,0,37
-My Greek Taverna,New Westminster,49.23707629280225,-122.86929574290268,4.0,1,1
-Khob Khun Thai Cuisine,New Westminster,49.249218,-122.858859,4.3,1,0
-Dehls Gourmet,New Westminster,49.1997935,-122.9132011,4.7,1,34
-The Boathouse Restaurant,New Westminster,49.1995806,-122.9128469,2.4,0,34
-Saigon Ivy,New Westminster,49.21207002304541,-122.91928025557236,3.4,0,36
-Steve’s Poké Bar,New Westminster,49.22412,-122.89235,3.8,0,2
-Togo Sushi,New Westminster,49.2010569283793,-122.913864420441,3.5,0,37
-Sushi Hinode,New Westminster,49.202381,-122.912609,4.7,1,42
-Moodswing Coffee And Bar,New Westminster,49.2022517,-122.9085935,4.0,1,37
-Oh! Zzhu Sam,New Westminster,49.2219905,-122.9446256,4.2,1,9
-Gong cha,New Westminster,49.2005508,-122.9151912,4.5,1,32
-Firehouse Subs,New Westminster,49.21389852679686,-122.9215576,5.0,1,32
-Waves Coffee House,New Westminster,49.2131508,-122.9200801,3.4,0,35
-Serious Coffee,New Westminster,49.20049907250124,-122.91531119692569,4.2,1,32
-Greens & Beans Deli,New Westminster,49.2229306,-122.8931559,4.3,1,2
-Browns Socialhouse Brewery District,New Westminster,49.2250086337406,-122.892624952746,3.4,0,4
-Plato Filipino,New Westminster,49.2005652,-122.9151592,3.0,0,32
-Pizza Pizza,New Westminster,49.21267,-122.9187,3.3,0,36
-Ramengers Feat. Smoking pig,New Westminster,49.2386215122336,-122.86375656724,3.9,0,1
-Royal Crown Pizza,New Westminster,49.2084010373217,-122.920245955181,3.9,0,26
-The Notorious Grey Fox,New Westminster,49.2181945291168,-122.89461974054576,3.5,0,1
-gastronomia Italia,New Westminster,49.20325393435578,-122.90812679573745,4.4,1,35
-White Spot  - New Westminster,New Westminster,49.21307852784236,-122.92103836949718,2.9,0,35
-The Taco Factory,New Westminster,49.22904,-122.89241,3.4,0,6
-Galbi Korean BBQ,New Westminster,49.20165048669456,-122.91409,5.0,1,40
-Dutch Anchor Restaurant,New Westminster,49.19446139999999,-122.9279768,3.3,0,0
-Henry's Kitchen Pasta & Grill,New Westminster,49.27694,-122.85777,4.7,1,0
-Caffe Mira,New Westminster,49.21425325526439,-122.89784533568698,4.1,1,3
-Gino's Restaurant,New Westminster,49.2296123,-122.8930169,3.5,0,5
-Afghan Kitchen South Surrey,Surrey,49.0445839,-122.7766512,4.6,1,5
-Vault Restaurant,Surrey,49.10711,-122.73478,3.9,0,7
-Afghan Chopan Restaurant,Surrey,49.147471095003574,-122.86530131592922,3.9,0,7
-Ambar Surrey  Restaurant & Dhaba,Surrey,49.1282148,-122.8451664,4.5,1,0
-Old Surrey Restaurant,Surrey,49.13376877137055,-122.84896724397012,4.3,1,9
-The Carvery Sandwich Shop,Surrey,49.04649,-122.79411,4.5,1,2
-Chuihong,Surrey,49.19184,-122.78787,4.2,1,0
-Yory Korean Cuisine,Surrey,49.1569241,-122.7809906,4.4,1,4
-Maruhachi Ra-men,Surrey,49.167891,-122.800795,4.7,1,1
-New York New York,Surrey,49.118524,-122.801402,3.8,0,0
-Captain's Oven Pizza,Surrey,49.17799334576209,-122.84283366137696,4.7,1,1
-Tap Restaurant,Surrey,49.06362140752368,-122.7971484,4.2,1,0
-Yugafu Japanese Bistro,Surrey,49.12598822369157,-122.70117985561906,5.0,1,2
-Sabai Thai Restaurant,Surrey,49.1909867,-122.8065349,4.0,1,1
-Naka Bistro Lao & Thai Cuisine,Surrey,49.10744188764369,-122.66607764287042,4.6,1,1
-Ato Sushi Bar Kitchen,Surrey,49.1029789,-122.8008651,4.6,1,6
-Taste of Himalayas,Surrey,49.13204,-122.83918,4.4,1,4
-Chili House Restaurant,Surrey,49.1144981,-122.6806335,4.3,1,4
-Ruby Siam Thai Kitchen,Surrey,49.1064009,-122.7352826,4.3,1,7
-Katsu San,Surrey,49.19849367001739,-122.77940131605068,4.8,1,0
-Cactus Club Cafe,Surrey,49.0604907475,-122.804682831,4.0,1,3
-Texx Big Burger,Surrey,49.189932,-122.841323,4.1,1,3
-Browns Socialhouse Panorama,Surrey,49.10397,-122.798523,3.3,0,6
-Dragon Village Restaurant,Surrey,49.10558,-122.73478,4.3,1,7
-Palmyra Mediterranean Grill,Surrey,49.1860231,-122.800806,4.1,1,8
-Chopsticks On Pho,Surrey,49.1044634,-122.7986729,3.8,0,5
-My Greek Taverna,Surrey,49.12013,-122.89007,3.9,0,1
-Umami Sushi,Surrey,49.1191614520774,-122.73165560105,3.9,0,0
-Ken's Cafe,Surrey,49.105785,-122.735295,4.7,1,7
-Seoul Grill House,Surrey,49.18662844935571,-122.80218576441264,3.4,0,7
-Main Choice Chinese Restaurant,Surrey,49.1338858,-122.8518572,3.8,0,4
-Hiroshi Ramen,Surrey,49.11508,-122.68186,4.5,1,4
-Uli's Restaurant,Surrey,49.0214853492612,-122.806032776245,4.1,1,0
-Ruex Cafe & Bar,Surrey,49.1808237,-122.8448423,4.1,1,1
-Rosie's Country Cafe,Surrey,49.056674380316,-122.80853109372926,3.9,0,1
-Bandra Cafe,Surrey,49.13632358752905,-122.8899743625656,4.4,1,4
-Green Lettuce Indian Style Chinese Restaurant,Surrey,49.1179419178998,-122.890040874481,3.6,0,1
-Prabu Sweets,Surrey,49.13036,-122.86825,3.9,0,1
-Golden Samosa Bakery,Surrey,49.15395,-122.86205,4.2,1,1
-Pho Tau Bay,Surrey,49.19805,-122.81226,4.2,1,3
-Showshaa - The Modern Taproom,Surrey,49.05722,-122.80085,4.1,1,4
-Liberty Kitchen,Surrey,49.0452889438938,-122.778361737728,3.9,0,5
-Dragon Wok,Surrey,49.134925,-122.843366,5.0,1,12
-Diamond Buffet,Surrey,49.11172,-122.72963,2.4,0,0
-An Indian Affair,Surrey,49.1156853530903,-122.679180051868,4.3,1,4
-The Greek Corner,Surrey,49.1343307,-122.8452682,3.6,0,11
-Utopia Noodles,Surrey,49.158580176583506,-122.7811632,4.8,1,4
-Fast Fired,Surrey,49.14821,-122.889696,4.0,1,1
-Clove,Surrey,49.1189018,-122.8257539,4.1,1,1
-Sapporo Kitchen,Surrey,49.03159912001535,-122.80144046744888,3.9,0,3
-Ay Chihuahua,Surrey,49.0332999,-122.80094,4.1,1,4
-Archie's BBQ,Surrey,49.18755,-122.79773,4.1,1,8
-Chacha's Tandoor & Grill,Surrey,49.14829,-122.86628,4.5,1,7
-The Waffle Co.,Surrey,49.135660700709366,-122.84347474404068,4.4,1,11
-The Wooden Spoon,Surrey,49.0294179487087,-122.801852221983,4.3,1,3
-The Jin sushi,Surrey,49.1364,-122.84264,4.6,1,8
-Lahori Sweets & Restaurant,Surrey,49.1484413,-122.8649063,4.0,1,7
-Shawarma Palace,Surrey,49.134277,-122.844497,4.0,1,11
-The Back Room,Surrey,49.042265589442,-122.77957271282486,4.4,1,3
-Golden Samosa Bakery,Surrey,49.162635078126854,-122.88879025997797,4.1,1,2
-Steve's Poké Bar,Surrey,49.18376,-122.80127,4.5,1,6
-One More Thai,Surrey,49.1333200177501,-122.88981649088,3.6,0,3
-Malaysian Hut,Surrey,49.1989290068985,-122.814328819513,4.0,1,3
-Pho Hillton Restaurant,Surrey,49.1253645,-122.7059121,4.0,1,2
-Grandt Kitchen,Surrey,49.189707024899,-122.846393287182,3.9,0,5
-Browns Socialhouse Semiahmoo,Surrey,49.03143295501853,-122.80147612331338,3.1,0,3
-Thai By Thai,Surrey,49.1698001,-122.8900551,4.1,1,0
-Haven Kitchen + Bar,Surrey,49.11838,-122.67837,4.2,1,4
-Salsa & Guacamole,Surrey,49.133821637841805,-122.84886589325409,3.8,0,9
-Dawood's Pizza,Surrey,49.11893,-122.8171,5.0,1,0
-Dragon Wok,Surrey,49.150437,-122.865346,4.0,1,8
-GNJ Vegetarian Bistro,Surrey,49.1363708,-122.8922328,4.4,1,4
-U R Restaurant,Surrey,49.1994551,-122.8137501,4.4,1,3
-The Samosa House,Surrey,49.162746,-122.866827,4.4,1,0
-Jerusalem Grill & Shawarma,Surrey,49.15907004962188,-122.78113721962818,3.5,0,4
-Skye Avenue Kitchen & Lounge,Surrey,49.1876994453086,-122.84848282640564,4.1,1,3
-Sal y Limon,Surrey,49.0469347453396,-122.77867790858,3.8,0,4
-Zapoteca,Surrey,49.0177,-122.79314,4.2,1,0
-Kin Thai Kitchen & Bar,Surrey,49.0466759494366,-122.77521704598,3.5,0,4
-Tommies Jerk,Surrey,49.10037,-122.72386,4.7,1,0
-The Cabin Restaurant,Surrey,49.0528603,-122.8809814,3.4,0,0
-Kids Play Cafe & Cafe Artistico,Surrey,49.111984,-122.810317,3.8,0,0
-Spice of Nepal,Surrey,49.13339,-122.84879,4.2,1,9
-Miltomates Taqueria,Surrey,49.17736,-122.69072,4.6,1,0
-YL's Curry Bowl,Surrey,49.18444,-122.79879,4.0,1,7
-Sushi California - Surrey,Surrey,49.1893963,-122.7993351,4.0,1,6
-Tokyo Mithaiwala,Surrey,49.147777821579545,-122.8639529,4.4,1,6
-OZen Japanese Restaurant,Surrey,49.18581633703874,-122.79991012209054,4.8,1,8
-Panorama Indian Lounge,Surrey,49.10478,-122.80338,4.9,1,6
-Dragon's Chop Suey House,Surrey,49.15719,-122.77781,3.5,0,5
-Crispy Falafel,Surrey,49.04591481291062,-122.79334246655924,3.8,0,2
-Dublin Crossing Irish Pub,Surrey,49.12426199999999,-122.702092,3.4,0,2
-Ladybird's Trattoria,Surrey,49.0525910210857,-122.69256623466444,4.9,1,0
-Hawthorne Beer Market & Bistro,Surrey,49.10484,-122.7352,3.4,0,7
-Non Stop,Surrey,49.10497133807061,-122.80499545767236,4.6,1,5
-Bon Ga Korean Restaurant,Surrey,49.1906849563647,-122.8413259238,3.5,0,3
-Bacayon's Chibugan,Surrey,49.19166,-122.83465,4.5,1,1
-Pho Tau Bay,Surrey,49.135731,-122.844616,3.5,0,11
-Tap & Barrel,Surrey,49.05963809908623,-122.8018875,3.4,0,3
-Kai Japanese Restaurant,Surrey,49.155174243061545,-122.66664268415136,4.4,1,0
-ChongQing Restaurant,Surrey,49.15272034339086,-122.88974194707586,3.1,0,1
-Ek Chai Kahani,Surrey,49.11885835789898,-122.8240515212801,5.0,1,1
-Katana,Surrey,49.1171545941153,-122.669773906498,3.4,0,0
-A&W,Surrey,49.1343815,-122.88677929,4.6,1,3
-Lazeez Pizza & Kabob House,Surrey,49.1664375,-122.8011312,4.8,1,1
-Curry and Kabab,Surrey,49.139158,-122.88943,4.8,1,2
-Tasty Donair,Surrey,49.133938,-122.842573,4.3,1,11
-Mek's Delight,Surrey,49.1912982626951,-122.808646894991,3.9,0,1
-Barcelos Flame Grilled Chicken,Surrey,49.14042,-122.84594,4.4,1,1
-Planet India,Surrey,49.13379,-122.83907,3.8,0,8
-Navraj Sweets & Restaurant,Surrey,49.1501801430419,-122.866437749758,4.4,1,7
-Mama Moon Korean Food,Surrey,49.15687338090442,-122.7817113748807,5.0,1,4
-Kiki's Restaurant,Surrey,49.03728,-122.80147,3.8,0,1
-Coast & Country Diner,Surrey,49.103936,-122.734543,3.7,0,7
-Nagoya Sushi,Surrey,49.16978,-122.81251,4.0,1,0
-Banana Leaf,Surrey,49.0597947797082,-122.8040599822998,4.1,1,4
-Hanaya Japanese Restaurant,Surrey,49.05326,-122.80091,4.0,1,1
-Hansel Deli,Surrey,49.10792,-122.73477,4.4,1,7
-Shannon Donair,Surrey,49.1060982,-122.7353592,4.1,1,7
-Ustaad G76 Indian Cuisine Newton,Surrey,49.14112,-122.86246,4.4,1,0
-Pho' 99,Surrey,49.1155649751686,-122.681137890763,3.5,0,4
-Cabizerra Bistro,Surrey,49.1987463,-122.8134292,4.8,1,3
-WayBack Brew,Surrey,49.1025466,-122.8049717,4.7,1,4
-Pho Sunrise,Surrey,49.0467546085111,-122.798343610731,3.9,0,2
-Pho Newton,Surrey,49.1392040260342,-122.843214712932,3.6,0,5
-Chefs Kebab,Surrey,49.1551446,-122.7729754,4.2,1,1
-Viet Houng Asian Flavor Deli,Surrey,49.1887226115802,-122.860729718055,4.6,1,0
-Trees Cheesecake and Organic Coffee,Surrey,49.189991644148385,-122.850168,4.1,1,3
-Nordel Sushi,Surrey,49.1609149,-122.8885017,3.3,0,2
-Mayuri South Indian Cuisine,Surrey,49.1484299,-122.87146,3.7,0,6
-Akane Japanese Restaurant,Surrey,49.163424,-122.658979412033,4.0,1,0
-Guildford Station Pub,Surrey,49.18759,-122.79506,3.5,0,5
-Curry Lounge,Surrey,49.0453451,-122.7783363,3.8,0,5
-Cactus Club Cafe,Surrey,49.14695039868115,-122.89109409939302,3.9,0,1
-Nando's Peri-Peri,Surrey,49.18567392600471,-122.80140250244676,3.9,0,7
-La Meza Grill,Surrey,49.1635677875991,-122.891585540198,3.4,0,2
-Aka Sushi,Surrey,49.11859,-122.71199,4.0,1,0
-Satya Asha,Surrey,49.13371,-122.86738,4.4,1,1
-Neptune Palace Seafood Restaurant,Surrey,49.18693877584426,-122.8461404527314,3.1,0,4
-Emilio Finatti Pizzeria - Langley,Surrey,49.1073311,-122.6649517,4.4,1,1
-Isshin Sushi,Surrey,49.10468,-122.79806,3.8,0,4
-Avishan Authentic Middle East Grill,Surrey,49.1036095,-122.6555813,4.5,1,0
-Barcelos Flame Grilled Chicken,Surrey,49.1643965580191,-122.876819808461,4.0,1,0
-Dhaliwal's Lounge,Surrey,49.146859,-122.86557,4.5,1,7
+store_name,city,latitude,longitude,target_rating,target_is_successful,competitor_count_500m,nearest_transit_distance_m
+Miku,Vancouver,49.28691298612272,-123.11304877258942,4.4,1,18,18.016058741646436
+The Flying Pig - Yaletown,Vancouver,49.27501,-123.122,4.0,1,19,41.17995688192717
+Phnom Penh,Vancouver,49.278431,-123.098205,4.2,1,3,97.91810475733658
+Kingyo,Vancouver,49.29073911099211,-123.13705023185994,4.4,1,13,67.12389420118018
+Fanny Bay Oyster Bar & Shellfish Market,Vancouver,49.2787525,-123.1138689,4.4,1,15,58.12782738293309
+Cactus Club Cafe,Vancouver,49.288953168131265,-123.1170999,4.2,1,16,245.2332960520999
+Saku,Vancouver,49.2631006,-123.11667523250104,4.3,1,9,32.28566411987487
+Nemesis Coffee,Vancouver,49.28281595985871,-123.11027107703038,4.4,1,19,29.921418284342163
+Saku,Vancouver,49.28923400821203,-123.13230361739016,4.5,1,13,19.06277491233838
+Manoush'eh,Vancouver,49.276653,-123.125728,4.8,1,23,34.52474980382144
+Guu with Garlic,Vancouver,49.290249,-123.1338142,4.3,1,13,12.52314887376158
+Ramen DANBO - Robson,Vancouver,49.2874959131639,-123.128934167326,4.4,1,13,59.77120741026365
+Chinatown BBQ,Vancouver,49.280294,-123.1015,4.4,1,10,61.826644650149575
+Lunch Lady,Vancouver,49.27497,-123.06915,4.2,1,1,26.65637435986467
+Tendon Kohaku,Vancouver,49.28107123873706,-123.12179426645872,4.3,1,17,93.59177718726454
+Blue Water Cafe,Vancouver,49.2761945,-123.1209935,4.4,1,23,184.93336476521884
+Kosoo,Vancouver,49.28494,-123.12592,4.3,1,13,116.00006036151755
+Din Tai Fung 鼎泰豐,Vancouver,49.28562,-123.124798,4.4,1,15,122.14393927162793
+Ask For Luigi,Vancouver,49.2844485,-123.0976786,4.1,1,3,140.21573015889925
+Joe Fortes Seafood & Chop House,Vancouver,49.284968691771624,-123.12455980835064,4.0,1,17,182.5853751721908
+Chambar,Vancouver,49.2801460007961,-123.109925328073,4.2,1,20,32.84746246653956
+Fat Mao Noodles,Vancouver,49.27982129999999,-123.1267997,4.4,1,15,104.52113655183466
+Hello Nori ,Vancouver,49.28559747478766,-123.1261163,4.5,1,12,49.88375925906814
+AnnaLena,Vancouver,49.2708261,-123.1467714,4.5,1,4,176.34457498564964
+Tom Sushi,Vancouver,49.2815608,-123.1327476,4.7,1,5,21.16003423208933
+The Fish Counter,Vancouver,49.250774041930285,-123.1012792,4.4,1,4,17.590674624909582
+Nightingale,Vancouver,49.2874110331456,-123.117770967577,4.2,1,18,66.98423544307808
+Cardero's Restaurant & Marine Pub,Vancouver,49.2914561357511,-123.127575841549,3.9,0,9,191.1321879242539
+OEB Breakfast Co. - Yaletown,Vancouver,49.273438,-123.119289,4.3,1,12,126.63179826788908
+La Belle Patate,Vancouver,49.2820547306569,-123.133442922354,4.2,1,4,10.782288245137778
+Happy Noodle House,Vancouver,49.27664,-123.12578,4.6,1,23,34.02548772907132
+Jam Cafe on Beatty,Vancouver,49.2802586,-123.1096376,4.4,1,20,53.63485047752803
+Alouette Bistro,Vancouver,49.2853,-123.11829,4.3,1,23,85.34953640145096
+Japadog,Vancouver,49.28023880376068,-123.1183512558197,3.9,0,23,87.23914647799376
+Kishimoto Japanese Kitchen,Vancouver,49.2665099,-123.06935,4.4,1,0,132.29739302730903
+Lupo,Vancouver,49.278222058049096,-123.11735347768747,4.3,1,20,129.7526362494496
+Salmon n' Bannock,Vancouver,49.2631378,-123.1296705,4.5,1,2,49.78713961415875
+Botanist,Vancouver,49.2882901,-123.116555,4.3,1,15,194.193877453685
+Medina Cafe,Vancouver,49.2804429972571,-123.117036269849,4.2,1,18,108.35438108453411
+Kokoro Tokyo Mazesoba,Vancouver,49.2833927,-123.115078,4.1,1,21,48.60017658465843
+Elisa,Vancouver,49.27597599917006,-123.12142339325408,4.3,1,21,147.1631502791943
+The Magnet,Vancouver,49.28242131064444,-123.11118325952978,4.6,1,19,14.671275283084992
+Okeya Kyujiro,Vancouver,49.27581579131156,-123.1197521,4.8,1,19,97.53086948772435
+Cockney Kings Fish & Chips,Vancouver,49.272672,-123.148627,4.8,1,3,27.832981356298493
+Maruhachi Ra-men,Vancouver,49.2905691,-123.1333951,4.3,1,13,41.804372836499724
+Sura Korean Cuisine,Vancouver,49.2888601838143,-123.131742169312,4.1,1,13,43.741747276590154
+Hokkaido Ramen Santouka,Vancouver,49.263127,-123.1168917,4.2,1,9,40.59180435220434
+Riley's Vancouver,Vancouver,49.287641996861865,-123.1151089,4.3,1,17,154.75566780070673
+The Red Accordion,Vancouver,49.29025,-123.131768,4.6,1,13,83.58864871257039
+Social Corner- Coal Harbour,Vancouver,49.28789956950066,-123.11817217614248,4.4,1,16,119.03831206827327
+Indian Delicacy,Vancouver,49.28749,-123.12141,4.5,1,19,109.48356606604766
+Tokyo In April,Vancouver,49.2806813,-123.1073936,4.4,1,17,24.90959925756874
+Cactus Club Cafe,Vancouver,49.28554081466174,-123.11881637137162,4.1,1,23,43.47358892882296
+Peaceful Restaurant,Vancouver,49.263147,-123.116143,3.6,0,9,31.793486384000733
+Mazahr Lebanese Kitchen,Vancouver,49.2615511,-123.1383052,4.7,1,0,46.51157583870222
+Nuba in Gastown,Vancouver,49.2827625062516,-123.109646101134,4.0,1,18,58.25295567289824
+Hokkaido Ramen Santouka,Vancouver,49.290236,-123.133811,4.2,1,13,12.129937086738893
+Caveman Cafe,Vancouver,49.280802324947445,-123.10703500282293,4.4,1,17,10.85113292041144
+Tap & Barrel - Convention Centre,Vancouver,49.289845529586,-123.116857235515,3.8,0,13,345.6260323306837
+Fritz European Fry House,Vancouver,49.2772045,-123.1265253,4.2,1,21,25.865813330267375
+Raisu,Vancouver,49.2679990419609,-123.158381134272,4.3,1,0,70.3179299979423
+Nero Waffles,Vancouver,49.27834403099929,-123.122044653573,4.4,1,28,64.19859942071194
+Alchemy Bar and Kitchen,Vancouver,49.27422,-123.124,4.3,1,17,128.93725279774492
+LOCAL Public Eatery Gastown,Vancouver,49.2836468,-123.1039495,4.3,1,12,142.87222344169612
+Nook,Vancouver,49.2917554,-123.1352974,4.2,1,11,73.23016013922218
+JOEY Burrard,Vancouver,49.282606,-123.1231879,4.1,1,20,54.55291244483032
+Mount Everest Kitchen & Grill,Vancouver,49.28343057225757,-123.1142148824853,4.6,1,21,57.847696312459725
+Sawasdee Thai Restaurant,Vancouver,49.24703,-123.1008,4.0,1,1,120.09330757117357
+The Sandbar Seafood Restaurant,Vancouver,49.271502,-123.134151,3.7,0,2,361.01066746939097
+Shizen Ya,Vancouver,49.2808844,-123.1246278,4.3,1,18,132.55770429391694
+Dinesty Dumpling House,Vancouver,49.2908176,-123.1343912,3.9,0,12,84.88591901852101
+Kozak Ukrainian Restaurant,Vancouver,49.28266968028282,-123.1045676752585,4.6,1,15,25.769941909627654
+Linh Cafe,Vancouver,49.2746716,-123.12989802,3.9,0,10,89.95986943766403
+Rodney's Oyster House,Vancouver,49.274326,-123.123131,4.0,1,19,74.32290006895414
+Oyster Express,Vancouver,49.2792784082144,-123.097397130932,4.5,1,5,22.003842126836325
+Zarak By Afghan Kitchen,Vancouver,49.266224,-123.1006089,4.5,1,3,29.49789035253302
+Pourhouse Restaurant,Vancouver,49.2841134475502,-123.10842879595,4.0,1,17,94.96230478590621
+Anh and Chi,Vancouver,49.2550314422938,-123.100882202153,4.0,1,5,7.911230767375117
+Calabash Bistro,Vancouver,49.281004479966,-123.104228199529,4.0,1,13,64.9020048252157
+Le Crocodile Restaurant,Vancouver,49.2825393,-123.1252052,4.3,1,16,57.470293970622656
+Gyu-Kaku Japanese BBQ,Vancouver,49.28031,-123.12467,4.0,1,15,69.91408107937275
+La Taqueria Pinche Taco Shop,Vancouver,49.263617,-123.112593,4.2,1,7,135.11039422200693
+España Restaurant,Vancouver,49.2880552,-123.1404114,4.2,1,4,59.12639236246667
+Wow Full Noodle House,Vancouver,49.28255,-123.1145,4.7,1,22,83.57977716485672
+Sooda Korean BBQ,Vancouver,49.28256,-123.10628,4.6,1,15,73.97469700318338
+Ramen DANBO - Kitsilano,Vancouver,49.26828,-123.146431,4.3,1,3,20.83910023200747
+Superbaba,Vancouver,49.2633297,-123.1012681,4.6,1,3,36.18236811168609
+Encore Suite,Vancouver,49.2776420028873,-123.109174971689,4.3,1,9,143.18947504303492
+Peaked Pies,Vancouver,49.2896489,-123.1384797,4.4,1,12,51.52549399575768
+Vij's Restaurant,Vancouver,49.25754,-123.11479,4.0,1,3,43.33110703812407
+Burger Crush,Vancouver,49.27977707759172,-123.12350184856516,4.3,1,23,69.2665965867354
+St Lawrence Restaurant,Vancouver,49.2832584031253,-123.097993419888,4.4,1,6,10.930447176184115
+Fable Diner,Vancouver,49.2630749,-123.1019822,3.9,0,3,88.13699893877123
+The Mexican Antojitos Y Cantina,Vancouver,49.2787726,-123.1240268,4.3,1,27,107.3608701761091
+Pholicious,Vancouver,49.28297,-123.11279,4.3,1,21,21.585621394134222
+ARC Restaurant,Vancouver,49.28733537787621,-123.11385049155078,4.0,1,15,62.29366163490229
+Maruhachi Ra-Men,Vancouver,49.27854065320407,-123.1157914,4.1,1,18,66.46283794191034
+Pink Peppercorn Seafood House,Vancouver,49.2493583,-123.0739159,4.3,1,0,90.19437534294747
+Hawksworth Restaurant,Vancouver,49.2833971,-123.1191704,4.1,1,21,62.69409285313424
+Published on Main,Vancouver,49.25283186017385,-123.10116032897228,4.3,1,4,48.80749788810439
+John 3:16 Malaysian Delights,Vancouver,49.26371,-123.12812,4.2,1,3,48.203133682204864
+Zakkushi on Denman,Vancouver,49.291208,-123.136248,4.2,1,12,23.621919993353757
+Brix & Mortar,Vancouver,49.275633270546194,-123.12192123186074,4.1,1,20,96.06853790410197
+Burgoo Bistros,Vancouver,49.25765498958033,-123.100815,3.9,0,3,59.3212968188686
+The Mackenzie Room,Vancouver,49.2832349,-123.0948578,4.5,1,3,82.75986997150278
+Osteria Savio Volpe,Vancouver,49.2574913,-123.0909344,4.2,1,0,72.80815574264885
+Suyo Modern Peruvian,Vancouver,49.2540292,-123.1010659958052,4.5,1,5,35.312608922287225
+Jeju,Vancouver,49.26228121460416,-123.0920469229725,4.5,1,1,36.45769331633955
+Axum Restaurant,Vancouver,49.2814936637038,-123.07779582314,4.4,1,0,8.60155182250483
+Mr Shawarma,Vancouver,49.28526,-123.12075,4.4,1,22,41.06660257254003
+Bodega On Main,Vancouver,49.27548853708847,-123.09968391901442,3.8,0,2,19.200560082215784
+New Fuji,Vancouver,49.27082027992868,-123.14700923860072,4.3,1,4,173.76365364293565
+Tap & Barrel - Bridges,Vancouver,49.2727468,-123.1359964,4.3,1,2,377.35230127381806
+Vonns,Vancouver,49.28724,-123.14124,4.5,1,3,21.324130578282826
+Seaport City Seafood Restaurant,Vancouver,49.263921119674905,-123.115152,4.2,1,7,63.029969693515326
+Chop Steakhouse & Bar,Vancouver,49.28853572427664,-123.11514429303064,4.2,1,14,225.27794661967522
+Moose's Down Under,Vancouver,49.285638,-123.11634,3.9,0,20,65.60564823224279
+Homura Yakiniku,Vancouver,49.263136,-123.125637,4.4,1,3,195.28401074863635
+Indian Roti Kitchen,Vancouver,49.25901,-123.11538,4.5,1,8,35.4263187794138
+Alley 16,Vancouver,49.257017,-123.11474,4.6,1,3,19.86118842075381
+iDen & Quan Ju De Beijing Duck House,Vancouver,49.26021,-123.1148451,3.6,0,10,24.224472265820076
+Zab Zaab Thai Cuisine,Vancouver,49.27493,-123.12321,4.5,1,19,50.53700969207118
+Banana Leaf,Vancouver,49.26302,-123.1225,3.7,0,6,47.78477201639204
+Yasma,Vancouver,49.293372954206546,-123.1321844713631,4.4,1,10,141.00287075200177
+Ignite Pizzeria,Vancouver,49.27724,-123.11858,4.6,1,22,124.9590460025596
+Earls Kitchen + Bar,Vancouver,49.281536,-123.12368,3.6,0,19,94.75953933089058
+TAKO,Vancouver,49.278816,-123.1078822,4.0,1,16,38.02049646676038
+Earls Kitchen + Bar,Vancouver,49.285968141691775,-123.12656576441812,3.8,0,12,14.360533121604128
+Tableau Bar Bistro,Vancouver,49.287494,-123.1235689,4.0,1,14,119.43490101511028
+Kook Korean BBQ,Vancouver,49.26894,-123.04565,4.2,1,0,94.1170448428135
+Jerusalem Shawarma,Vancouver,49.280356,-123.118634,4.7,1,22,79.17196714434743
+Toyokan Bowl,Vancouver,49.27055,-123.14762,4.7,1,4,203.17053166414894
+Toshi Sushi,Vancouver,49.256699,-123.101936,4.2,1,4,63.83441263172546
+Banana Leaf,Vancouver,49.28001,-123.13009,3.6,0,14,64.92180091664216
+Browns Socialhouse QE Theatre,Vancouver,49.279919,-123.112788,4.3,1,21,27.764172840862194
+Captain's Oven Pizza,Vancouver,49.287574432889535,-123.121025,4.4,1,19,85.29436458306465
+Kaide Sushi,Vancouver,49.2742161,-123.1270679,4.3,1,12,50.61394094625311
+Teahouse in Stanley Park,Vancouver,49.3012529987012,-123.157079257071,4.1,1,0,1563.4447259947315
+Marulilu Cafe,Vancouver,49.26338,-123.11415,4.0,1,8,31.853446860580696
+ONIGIRI YA,Vancouver,49.26339,-123.11652,4.6,1,9,6.678860193750218
+Kulinarya,Vancouver,49.2744901,-123.0693269,4.0,1,1,71.90279679396212
+Song,Vancouver,49.2629749,-123.0986667,4.4,1,4,52.72525838719499
+Five Sails Restaurant,Vancouver,49.2880313351364,-123.113292160758,4.4,1,12,125.02085569037105
+The Greek By Anatoli,Vancouver,49.276285,-123.1197178,3.8,0,22,100.89878998112509
+Meat & Bread,Vancouver,49.2826255017147,-123.109336831057,4.2,1,18,56.99281447592099
+Maxine's Cafe & Bar,Vancouver,49.27807,-123.13131,4.3,1,9,26.11326286821928
+Minami,Vancouver,49.2752733,-123.1207029,4.1,1,19,118.4290638563887
+Vancouver European Deli,Vancouver,49.2820012,-123.1339713,4.2,1,4,28.83180255842788
+Dovetail,Vancouver,49.27599363324675,-123.120331,4.3,1,21,138.4214740908193
+Jinmi,Vancouver,49.27852246473989,-123.1143514,4.6,1,16,31.65348298490941
+CHOCHO Hot Pot,Burnaby,49.231234,-123.006943,4.6,1,21,47.48794482029249
+Saku,Burnaby,49.26543,-123.005428,4.5,1,13,164.0637985831454
+The Meat Up,Burnaby,49.2254546362785,-122.98992646931154,4.0,1,5,27.306429523704438
+Wild Thyme,Burnaby,49.2092291,-122.932308,4.4,1,5,7.210249857936038
+White Lotus Cafe,Burnaby,49.2656111504516,-122.97883607144,4.5,1,1,151.5538498826411
+Gokudo Shabu Shabu,Burnaby,49.230168460812294,-123.0038528105504,4.4,1,21,124.93109401135504
+Atlas Steak + Fish,Burnaby,49.256747,-123.006931,4.0,1,1,325.48711452036963
+Takara Sushi,Burnaby,49.2545851,-123.0220016,4.4,1,4,41.123497840677615
+Wild Flour Pizza,Burnaby,49.2584540319258,-122.955439905848,4.7,1,0,18.428566855393118
+John 3:16 Malaysian Delights,Burnaby,49.22494698851795,-122.9900406,4.5,1,7,51.856580734801156
+Shanghai Dimsum House,Burnaby,49.2294464,-123.0044077,4.0,1,22,84.53596543318454
+Safari Snack House And Grill,Burnaby,49.239118670642895,-122.96287338465577,3.9,0,3,81.58289124261282
+Haidilao Hotpot Brentwood,Burnaby,49.267417,-123.00189,4.6,1,11,82.71339286511865
+STEM Japanese Eatery,Burnaby,49.21497276456137,-122.98816101534425,4.2,1,3,26.203189289248975
+Burnaby Mountain Clubhouse,Burnaby,49.265138,-122.943048,4.1,1,0,437.9658066973759
+Grand Chinese Restaurant,Burnaby,49.266893,-123.004262,4.0,1,12,96.06644588915792
+Singapore Hawker,Burnaby,49.218768,-122.96447913871704,4.1,1,5,58.09646082189814
+Kokoro Tokyo Mazesoba,Burnaby,49.228287011321385,-123.00315331667662,4.0,1,20,63.18454567877673
+Masita Korean Cuisine,Burnaby,49.218978345984,-122.969008660356,3.9,0,3,48.83162182960846
+The Dolar Shop - Station Square,Burnaby,49.2277884925998,-123.00316795158996,4.3,1,19,77.98842141883762
+Little Minh's,Burnaby,49.1990675,-122.9799962,4.3,1,1,102.49342945815353
+Siam Le Bien,Burnaby,49.2813,-123.01068,4.3,1,10,104.92701602967324
+Green & Oak Malaysian Restaurant,Burnaby,49.28081,-123.02185,3.9,0,4,45.81374543729924
+Sooda Korean BBQ,Burnaby,49.2680924,-123.0003773,4.1,1,11,188.29919185898305
+Birdies,Burnaby,49.2655537242762,-123.01959240000002,4.0,1,1,173.61685169445312
+Korea Noodle House,Burnaby,49.229066,-123.004751,4.2,1,22,80.97559136044138
+The Viet Noodle Guy,Burnaby,49.26721987665755,-123.00572763320037,4.1,1,13,175.13172001620177
+Horin Ramen,Burnaby,49.22901506843291,-123.00505047055158,4.5,1,22,59.18017182690141
+OEB Breakfast,Burnaby,49.267442,-123.002595,4.1,1,11,37.45148749364946
+Chào Mámi,Burnaby,49.2808832078838,-123.014717570458,4.0,1,9,37.2978679904511
+Sushi Taku,Burnaby,49.23982721439047,-123.03001648836062,4.3,1,0,33.27994742620727
+Tenen,Burnaby,49.21549,-122.98895,4.2,1,3,55.39353496467237
+Barcelos Flame Grilled Chicken,Burnaby,49.19813330438935,-122.97878590283268,3.8,0,1,107.36670258915599
+Portobello Restaurant,Burnaby,49.280764,-123.013394,4.7,1,10,21.351661702704902
+Jovo the Butcher,Burnaby,49.22185,-122.94565,5.0,1,9,15.603469532510848
+Cactus Club Cafe,Burnaby,49.22775581945971,-123.00329214418927,3.9,0,19,73.5643124413995
+SOCRATES in the Heights,Burnaby,49.2811430405355,-122.998363226652,4.5,1,3,104.8685680567561
+Argo Greek Cuisine Pizza Pasta,Burnaby,49.2544359,-123.02071005595984,4.2,1,4,70.26031146107509
+The Keg Steakhouse + Bar,Burnaby,49.2596278,-123.0019108,3.9,0,1,242.1350011051444
+Chettinad Dosa Palace,Burnaby,49.23933,-122.96364,3.2,0,3,24.168986470276828
+22's Grill,Burnaby,49.2430980643898,-122.969388433881,4.4,1,0,121.50760738706909
+Trattoria by Italian Kitchen,Burnaby,49.23020501851105,-123.0039327,3.2,0,21,121.88640533800285
+Gaon  Korean Cuisine,Burnaby,49.223246,-122.982823,4.2,1,5,48.681159544549885
+Chad Thai,Burnaby,49.2809351,-123.0160318,4.1,1,10,19.227414688731916
+Sushi U,Burnaby,49.2654624429451,-122.978147623681,4.5,1,1,105.42015742716022
+Big Way Hot Pot,Burnaby,49.2310987,-123.0083309711633,4.0,1,15,38.16132017237322
+Riverway Clubhouse Restaurant,Burnaby,49.200617,-122.990237,3.5,0,0,666.8768350188325
+Wang's Shanghai Cuisine,Burnaby,49.232843,-123.034814,4.3,1,1,76.830240166278
+Green Leaf Cafe,Burnaby,49.2533051,-122.8982928,4.1,1,2,10.107785601600993
+Adam's Crepes,Burnaby,49.2149649,-122.9880349,4.6,1,3,33.07828218617082
+JOEY Burnaby,Burnaby,49.2669122,-123.0066466,3.7,0,13,124.43377109770319
+Chen,Burnaby,49.28086095595619,-123.0091730738817,4.1,1,10,30.217364830944643
+Cockney Kings Fish & Chips,Burnaby,49.28005299920758,-122.96652586933914,4.0,1,0,98.50507905061609
+MYST Asian Fusion,Burnaby,49.21936313246308,-122.9706842,3.6,0,3,66.04681030078137
+El Inka Latin Deli,Burnaby,49.24941,-123.01912,4.4,1,0,73.93760166366076
+Tendon Kohaku,Burnaby,49.2278910406839,-123.00348046083376,3.7,0,19,53.28932910126633
+Shanghai Fortune Cuisine,Burnaby,49.22954179328731,-123.0046759319506,3.9,0,22,75.49461618849132
+Chicko Chicken Korean Style,Burnaby,49.2191861,-122.9505083,4.1,1,4,10.241075923138899
+Kimbap Cheonguk,Burnaby,49.2446982,-122.8918313,4.4,1,1,59.7410003891559
+Viva Sue Pizza,Burnaby,49.2391579,-122.9625575,4.2,1,3,99.88935655239521
+Acqua Restaurant & Bar,Burnaby,49.2665315,-123.0105296,3.9,0,9,77.76326525730421
+Chao Shou Wang,Burnaby,49.2290734,-123.0048795,4.1,1,22,71.70231884363928
+Katsuya,Burnaby,49.26175,-122.89038,4.4,1,0,44.220832635783026
+Burnt Orange,Burnaby,49.280836,-123.007658,4.7,1,5,37.320244952539966
+Taku Japanese Kitchen,Burnaby,49.21462,-122.98827,4.8,1,3,36.20218975749076
+Hello Nori,Burnaby,49.26780681630291,-123.00235434393312,4.1,1,11,45.602421025928436
+Afghan Turkish Cuisine,Burnaby,49.2807738,-123.0028986,4.0,1,4,43.035282672976436
+#CHIBOP,Burnaby,49.2677387,-123.0064866,4.5,1,13,196.9007794791919
+Aroma Eatery,Burnaby,49.228417734136464,-123.00491628393937,4.4,1,22,68.97533659143839
+B&D Authentic Viet Cuisine,Burnaby,49.21818434432872,-122.9578841,3.8,0,3,39.2927189817689
+Mongo Bongo,Burnaby,49.2135179,-122.9193884,3.9,0,35,31.935530902596696
+NamPo,Burnaby,49.22620549734934,-122.9917955,4.4,1,5,20.862207921265014
+Kozak Ukranian Eatery,Burnaby,49.2114757572234,-122.918422905028,4.4,1,35,4.263127399654022
+Zaaki Cuisine,Burnaby,49.2131145,-122.9200483,4.6,1,35,35.224333949416874
+Agra Tandoori Restaurant,Burnaby,49.25443,-123.02066,3.9,0,4,73.67580303984616
+Olove Greek Kitchen,Burnaby,49.2804849,-122.9779067,4.0,1,0,133.96709030175688
+Arbab Kabab House,Burnaby,49.2225463822872,-122.948696562034,4.5,1,9,223.16352201359987
+Manjal South Indian Kitchen,Burnaby,49.2232674,-122.9428279,4.4,1,8,22.6373349510798
+Joy Sushi,Burnaby,49.2643086657704,-123.010636587766,3.9,0,6,218.85821564102002
+Blue Coast,Burnaby,49.23466,-123.0246,4.5,1,0,29.45548026621762
+The One Restaurant,Burnaby,49.2211721,-122.9774371,3.4,0,1,135.77589051718357
+La Forêt - Royal Oak,Burnaby,49.2203,-122.98637,4.2,1,3,133.94889141333147
+Pinoy Cravings,Burnaby,49.21947050000001,-122.9499774,4.3,1,5,22.23797168882622
+Indian Bombay Bistro,Burnaby,49.2231570510965,-122.932603361937,3.9,0,4,41.38761230520458
+The Bao Place,Burnaby,49.21942124951652,-122.9500496,4.3,1,5,23.435778095054633
+Anatolia's Gate Restaurant,Burnaby,49.2183151,-122.9579254,3.8,0,3,24.522354696911258
+Afghan Kabul Kebab Donair,Burnaby,49.2808,-123.01483,4.8,1,9,40.6972879737401
+Kokoro Tokyo Mazesoba,Burnaby,49.26695219266848,-123.00631798803806,4.3,1,13,147.22052006129732
+Earls Kitchen + Bar,Burnaby,49.2279486,-123.0027748,3.9,0,19,95.04734729991688
+Pearl Hot Pot,Burnaby,49.2188387,-122.964481,3.3,0,5,61.37495804899288
+La Forêt,Burnaby,49.2212819390063,-122.995836958493,3.7,0,1,188.95211046517792
+Indian Wok,Burnaby,49.2248408,-122.9884673,4.2,1,7,15.330352062064133
+Patsara Thai Restaurant,Burnaby,49.204305,-122.908055,4.0,1,25,67.5763603966249
+BIN 4 Burger Lounge,Burnaby,49.2641572,-123.022698,4.0,1,1,62.43334108167189
+Preference Noodle House,Burnaby,49.2218507521499,-122.994655126677,3.8,0,3,257.6178291815819
+Cayenne Bistro & Grill,Burnaby,49.2213856,-122.9309353,4.8,1,5,23.449188942580275
+H&P Noodle House,Burnaby,49.281271,-123.015823,3.9,0,10,34.123567014124866
+Pelicana Chicken,Burnaby,49.2526660046984,-122.898108288646,4.5,1,2,82.25960121500216
+Pizza Garden,Burnaby,49.2252262,-123.0037541,4.0,1,16,57.80952378039513
+Big Star Sandwich,Burnaby,49.2545219768061,-123.02208635956,4.1,1,4,50.131625718224726
+Maruhachi Ra-men,Burnaby,49.2244919,-122.9878563,4.0,1,8,45.96108973774798
+Sushi On,Burnaby,49.22336826591775,-122.9432077,4.2,1,7,35.1028410234469
+Taverna Greka Restaurant,Burnaby,49.2049414,-122.9043168,4.1,1,13,53.540332482576936
+Soup Meister,Burnaby,49.31028,-123.08191,4.3,1,0,80.5741142456469
+Balkan House,Burnaby,49.22219,-122.94393,3.4,0,7,53.821362693542596
+Sushi Garden Japanese Restaurant,Burnaby,49.2291877,-123.0013312,3.4,0,19,66.51905183047045
+Butchers Block BBQ,Burnaby,49.28129,-123.01453,3.8,0,9,68.4656790233383
+Ki Cafe,Burnaby,49.2208272,-122.9884543,3.9,0,6,79.7557636888559
+Fung May,Burnaby,49.2288939318384,-123.004783375498,3.4,0,22,80.04942861832646
+Hiel Cafe,Burnaby,49.2190187,-122.92795,4.3,1,4,34.729896975814555
+Saffron Indian Cuisine,Burnaby,49.2311623,-123.0085405,3.8,0,14,40.095965213740776
+Motonobu Udon,Burnaby,49.2813968,-123.0280718,4.2,1,1,69.1878454650198
+Gyubee Japanese Grill,Burnaby,49.1712466,-123.1351984,4.3,1,0,156.18427664862682
+Porker Face,Burnaby,49.266783,-123.004713,4.4,1,12,130.68217287710726
+No.1 Beef Noodle House,Burnaby,49.2425291,-123.004037333135,3.4,0,0,40.11108531161049
+Pokerrito,Burnaby,49.22800794065202,-123.00332564860584,4.4,1,19,55.370708254908855
+Sushi Modo,Burnaby,49.225836,-122.937422,4.3,1,3,61.59187603503072
+Dumpling King,Burnaby,49.23125,-123.02943,4.4,1,1,118.05250275358078
+Abyssinia Ethiopian Restaurant,Burnaby,49.2224351,-122.9437792,3.9,0,7,75.45647776421812
+Time & Place Kitchen | Bar,Burnaby,49.22869,-123.004102,3.7,0,22,52.84570045052068
+X-Site Grill & Bistro,Burnaby,49.2811349,-122.9993576,3.8,0,3,100.86306327871195
+Sushi Bar Kilala,Burnaby,49.2811517065771,-122.995635763696,4.3,1,2,20.62392417131986
+Chili Pepper House,Burnaby,49.236254639793266,-123.04171146419895,3.8,0,0,55.21784703979876
+50's Burgers,Burnaby,49.22481,-122.94043,3.7,0,6,60.98780764611987
+Hart House Restaurant,Burnaby,49.23804,-122.96671,3.7,0,3,201.1590523549599
+FusionCore Japanese Eatery,Burnaby,49.2194467307934,-122.927554920316,3.9,0,4,30.984430439218446
+2025 Cafe,Burnaby,49.226765,-122.993594,4.5,1,5,38.00867538728596
+Simba’s Grill,Burnaby,49.2545127,-123.0231251,4.0,1,4,25.3621457535035
+Big Way Hot Pot,Burnaby,49.23150769999999,-123.0094545,3.6,0,14,18.542283816402364
+Toyo Sushi,Burnaby,49.2809392,-123.0168779,4.2,1,9,27.96654873520269
+The Spud Shack Fry,Burnaby,49.20095020309591,-122.91302027887068,4.0,1,39,14.05075523991516
+John 3:16 Malaysian Delights,Burnaby,49.1641317,-123.1362195,4.1,1,0,15.526027624298763
+Piva Modern Italian,Burnaby,49.201547,-122.911386,4.0,1,42,45.168665642264926
+Bastion Coffee Kitchen,Burnaby,49.25150479712613,-122.96734118404277,4.7,1,0,169.9806031525234
+Mumbaiyaa Street Foods,Burnaby,49.28087,-123.012439,4.7,1,10,73.62661658991756
+La Querida,Burnaby,49.22946626623539,-123.0052947,4.6,1,22,32.434141407437174
+Midam Rice Cake House,Burnaby,49.24411305860233,-122.89468909572412,3.4,0,1,140.32617577617683
+Sushi Yoi,Burnaby,49.2678773,-123.0061449,3.3,0,12,203.9513672948788
+Thai Chef,Burnaby,49.25411106371749,-122.89388632944176,4.0,1,2,72.34785417387495
+The Old Spaghetti Factory,New Westminster,49.201925687134,-122.91260507829,3.5,0,42,28.802673925460553
+Queen's Meat & Deli,New Westminster,49.2135565,-122.9106876,5.0,1,0,31.22705598551098
+Artusi Restaurant,New Westminster,49.2105935011629,-122.917292262862,3.9,0,33,38.978269103126806
+Sixth Street Grill,New Westminster,49.2108238069653,-122.917073781025,3.7,0,33,45.67750953786394
+Han Lin Noodle House,New Westminster,49.210381277082135,-122.91715603819992,3.5,0,32,27.097919847174257
+El Santo,New Westminster,49.2022405,-122.9093807,3.7,0,40,114.60716691044523
+Taqueria Playa Tropical,New Westminster,49.2097840906051,-122.91639733055,3.7,0,32,11.186274526353683
+Columbia Street Sandwich,New Westminster,49.2034109,-122.9071758,4.6,1,26,5.19795007741031
+Cockney Kings Fish & Chips,New Westminster,49.2008661133601,-122.916763893224,4.0,1,30,81.51006500789518
+WhataFood Brazilian Street Food,New Westminster,49.2010175,-122.9131833,4.5,1,39,6.8001744146766505
+Longtail Kitchen,New Westminster,49.1997723,-122.9124427,4.0,1,35,114.83345798353098
+Jokim Kitchen,New Westminster,49.2123946,-122.92115999999676,4.1,1,36,62.25104422953128
+L’Onore Pizza,New Westminster,49.21402,-122.89781,4.6,1,2,134.26409648357887
+Ikoi Sushi,New Westminster,49.23018,-122.89239,4.4,1,5,36.33541325644421
+Banette,New Westminster,49.212666374930784,-122.9200253,4.5,1,36,69.50353216315067
+Yianni's Greek Taverna,New Westminster,49.2124240808659,-122.919168452339,3.7,0,36,54.94632018136112
+Sushi Well,New Westminster,49.2126787,-122.9200936,4.0,1,36,64.42799273522236
+Banh Mi Bar Restaurant,New Westminster,49.20279527932723,-122.91101334289716,4.7,1,41,158.02475833481688
+The Old Bavaria Haus,New Westminster,49.208524,-122.914146,3.2,0,12,28.406884950763263
+The Tannenbaum Restaurant,New Westminster,49.201090932901955,-122.9177160369112,4.0,1,28,123.16062884063106
+Arvind's Curry & Cocktail,New Westminster,49.2107666,-122.917511,3.1,0,33,62.25551944137194
+North Noodle House,New Westminster,49.200992,-122.913094,3.9,0,39,7.728358847031394
+Big Star Sandwiches,New Westminster,49.2021828,-122.9094816,3.9,0,40,124.24735072062246
+Massawa Restaurant,New Westminster,49.21062,-122.91767,3.9,0,33,65.83858807695167
+Tina Vietnamese Cuisine,New Westminster,49.20230997138088,-122.91254500292511,4.5,1,42,64.0833767642317
+Re-Up BBQ,New Westminster,49.2000834965815,-122.911374465514,3.8,0,38,115.15869615061519
+Angelina's,New Westminster,49.200022,-122.91173,3.9,0,37,103.91123827365422
+Sanjo Sushi Asian Cuisine,New Westminster,49.212860664254805,-122.92019516255849,4.4,1,36,51.367230225691905
+Amelia Restaurant,New Westminster,49.20876,-122.93227,4.3,1,5,15.096433506934758
+Burger Heaven,New Westminster,49.20138,-122.91604,3.6,0,32,105.11786509315246
+4 Seasons Chaat House,New Westminster,49.210675,-122.917569,3.8,0,33,61.02765482357659
+Shiok,New Westminster,49.208416,-122.931803,4.6,1,5,26.638359207594863
+IT Char Burger,New Westminster,49.222413,-122.9122126,4.5,1,2,70.55956556689729
+Kioku Kitchen,New Westminster,49.2015316664854,-122.9134644,4.4,1,41,5.037436097379291
+Sichuan Yummy Food - Wonton House,New Westminster,49.20607,-122.92832,4.7,1,5,22.169687524815203
+Pho Chan,New Westminster,49.2228583293267,-122.914227216925,3.8,0,2,118.54768216059573
+Pho Ace,New Westminster,49.2131832,-122.9197982,4.0,1,35,21.218496109838068
+Anny's Dairy Bar,New Westminster,49.214855,-122.922433,4.2,1,26,112.96958682518371
+6th Ave Bread & Deli,New Westminster,49.2120019089755,-122.922128466349,4.4,1,36,115.2138202952034
+Shawarma Corner,New Westminster,49.2029499,-122.9086533,4.5,1,37,22.809003818419907
+Stefanos Restaurant,New Westminster,49.2054199,-122.90424,3.0,0,11,97.57695200193737
+Balai in the Borough,New Westminster,49.19034444678847,-122.949241,3.8,0,0,235.39808314256288
+Sushi Simagoya,New Westminster,49.1849621482515,-122.949424850882,4.6,1,0,71.99292479516438
+Victoria Sushi,New Westminster,49.213378,-122.89888,4.0,1,2,74.72363614511663
+Thai New West,New Westminster,49.229001,-122.89251,3.8,0,6,155.3501471362809
+Dine Kanadiyan,New Westminster,49.21197868804981,-122.9211672344025,3.7,0,36,107.2856563785203
+Flavor Balance Espresso Bar,New Westminster,49.21223,-122.9205,4.4,1,36,82.64344125518681
+Sora Sushi House,New Westminster,49.20252,-122.91375,4.5,1,42,99.11414369783078
+Bubble World,New Westminster,49.2048187,-122.9100876,3.3,0,29,16.291687400495046
+Tasty Indian Bistro,New Westminster,49.1547435,-122.8905949,4.3,1,1,104.39282974158655
+Kushi Mura Japanese Izakaya,New Westminster,49.2018489,-122.9127047,3.2,0,42,18.699237916749755
+Pho Angkor Noodle House,New Westminster,49.2012551,-122.9169549,4.5,1,30,126.45529575491989
+Mean Poutine,New Westminster,49.21308,-122.91995,4.3,1,35,35.16011161453043
+The Peri Peri Shack,New Westminster,49.20985443619279,-122.91650641534834,4.0,1,32,11.318759702071889
+Vadapav Mirchi By Geeta,New Westminster,49.20864846389665,-122.94274322034968,4.5,1,0,236.91462277921508
+The Chopped Leaf,New Westminster,49.2122867,-122.9190461,3.5,0,36,37.316308304702524
+Royal Tandoori Indian Restaurant,New Westminster,49.20512,-122.90983,3.7,0,27,28.689246605581232
+Woomi Sushi,New Westminster,49.2225852,-122.914627,4.3,1,2,78.20115604453432
+Sushi Heaven,New Westminster,49.2306827,-122.8929216,3.8,0,5,31.69647263728694
+Jim's Cafe,New Westminster,49.2120564,-122.9192509,3.9,0,36,36.64650885894658
+Big Way Hot Pot,New Westminster,49.20104990676527,-122.91260437496535,4.7,1,42,26.18922360811675
+Coasters Coffee,New Westminster,49.20435909515937,-122.9090041723834,4.3,1,29,11.686404107103089
+Rong Rong Tea House,New Westminster,49.2025566,-122.913414,3.7,0,42,90.83940349365751
+Donair Star,New Westminster,49.2083493,-122.93167515413184,4.0,1,5,19.906989264829072
+Kojima Sushi,New Westminster,49.2106056213379,-122.917495727539,2.8,0,33,53.27672035922984
+Chan's Garden,New Westminster,49.2298584,-122.8930588,3.7,0,5,72.89361572416944
+Sushi Yen,New Westminster,49.2038975160565,-122.908591367304,3.8,0,34,48.84170443196737
+Pizzeria Ludica,New Westminster,49.2040696455815,-122.909304314068,3.5,0,34,31.194875463249645
+The Flapper Lounge,New Westminster,49.2025634283609,-122.91249129921196,4.7,1,42,91.4038162357954
+Chaiiwala,New Westminster,49.21238,-122.920151,4.2,1,36,81.36437259206687
+Papa Johns Pizza,New Westminster,49.21329659729184,-122.91968736842948,3.1,0,35,10.318821069898597
+Mediterranean Donair House,New Westminster,49.215202,-122.9225917,3.8,0,25,79.57488481270633
+New Lakeview Seafood & Wunton,New Westminster,49.2204185639885,-122.930049553083,3.3,0,5,57.443555838094554
+The Hide Out Cafe,New Westminster,49.2029257,-122.9108691,4.2,1,41,175.91424216647627
+Peranakan Kitchen,New Westminster,49.206320079356665,-122.92838104069232,5.0,1,5,44.70233300488236
+Ho Fung,New Westminster,49.215071,-122.9227783,3.5,0,25,78.26936135731981
+Sushi Farm,New Westminster,49.2118195905541,-122.924703396857,4.1,1,27,42.79129440125547
+Epic Grill Silogs + Sans Rival,New Westminster,49.190376,-122.9364904,4.1,1,0,46.668524743397455
+Pamola Bakery and Deli,New Westminster,49.2000426090809,-122.911609739566,3.7,0,38,107.12041655875615
+Desi Turka Indian Cuisine,New Westminster,49.220269,-122.929508,3.9,0,5,15.050497167850285
+Pizza Pizzeria,New Westminster,49.2308488,-122.9058827,4.2,1,0,336.0451375952691
+Hi Dozo Sushi,New Westminster,49.212302836833665,-122.9218728,3.1,0,36,99.30543488465428
+Itilia Kitchen & Bar,New Westminster,49.20002557750679,-122.9117314,3.5,0,37,103.52274704288507
+My Greek Taverna,New Westminster,49.23707629280225,-122.86929574290268,4.0,1,1,100.12327045098344
+Khob Khun Thai Cuisine,New Westminster,49.249218,-122.858859,4.3,1,0,56.59976549217127
+Dehls Gourmet,New Westminster,49.1997935,-122.9132011,4.7,1,34,104.08290044583268
+The Boathouse Restaurant,New Westminster,49.1995806,-122.9128469,2.4,0,34,136.44360072589507
+Saigon Ivy,New Westminster,49.21207002304541,-122.91928025557236,3.4,0,36,38.98241114547762
+Steve’s Poké Bar,New Westminster,49.22412,-122.89235,3.8,0,2,85.19699089296948
+Togo Sushi,New Westminster,49.2010569283793,-122.913864420441,3.5,0,37,34.62180415173417
+Sushi Hinode,New Westminster,49.202381,-122.912609,4.7,1,42,69.39952904568574
+Moodswing Coffee And Bar,New Westminster,49.2022517,-122.9085935,4.0,1,37,87.93006819751204
+Oh! Zzhu Sam,New Westminster,49.2219905,-122.9446256,4.2,1,9,7.611291369632408
+Gong cha,New Westminster,49.2005508,-122.9151912,4.5,1,32,30.536532138061634
+Firehouse Subs,New Westminster,49.21389852679686,-122.9215576,5.0,1,32,66.69135805809678
+Waves Coffee House,New Westminster,49.2131508,-122.9200801,3.4,0,35,33.53205201323637
+Serious Coffee,New Westminster,49.20049907250124,-122.91531119692569,4.2,1,32,40.54628528930448
+Greens & Beans Deli,New Westminster,49.2229306,-122.8931559,4.3,1,2,59.44178253651432
+Browns Socialhouse Brewery District,New Westminster,49.2250086337406,-122.892624952746,3.4,0,4,41.31312578008376
+Plato Filipino,New Westminster,49.2005652,-122.9151592,3.0,0,32,27.86629754098026
+Pizza Pizza,New Westminster,49.21267,-122.9187,3.3,0,36,73.25998776163786
+Ramengers Feat. Smoking pig,New Westminster,49.2386215122336,-122.86375656724,3.9,0,1,57.764745340875265
+Royal Crown Pizza,New Westminster,49.2084010373217,-122.920245955181,3.9,0,26,31.534652477111667
+The Notorious Grey Fox,New Westminster,49.2181945291168,-122.89461974054576,3.5,0,1,130.48659943177617
+gastronomia Italia,New Westminster,49.20325393435578,-122.90812679573745,4.4,1,35,30.42443743905889
+White Spot  - New Westminster,New Westminster,49.21307852784236,-122.92103836949718,2.9,0,35,19.80772260393258
+The Taco Factory,New Westminster,49.22904,-122.89241,3.4,0,6,158.65864555678365
+Galbi Korean BBQ,New Westminster,49.20165048669456,-122.91409,5.0,1,40,48.75984846328446
+Dutch Anchor Restaurant,New Westminster,49.19446139999999,-122.9279768,3.3,0,0,54.159124524398
+Henry's Kitchen Pasta & Grill,New Westminster,49.27694,-122.85777,4.7,1,0,108.18582094739347
+Caffe Mira,New Westminster,49.21425325526439,-122.89784533568698,4.1,1,3,135.55582207972594
+Gino's Restaurant,New Westminster,49.2296123,-122.8930169,3.5,0,5,97.67947652637595
+Afghan Kitchen South Surrey,Surrey,49.0445839,-122.7766512,4.6,1,5,134.0138772465535
+Vault Restaurant,Surrey,49.10711,-122.73478,3.9,0,7,71.0733066058437
+Afghan Chopan Restaurant,Surrey,49.147471095003574,-122.86530131592922,3.9,0,7,204.21741784114118
+Ambar Surrey  Restaurant & Dhaba,Surrey,49.1282148,-122.8451664,4.5,1,0,131.23706822831696
+Old Surrey Restaurant,Surrey,49.13376877137055,-122.84896724397012,4.3,1,9,141.12580261115647
+The Carvery Sandwich Shop,Surrey,49.04649,-122.79411,4.5,1,2,101.61014910922611
+Chuihong,Surrey,49.19184,-122.78787,4.2,1,0,93.27859509324622
+Yory Korean Cuisine,Surrey,49.1569241,-122.7809906,4.4,1,4,147.52529351705658
+Maruhachi Ra-men,Surrey,49.167891,-122.800795,4.7,1,1,54.72041953461875
+New York New York,Surrey,49.118524,-122.801402,3.8,0,0,18.678664410674273
+Captain's Oven Pizza,Surrey,49.17799334576209,-122.84283366137696,4.7,1,1,120.08595337478339
+Tap Restaurant,Surrey,49.06362140752368,-122.7971484,4.2,1,0,291.13119041580427
+Yugafu Japanese Bistro,Surrey,49.12598822369157,-122.70117985561906,5.0,1,2,78.72544595970862
+Sabai Thai Restaurant,Surrey,49.1909867,-122.8065349,4.0,1,1,3.4867025411144517
+Naka Bistro Lao & Thai Cuisine,Surrey,49.10744188764369,-122.66607764287042,4.6,1,1,53.8790496599254
+Ato Sushi Bar Kitchen,Surrey,49.1029789,-122.8008651,4.6,1,6,71.71158433800372
+Taste of Himalayas,Surrey,49.13204,-122.83918,4.4,1,4,49.73973994454252
+Chili House Restaurant,Surrey,49.1144981,-122.6806335,4.3,1,4,35.0233404613781
+Ruby Siam Thai Kitchen,Surrey,49.1064009,-122.7352826,4.3,1,7,123.16091645412273
+Katsu San,Surrey,49.19849367001739,-122.77940131605068,4.8,1,0,43.81579337944529
+Cactus Club Cafe,Surrey,49.0604907475,-122.804682831,4.0,1,3,210.86696801344638
+Texx Big Burger,Surrey,49.189932,-122.841323,4.1,1,3,172.4801404852652
+Browns Socialhouse Panorama,Surrey,49.10397,-122.798523,3.3,0,6,103.93007896071293
+Dragon Village Restaurant,Surrey,49.10558,-122.73478,4.3,1,7,119.36714970590977
+Palmyra Mediterranean Grill,Surrey,49.1860231,-122.800806,4.1,1,8,46.074694358319405
+Chopsticks On Pho,Surrey,49.1044634,-122.7986729,3.8,0,5,88.47096150956462
+My Greek Taverna,Surrey,49.12013,-122.89007,3.9,0,1,39.744955079139395
+Umami Sushi,Surrey,49.1191614520774,-122.73165560105,3.9,0,0,40.17398064414783
+Ken's Cafe,Surrey,49.105785,-122.735295,4.7,1,7,137.4041777320446
+Seoul Grill House,Surrey,49.18662844935571,-122.80218576441264,3.4,0,7,113.001469366801
+Main Choice Chinese Restaurant,Surrey,49.1338858,-122.8518572,3.8,0,4,23.407284644178567
+Hiroshi Ramen,Surrey,49.11508,-122.68186,4.5,1,4,79.11736920366988
+Uli's Restaurant,Surrey,49.0214853492612,-122.806032776245,4.1,1,0,111.43148410840277
+Ruex Cafe & Bar,Surrey,49.1808237,-122.8448423,4.1,1,1,43.83693548297802
+Rosie's Country Cafe,Surrey,49.056674380316,-122.80853109372926,3.9,0,1,168.94118787972917
+Bandra Cafe,Surrey,49.13632358752905,-122.8899743625656,4.4,1,4,52.47413385449293
+Green Lettuce Indian Style Chinese Restaurant,Surrey,49.1179419178998,-122.890040874481,3.6,0,1,55.73721687016903
+Prabu Sweets,Surrey,49.13036,-122.86825,3.9,0,1,82.19838773560855
+Golden Samosa Bakery,Surrey,49.15395,-122.86205,4.2,1,1,391.83799735887754
+Pho Tau Bay,Surrey,49.19805,-122.81226,4.2,1,3,104.14714146091552
+Showshaa - The Modern Taproom,Surrey,49.05722,-122.80085,4.1,1,4,63.79396846418886
+Liberty Kitchen,Surrey,49.0452889438938,-122.778361737728,3.9,0,5,18.54921797210629
+Dragon Wok,Surrey,49.134925,-122.843366,5.0,1,12,162.97903306685276
+Diamond Buffet,Surrey,49.11172,-122.72963,2.4,0,0,103.74498413232479
+An Indian Affair,Surrey,49.1156853530903,-122.679180051868,4.3,1,4,158.55996295049735
+The Greek Corner,Surrey,49.1343307,-122.8452682,3.6,0,11,10.920962155200266
+Utopia Noodles,Surrey,49.158580176583506,-122.7811632,4.8,1,4,47.94675262583633
+Fast Fired,Surrey,49.14821,-122.889696,4.0,1,1,89.62898586968079
+Clove,Surrey,49.1189018,-122.8257539,4.1,1,1,143.5104976945095
+Sapporo Kitchen,Surrey,49.03159912001535,-122.80144046744888,3.9,0,3,35.85461605959343
+Ay Chihuahua,Surrey,49.0332999,-122.80094,4.1,1,4,8.203063549272558
+Archie's BBQ,Surrey,49.18755,-122.79773,4.1,1,8,226.78352811879503
+Chacha's Tandoor & Grill,Surrey,49.14829,-122.86628,4.5,1,7,117.15899240839416
+The Waffle Co.,Surrey,49.135660700709366,-122.84347474404068,4.4,1,11,204.08803306477958
+The Wooden Spoon,Surrey,49.0294179487087,-122.801852221983,4.3,1,3,85.23034681668656
+The Jin sushi,Surrey,49.1364,-122.84264,4.6,1,8,233.8552146093891
+Lahori Sweets & Restaurant,Surrey,49.1484413,-122.8649063,4.0,1,7,213.79057899616294
+Shawarma Palace,Surrey,49.134277,-122.844497,4.0,1,11,67.33731751980183
+The Back Room,Surrey,49.042265589442,-122.77957271282486,4.4,1,3,177.66844347248093
+Golden Samosa Bakery,Surrey,49.162635078126854,-122.88879025997797,4.1,1,2,97.47328690089535
+Steve's Poké Bar,Surrey,49.18376,-122.80127,4.5,1,6,25.68900302697269
+One More Thai,Surrey,49.1333200177501,-122.88981649088,3.6,0,3,61.26937746195896
+Malaysian Hut,Surrey,49.1989290068985,-122.814328819513,4.0,1,3,91.11520133606183
+Pho Hillton Restaurant,Surrey,49.1253645,-122.7059121,4.0,1,2,12.238261822145162
+Grandt Kitchen,Surrey,49.189707024899,-122.846393287182,3.9,0,5,84.68094748486277
+Browns Socialhouse Semiahmoo,Surrey,49.03143295501853,-122.80147612331338,3.1,0,3,51.3340101921496
+Thai By Thai,Surrey,49.1698001,-122.8900551,4.1,1,0,25.189241732287858
+Haven Kitchen + Bar,Surrey,49.11838,-122.67837,4.2,1,4,91.81376983031599
+Salsa & Guacamole,Surrey,49.133821637841805,-122.84886589325409,3.8,0,9,134.49373516350562
+Dawood's Pizza,Surrey,49.11893,-122.8171,5.0,1,0,16.706836608687443
+Dragon Wok,Surrey,49.150437,-122.865346,4.0,1,8,195.02470417922822
+GNJ Vegetarian Bistro,Surrey,49.1363708,-122.8922328,4.4,1,4,142.9411268165994
+U R Restaurant,Surrey,49.1994551,-122.8137501,4.4,1,3,85.94935627285066
+The Samosa House,Surrey,49.162746,-122.866827,4.4,1,0,53.67536229357059
+Jerusalem Grill & Shawarma,Surrey,49.15907004962188,-122.78113721962818,3.5,0,4,75.60247970005709
+Skye Avenue Kitchen & Lounge,Surrey,49.1876994453086,-122.84848282640564,4.1,1,3,127.92063079851187
+Sal y Limon,Surrey,49.0469347453396,-122.77867790858,3.8,0,4,104.33948874815447
+Zapoteca,Surrey,49.0177,-122.79314,4.2,1,0,81.19301742163925
+Kin Thai Kitchen & Bar,Surrey,49.0466759494366,-122.77521704598,3.5,0,4,121.1263774755503
+Tommies Jerk,Surrey,49.10037,-122.72386,4.7,1,0,279.9415799645721
+The Cabin Restaurant,Surrey,49.0528603,-122.8809814,3.4,0,0,50.173119053371906
+Kids Play Cafe & Cafe Artistico,Surrey,49.111984,-122.810317,3.8,0,0,107.53435498083635
+Spice of Nepal,Surrey,49.13339,-122.84879,4.2,1,9,130.84560722283436
+Miltomates Taqueria,Surrey,49.17736,-122.69072,4.6,1,0,112.9262842104211
+YL's Curry Bowl,Surrey,49.18444,-122.79879,4.0,1,7,142.9571716193311
+Sushi California - Surrey,Surrey,49.1893963,-122.7993351,4.0,1,6,112.07740224101984
+Tokyo Mithaiwala,Surrey,49.147777821579545,-122.8639529,4.4,1,6,295.5413918351682
+OZen Japanese Restaurant,Surrey,49.18581633703874,-122.79991012209054,4.8,1,8,84.47772146923462
+Panorama Indian Lounge,Surrey,49.10478,-122.80338,4.9,1,6,191.69891200480723
+Dragon's Chop Suey House,Surrey,49.15719,-122.77781,3.5,0,5,55.13337813458365
+Crispy Falafel,Surrey,49.04591481291062,-122.79334246655924,3.8,0,2,81.82157169607915
+Dublin Crossing Irish Pub,Surrey,49.12426199999999,-122.702092,3.4,0,2,52.32226981996882
+Ladybird's Trattoria,Surrey,49.0525910210857,-122.69256623466444,4.9,1,0,70.79958938306733
+Hawthorne Beer Market & Bistro,Surrey,49.10484,-122.7352,3.4,0,7,202.00725421095336
+Non Stop,Surrey,49.10497133807061,-122.80499545767236,4.6,1,5,303.3185807388427
+Bon Ga Korean Restaurant,Surrey,49.1906849563647,-122.8413259238,3.5,0,3,89.64822111591069
+Bacayon's Chibugan,Surrey,49.19166,-122.83465,4.5,1,1,10.909414665060796
+Pho Tau Bay,Surrey,49.135731,-122.844616,3.5,0,11,146.30756159550725
+Tap & Barrel,Surrey,49.05963809908623,-122.8018875,3.4,0,3,169.8301635767134
+Kai Japanese Restaurant,Surrey,49.155174243061545,-122.66664268415136,4.4,1,0,121.61831387444528
+ChongQing Restaurant,Surrey,49.15272034339086,-122.88974194707586,3.1,0,1,37.11506452338074
+Ek Chai Kahani,Surrey,49.11885835789898,-122.8240515212801,5.0,1,1,42.04859716889362
+Katana,Surrey,49.1171545941153,-122.669773906498,3.4,0,0,107.02663410262281
+A&W,Surrey,49.1343815,-122.88677929,4.6,1,3,198.7370781646578
+Lazeez Pizza & Kabob House,Surrey,49.1664375,-122.8011312,4.8,1,1,80.28421030422626
+Curry and Kabab,Surrey,49.139158,-122.88943,4.8,1,2,116.22143752890493
+Tasty Donair,Surrey,49.133938,-122.842573,4.3,1,11,59.6569772786451
+Mek's Delight,Surrey,49.1912982626951,-122.808646894991,3.9,0,1,17.19629891125081
+Barcelos Flame Grilled Chicken,Surrey,49.14042,-122.84594,4.4,1,1,38.95887902735732
+Planet India,Surrey,49.13379,-122.83907,3.8,0,8,16.67935440668351
+Navraj Sweets & Restaurant,Surrey,49.1501801430419,-122.866437749758,4.4,1,7,129.69955355588093
+Mama Moon Korean Food,Surrey,49.15687338090442,-122.7817113748807,5.0,1,4,160.86493310018056
+Kiki's Restaurant,Surrey,49.03728,-122.80147,3.8,0,1,59.00322663261534
+Coast & Country Diner,Surrey,49.103936,-122.734543,3.7,0,7,252.82390168319446
+Nagoya Sushi,Surrey,49.16978,-122.81251,4.0,1,0,24.087389463215423
+Banana Leaf,Surrey,49.0597947797082,-122.8040599822998,4.1,1,4,245.7972864702748
+Hanaya Japanese Restaurant,Surrey,49.05326,-122.80091,4.0,1,1,14.07304772550091
+Hansel Deli,Surrey,49.10792,-122.73477,4.4,1,7,28.590393011138215
+Shannon Donair,Surrey,49.1060982,-122.7353592,4.1,1,7,130.81335770163506
+Ustaad G76 Indian Cuisine Newton,Surrey,49.14112,-122.86246,4.4,1,0,24.10955647728107
+Pho' 99,Surrey,49.1155649751686,-122.681137890763,3.5,0,4,110.66702437420264
+Cabizerra Bistro,Surrey,49.1987463,-122.8134292,4.8,1,3,26.01090412680602
+WayBack Brew,Surrey,49.1025466,-122.8049717,4.7,1,4,296.17530760962507
+Pho Sunrise,Surrey,49.0467546085111,-122.798343610731,3.9,0,2,118.66240493096434
+Pho Newton,Surrey,49.1392040260342,-122.843214712932,3.6,0,5,159.0498812630946
+Chefs Kebab,Surrey,49.1551446,-122.7729754,4.2,1,1,76.54040551747883
+Viet Houng Asian Flavor Deli,Surrey,49.1887226115802,-122.860729718055,4.6,1,0,328.11145142971276
+Trees Cheesecake and Organic Coffee,Surrey,49.189991644148385,-122.850168,4.1,1,3,67.8166146978616
+Nordel Sushi,Surrey,49.1609149,-122.8885017,3.3,0,2,128.00459680704714
+Mayuri South Indian Cuisine,Surrey,49.1484299,-122.87146,3.7,0,6,260.7677605162
+Akane Japanese Restaurant,Surrey,49.163424,-122.658979412033,4.0,1,0,51.667049218404166
+Guildford Station Pub,Surrey,49.18759,-122.79506,3.5,0,5,376.88140267747207
+Curry Lounge,Surrey,49.0453451,-122.7783363,3.8,0,5,12.064365393516113
+Cactus Club Cafe,Surrey,49.14695039868115,-122.89109409939302,3.9,0,1,99.93442186801776
+Nando's Peri-Peri,Surrey,49.18567392600471,-122.80140250244676,3.9,0,7,26.647138617000213
+La Meza Grill,Surrey,49.1635677875991,-122.891585540198,3.4,0,2,160.49864645901226
+Aka Sushi,Surrey,49.11859,-122.71199,4.0,1,0,10.291682459033197
+Satya Asha,Surrey,49.13371,-122.86738,4.4,1,1,56.06434701420066
+Neptune Palace Seafood Restaurant,Surrey,49.18693877584426,-122.8461404527314,3.1,0,4,157.73040035714334
+Emilio Finatti Pizzeria - Langley,Surrey,49.1073311,-122.6649517,4.4,1,1,10.64562658306066
+Isshin Sushi,Surrey,49.10468,-122.79806,3.8,0,4,137.8857152193985
+Avishan Authentic Middle East Grill,Surrey,49.1036095,-122.6555813,4.5,1,0,94.79130626067386
+Barcelos Flame Grilled Chicken,Surrey,49.1643965580191,-122.876819808461,4.0,1,0,135.40579608033966
+Dhaliwal's Lounge,Surrey,49.146859,-122.86557,4.5,1,7,202.14605724535022

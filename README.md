@@ -7,6 +7,7 @@ The goal of our project is to predict the success of a new restaurant/cafe locat
 
 ## Dependencies
  - [Pandas](https://pandas.pydata.org/docs/)
+ - [NumPy](https://numpy.org/)
  - [Scikit Learn](https://scikit-learn.org/0.21/documentation.html)
  - [Requests](https://requests.readthedocs.io/en/latest/)
- - TBA
+ - [GeoPandas](https://geopandas.org/en/stable/docs.html)
