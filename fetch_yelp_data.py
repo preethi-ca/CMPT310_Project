@@ -53,4 +53,49 @@ for city in cities:
 df = pd.DataFrame(all_stores).drop_duplicates(subset=["latitude", "longitude"])
 df['target_is_successful'] = (df['target_rating'] >= 4.0).astype(int)
 
+def get_neighbourhood(lat, lon):
+    url = "https://nominatim.openstreetmap.org/reverse"
+
+    params = {
+        "lat": lat,
+        "lon": lon,
+        "format": "json",
+        "addressdetails": 1
+    }
+
+    headers = {
+        "User-Agent": "CMPT310_Project"
+    }
+
+    try:
+        response = requests.get(
+            url,
+            params=params,
+            headers=headers,
+            timeout=15
+        )
+
+        if response.status_code == 200:
+            address = response.json().get("address", {})
+            return (
+                address.get("neighbourhood")
+                or address.get("suburb")
+                or address.get("quarter")
+                or address.get("city_district")
+            )
+
+    except requests.RequestException:
+        pass
+
+    return None
+
+neighbourhoods = []
+
+for _, row in df.iterrows():
+    neighbourhood = get_neighbourhood(row["latitude"], row["longitude"])
+    neighbourhoods.append(neighbourhood)
+    time.sleep(1)
+
+df["neighbourhood_name"] = neighbourhoods
+
 df.to_csv("milestone1.csv", index=False)
