@@ -17,7 +17,7 @@ feature_plan = {
     "competitor_count_500m": "standard",
     "nearest_transit_distance_m": "standard",
     "pct_age_20_39": "standard",
-    "neighbourhood_name": "one-hot",
+    "neighbourhood_name": "drop",
 }
 
 # -----------------------------
