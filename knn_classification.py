@@ -30,7 +30,7 @@ feature_plan = {
     "log_nearest_transit_distance_m": "standard",
     "income_density_ratio": "standard",
     "competition_transit_ratio": "standard",
-    "neighbourhood_name": "one-hot",
+    "neighbourhood_name": "drop",
 }
 
 
