@@ -24,7 +24,6 @@ feature_plan = {
 # Load dataset
 # -----------------------------
 df = pd.read_csv(DATA_PATH)
-df["neighbourhood_name"] = df["neighbourhood_name"].fillna("Unknown")
 
 # -----------------------------
 # Targets
