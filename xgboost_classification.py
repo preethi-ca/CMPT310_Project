@@ -16,7 +16,7 @@ from knn_classification import feature_plan, load_and_engineer
 from project_helper import fit_preprocess, transform
 
 
-DATA_PATH = "full_information.csv"
+DATA_PATH = "yelp_restaurants_cafes.csv"
 RANDOM_STATE = 42
 
 

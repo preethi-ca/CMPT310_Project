@@ -5,7 +5,7 @@ from project_helper import fit_preprocess, transform
 # -----------------------------
 # Config
 # -----------------------------
-DATA_PATH = "full_information.csv"
+DATA_PATH = "yelp_restaurants_cafes.csv"
 
 feature_plan = {
     "store_name": "drop",
@@ -17,14 +17,12 @@ feature_plan = {
     "competitor_count_500m": "standard",
     "nearest_transit_distance_m": "standard",
     "pct_age_20_39": "standard",
-    "neighbourhood_name": "one-hot",
 }
 
 # -----------------------------
 # Load dataset
 # -----------------------------
 df = pd.read_csv(DATA_PATH)
-df["neighbourhood_name"] = df["neighbourhood_name"].fillna("Unknown")
 
 # -----------------------------
 # Targets
