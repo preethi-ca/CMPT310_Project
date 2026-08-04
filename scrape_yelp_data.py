@@ -1,0 +1,89 @@
+import requests
+import pandas as pd
+
+API_KEY = "bCqWg6c1wQYS3DTCIpPKVJqkbuR9HnkGd5Lqj3tyWFNJ-8aUzeQ9ziE2dXgNWCII7RMh9lYLBNQpi5MfjBYDdhHmsdTpsosEIqdVeaOreVEwgvkBtJrJFprDa3NxanYx"
+
+# restrict to these 6 cities
+cities = ["Vancouver, BC", "Burnaby, BC", "New Westminster, BC", "Surrey, BC", "Richmond, BC", "Coquitlam, BC"]
+
+# restrict to these 2 categories
+categories = ["restaurants", "cafes"]
+
+offsets = [0, 50, 100, 150, 200]
+
+url = "https://api.yelp.com/v3/businesses/search"
+
+headers = {
+    "Authorization": f"Bearer {API_KEY}"
+}
+
+# a list that stores one dictionary per restaurant or cafe
+businesses_data = []
+
+for city in cities:
+    for category in categories:
+        for offset in offsets: 
+            # the last page has up to 40 results (240 total per search)
+            if offset == 200:
+                limit = 40
+            else:
+                limit = 50
+
+            params = {
+                "location": city,
+                "categories": category,
+                "limit": limit,
+                "offset": offset
+            }
+
+            response = requests.get(url, headers=headers,params=params)
+
+            data = response.json()
+
+            # error handling
+            if "businesses" not in data:
+                print(city, category, offset, data)
+                continue
+
+            businesses = data["businesses"]
+
+            for business in businesses:
+                rating = business["rating"]
+
+                if rating >= 4.0:
+                    is_successful = 1
+                else:
+                    is_successful = 0
+
+                business_info = {
+                    "yelp_id": business["id"],
+                    "store_name": business["name"],
+                    "city": business["location"]["city"],
+                    "latitude": business["coordinates"]["latitude"],
+                    "longitude": business["coordinates"]["longitude"],
+                    "target_rating": rating,
+                    "target_is_successful": is_successful
+                }
+
+                businesses_data.append(business_info)
+
+businesses_df = pd.DataFrame(businesses_data)
+
+# remove duplicate Yelp businesses
+businesses_df = businesses_df.drop_duplicates(subset="yelp_id")
+
+# keep only the businesses that returned a city in one of the 6 restricted cities
+businesses_df = businesses_df[businesses_df["city"].isin(["Vancouver", "Burnaby", "New Westminster", "Surrey", "Richmond", "Coquitlam"])]
+
+# reset the row numbers
+businesses_df = businesses_df.reset_index(drop=True)
+
+# remove the Yelp ID from the final dataset
+businesses_df = businesses_df.drop(columns=["yelp_id"])
+
+# save the dataframe as a CSV file
+businesses_df.to_csv("yelp_restaurants_cafes.csv", index=False)
+
+# validate the final data
+print(len(businesses_df))
+print(businesses_df)
