@@ -50,17 +50,36 @@ for city in cities:
             for business in businesses:
                 rating = business["rating"]
 
+                # definition of success
                 if rating >= 4.0:
                     is_successful = 1
                 else:
                     is_successful = 0
 
+                # some businesses do not have price information
+                price = business.get("price")
+                if price is not None:
+                    price_level = len(price)
+                else:
+                    price_level = None
+
+                # some businesses may not have a category
+                business_categories = business.get("categories", [])
+                if len(business_categories) > 0:
+                    primary_category = business_categories[0]["title"]
+                else:
+                    primary_category = None
+
                 business_info = {
                     "yelp_id": business["id"],
                     "store_name": business["name"],
                     "city": business["location"]["city"],
+                    "zip_code": business["location"]["zip_code"],
                     "latitude": business["coordinates"]["latitude"],
                     "longitude": business["coordinates"]["longitude"],
+                    "review_count": business["review_count"],
+                    "price_level": price_level,
+                    "primary_category": primary_category,
                     "target_rating": rating,
                     "target_is_successful": is_successful
                 }
@@ -82,7 +101,7 @@ businesses_df = businesses_df.reset_index(drop=True)
 businesses_df = businesses_df.drop(columns=["yelp_id"])
 
 # save the dataframe as a CSV file
-businesses_df.to_csv("yelp_restaurants_cafes.csv", index=False)
+businesses_df.to_csv("new_features.csv", index=False)
 
 # validate the final data
 print(len(businesses_df))
