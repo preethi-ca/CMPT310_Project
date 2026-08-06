@@ -4,7 +4,7 @@ import pandas as pd
 API_KEY = "bCqWg6c1wQYS3DTCIpPKVJqkbuR9HnkGd5Lqj3tyWFNJ-8aUzeQ9ziE2dXgNWCII7RMh9lYLBNQpi5MfjBYDdhHmsdTpsosEIqdVeaOreVEwgvkBtJrJFprDa3NxanYx"
 
 # restrict to these 6 cities
-cities = ["Vancouver, BC", "Burnaby, BC", "New Westminster, BC", "Surrey, BC", "Richmond, BC", "Coquitlam, BC"]
+cities = ["Vancouver, BC", "Burnaby, BC", "New Westminster, BC", "Surrey, BC"]
 
 # restrict to these 2 categories
 categories = ["restaurants", "cafes"]
@@ -92,16 +92,22 @@ businesses_df = pd.DataFrame(businesses_data)
 businesses_df = businesses_df.drop_duplicates(subset="yelp_id")
 
 # keep only the businesses that returned a city in one of the 6 restricted cities
-businesses_df = businesses_df[businesses_df["city"].isin(["Vancouver", "Burnaby", "New Westminster", "Surrey", "Richmond", "Coquitlam"])]
+businesses_df = businesses_df[businesses_df["city"].isin(["Vancouver", "Burnaby", "New Westminster", "Surrey"])]
 
 # reset the row numbers
+businesses_df = businesses_df.reset_index(drop=True)
+
+# randomly keep 550 businesses
+businesses_df = businesses_df.sample(n=min(550, len(businesses_df)), random_state=42)
+
+# reset the row numbers after sampling
 businesses_df = businesses_df.reset_index(drop=True)
 
 # remove the Yelp ID from the final dataset
 businesses_df = businesses_df.drop(columns=["yelp_id"])
 
 # save the dataframe as a CSV file
-businesses_df.to_csv("new_features.csv", index=False)
+businesses_df.to_csv("test550.csv", index=False)
 
 # validate the final data
 print(len(businesses_df))
