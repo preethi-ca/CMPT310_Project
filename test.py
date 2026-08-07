@@ -1,13 +1,10 @@
 import pandas as pd
 
-# read the CSV
-businesses_df = pd.read_csv("550-info.csv")
+# load the dataset
+df = pd.read_csv("price_level_update.csv")
 
-# redefine success using a 4.1 rating threshold
-businesses_df["target_is_successful"] = (businesses_df["target_rating"] > 4.1).astype(int)
+successful = (df["target_is_successful"] == 1).sum()
+unsuccessful = (df["target_is_successful"] == 0).sum()
 
-# save the updated CSV
-businesses_df.to_csv("test-4.1.csv", index=False)
-
-# validate
-print(businesses_df["target_is_successful"].value_counts())
+print(f"Successful restaurants: {successful}")
+print(f"Unsuccessful restaurants: {unsuccessful}")
