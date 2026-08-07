@@ -7,12 +7,12 @@ from sklearn.pipeline import Pipeline
 from sklearn.preprocessing import StandardScaler
 
 from knn_classification import (
-    build_feature_matrix,
     evaluate_knn_cv,
     feature_plan,
     grid_search_knn,
     load_and_engineer,
 )
+from project_helper import FeaturePreprocessor
 
 
 def main():
@@ -20,15 +20,13 @@ def main():
     # Load and preprocess dataset
     # -----------------------------
     df = load_and_engineer()
-
-    X = build_feature_matrix(df, feature_plan)
     y = df["target_is_successful"].to_numpy()
 
     # -----------------------------
     # Accuracy and F1 vs k
     # -----------------------------
     k_values = list(range(1, 31))
-    results = evaluate_knn_cv(X, y, k_values, cv_folds=5)
+    results = evaluate_knn_cv(df, y, k_values, cv_folds=5)
 
     accuracy_values = [result[1] for result in results]
     f1_values = [result[2] for result in results]
@@ -36,7 +34,7 @@ def main():
     # -----------------------------
     # Find best KNN parameters
     # -----------------------------
-    grid_search = grid_search_knn(X, y)
+    grid_search = grid_search_knn(df, y)
 
     best_params = {
         key.replace("knn__", ""): value
@@ -104,13 +102,18 @@ def main():
     # -----------------------------
     # Train-test split
     # -----------------------------
-    X_train, X_test, y_train, y_test = train_test_split(
-        X,
-        y,
+    train_df, test_df = train_test_split(
+        df,
         test_size=0.2,
         random_state=42,
         stratify=y,
     )
+    y_train = train_df["target_is_successful"].to_numpy()
+    y_test = test_df["target_is_successful"].to_numpy()
+
+    preprocessor = FeaturePreprocessor(feature_plan)
+    X_train = preprocessor.fit_transform(train_df)
+    X_test = preprocessor.transform(test_df)
 
     # -----------------------------
     # Train final KNN model

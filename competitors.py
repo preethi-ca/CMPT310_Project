@@ -2,7 +2,7 @@ import pandas as pd
 import numpy as np
 from sklearn.neighbors import BallTree as bt
 
-DATA_PATH = "yelp-and-demo-info.csv"
+DATA_PATH = "test_information.csv"
 EARTH_RADIUS = 6371000  # in meters
 
 # load data from csv (latitude and longitude)

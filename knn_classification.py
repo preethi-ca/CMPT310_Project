@@ -1,3 +1,4 @@
+import argparse
 import numpy as np
 import pandas as pd
 
@@ -7,61 +8,47 @@ from sklearn.neighbors import KNeighborsClassifier
 from sklearn.model_selection import StratifiedKFold, cross_val_score, GridSearchCV, train_test_split
 from sklearn.metrics import accuracy_score, classification_report, confusion_matrix
 
-from project_helper import fit_preprocess, transform
+from project_helper import FeaturePreprocessor
 
 # -----------------------------
 # Config
 # -----------------------------
-DATA_PATH = "full_information.csv"
+DATA_PATH = "yelp-and-demo-info.csv"
+
+NUMERIC_IMPUTE_COLUMNS = [
+    "median_income",
+    "pop_density_sqkm",
+    "competitor_count_500m",
+    "nearest_transit_distance_m",
+]
 
 feature_plan = {
     "store_name": "drop",
     "city": "one-hot",
-    "latitude": "standard",
-    "longitude": "standard",
-    "median_income": "standard",
-    "pop_density_sqkm": "standard",
-    "competitor_count_500m": "standard",
-    "nearest_transit_distance_m": "standard",
-    "pct_age_20_39": "standard",
+    "latitude": "drop",
+    "longitude": "drop",
+    "median_income": "drop",
+    "pop_density_sqkm": "drop",
+    "competitor_count_500m": "drop",
+    "nearest_transit_distance_m": "drop",
+    "pct_age_20_39": "drop",
     "log_median_income": "standard",
     "log_pop_density_sqkm": "standard",
     "log_competitor_count_500m": "standard",
     "log_nearest_transit_distance_m": "standard",
     "income_density_ratio": "standard",
     "competition_transit_ratio": "standard",
-    "neighbourhood_name": "drop",
 }
 
 
 def load_and_engineer(path=DATA_PATH):
     df = pd.read_csv(path)
-    df["neighbourhood_name"] = df["neighbourhood_name"].fillna("Unknown")
-
-    # coerce numeric and impute medians
-    for col in [
-        "median_income",
-        "pop_density_sqkm",
-        "competitor_count_500m",
-        "nearest_transit_distance_m",
-    ]:
-        df[col] = pd.to_numeric(df[col], errors="coerce")
-        df[col] = df[col].fillna(df[col].median())
-
-    # engineered features
-    df["log_median_income"] = np.log1p(df["median_income"])
-    df["log_pop_density_sqkm"] = np.log1p(df["pop_density_sqkm"])
-    df["log_competitor_count_500m"] = np.log1p(df["competitor_count_500m"])
-    df["log_nearest_transit_distance_m"] = np.log1p(df["nearest_transit_distance_m"])
-    df["income_density_ratio"] = df["median_income"] / (df["pop_density_sqkm"] + 1)
-    df["competition_transit_ratio"] = df["competitor_count_500m"] / (df["nearest_transit_distance_m"] + 1)
 
     return df
 
 def build_feature_matrix(df, feature_plan):
-    params = fit_preprocess(df, feature_plan)
-    X = transform(df, feature_plan, params)
-    return X
+    preprocessor = FeaturePreprocessor(feature_plan)
+    return preprocessor.fit_transform(df)
 
 
 # -----------------------------
@@ -150,24 +137,36 @@ def tune_knn(X, y, k_values, cv_folds=5, p_values=[2], weights_options=[None, 'd
 
 
 
-def evaluate_knn_cv(X, y, k_values, cv_folds=5):
+def evaluate_knn_cv(df, y, k_values, cv_folds=5):
     cv = StratifiedKFold(n_splits=cv_folds, shuffle=True, random_state=42)
 
     print("\nK | Mean Acc | Mean F1")
     print("---------------------")
     results = []
     for k in k_values:
-        model = Pipeline([("scaler", StandardScaler()), ("knn", KNeighborsClassifier(n_neighbors=k))])
-        acc_scores = cross_val_score(model, X, y, cv=cv, scoring="accuracy")
-        f1_scores = cross_val_score(model, X, y, cv=cv, scoring="f1")
+        model = Pipeline(
+            [
+                ("features", FeaturePreprocessor(feature_plan)),
+                ("scaler", StandardScaler()),
+                ("knn", KNeighborsClassifier(n_neighbors=k)),
+            ]
+        )
+        acc_scores = cross_val_score(model, df, y, cv=cv, scoring="accuracy")
+        f1_scores = cross_val_score(model, df, y, cv=cv, scoring="f1")
         results.append((k, acc_scores.mean(), f1_scores.mean()))
         print(f"{k:2d} |   {acc_scores.mean():.4f}  |  {f1_scores.mean():.4f}")
 
     return results
 
 
-def grid_search_knn(X, y):
-    pipe = Pipeline([("scaler", StandardScaler()), ("knn", KNeighborsClassifier())])
+def grid_search_knn(df, y):
+    pipe = Pipeline(
+        [
+            ("features", FeaturePreprocessor(feature_plan)),
+            ("scaler", StandardScaler()),
+            ("knn", KNeighborsClassifier()),
+        ]
+    )
     param_grid = {
         "knn__n_neighbors": list(range(1, 31)),
         "knn__weights": ["uniform", "distance"],
@@ -175,7 +174,7 @@ def grid_search_knn(X, y):
     }
     cv = StratifiedKFold(n_splits=5, shuffle=True, random_state=42)
     gs = GridSearchCV(pipe, param_grid, cv=cv, scoring="accuracy", n_jobs=1, verbose=0)
-    gs.fit(X, y)
+    gs.fit(df, y)
     return gs
 
 
@@ -189,25 +188,36 @@ def final_evaluation(X_train, X_test, y_train, y_test, best_params):
     print("Classification Report:\n", classification_report(y_test, y_pred))
 
 
+def parse_args():
+    parser = argparse.ArgumentParser(description="Run KNN classification on a CSV dataset.")
+    parser.add_argument("csv_path", help="Path to the input CSV file")
+    return parser.parse_args()
+
+
 def main():
-    df = load_and_engineer()
-    X = build_feature_matrix(df, feature_plan)
+    args = parse_args()
+    df = load_and_engineer(args.csv_path)
     y = df["target_is_successful"].to_numpy()
 
     # quick CV sweep for k
     k_values = list(range(1, 31))
-    evaluate_knn_cv(X, y, k_values, cv_folds=5)
+    evaluate_knn_cv(df, y, k_values, cv_folds=5)
 
     # grid search for best hyperparameters
     print("\nRunning GridSearchCV to optimize KNN hyperparameters...")
-    gs = grid_search_knn(X, y)
+    gs = grid_search_knn(df, y)
     print("Best params:", gs.best_params_)
     print("Best CV score:", gs.best_score_)
 
     # final holdout evaluation
-    X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42, stratify=y)
+    train_df, test_df = train_test_split(df, test_size=0.2, random_state=42, stratify=y)
+    holdout_preprocessor = FeaturePreprocessor(feature_plan)
+    train_X = holdout_preprocessor.fit_transform(train_df)
+    test_X = holdout_preprocessor.transform(test_df)
+    y_train = train_df["target_is_successful"].to_numpy()
+    y_test = test_df["target_is_successful"].to_numpy()
     best_knn_params = {k.replace("knn__", ""): v for k, v in gs.best_params_.items()}
-    final_evaluation(X_train, X_test, y_train, y_test, best_knn_params)
+    final_evaluation(train_X, test_X, y_train, y_test, best_knn_params)
 
 
 if __name__ == "__main__":
