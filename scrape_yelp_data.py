@@ -51,7 +51,7 @@ for city in cities:
                 rating = business["rating"]
 
                 # definition of success
-                if rating >= 4.0:
+                if rating >= 4.2:
                     is_successful = 1
                 else:
                     is_successful = 0
