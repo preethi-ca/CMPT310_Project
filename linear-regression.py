@@ -1,30 +1,30 @@
 import numpy as np
 import pandas as pd
 
-from project_helper import fit_preprocess, transform
+from sklearn.compose import ColumnTransformer
+from sklearn.impute import SimpleImputer
+from sklearn.linear_model import Ridge
+from sklearn.metrics import r2_score
+from sklearn.pipeline import Pipeline
+from sklearn.preprocessing import OneHotEncoder
+from sklearn.preprocessing import StandardScaler
 
 
-DATA_PATH = "full_information.csv"
+DATA_PATH = "location-information.csv"
 TARGET_COLUMN = "target_rating"
-LAMBDA_VALUES = [0.0, 0.01, 1.0, 10.0]
+LAMBDA_VALUE = 10.0
 
-feature_plan = {
-    "store_name": "drop",
-    "city": "one-hot",
-    "latitude": "standard",
-    "longitude": "standard",
-    "median_income": "standard",
-    "pop_density_sqkm": "standard",
-    "competitor_count_500m": "standard",
-    "nearest_transit_distance_m": "standard",
-    "pct_age_20_39": "standard",
-    "neighbourhood_name": "drop",
-}
+categorical_features = [
+    "city",
+    "primary_category",
+    "price_level",
+]
 
-
-# Code from A2
-def add_intercept(X_row_major):
-    return np.hstack([np.ones((X_row_major.shape[0], 1)), X_row_major])
+numeric_features = [
+    "median_income",
+    "latitude",
+    "longitude",
+]
 
 
 # Code from A2
@@ -59,84 +59,101 @@ def mae(y_true, y_pred):
     return total_absolute_error / size
 
 
-def r2_score(y_true, y_pred):
-    ss_residual = np.sum((y_true - y_pred) ** 2)
-    ss_total = np.sum((y_true - np.mean(y_true)) ** 2)
-    return 1 - (ss_residual / ss_total)
+def make_model():
+    numeric_pipeline = Pipeline(
+        steps = [
+            ("imputer", SimpleImputer(strategy = "median")),
+            ("scaler", StandardScaler()),
+        ]
+    )
+
+    categorical_pipeline = Pipeline(
+        steps=[
+            ("imputer", SimpleImputer(strategy = "most_frequent")),
+            (
+                "onehot",
+                OneHotEncoder(
+                    handle_unknown = "ignore",
+                    sparse_output = False,
+                ),
+            ),
+        ]
+    )
+
+    # convert categorical columns and scale numeric columns before regression
+    preprocessor = ColumnTransformer(
+        transformers=[
+            ("numeric", numeric_pipeline, numeric_features),
+            ("categorical", categorical_pipeline, categorical_features),
+        ]
+    )
+
+    #  linear regression with regularization
+    model = Pipeline(
+        steps = [
+            ("preprocess", preprocessor),
+            ("ridge", Ridge(alpha=LAMBDA_VALUE)),
+        ]
+    )
+
+    return model
 
 
-def fit_ridge_regression(X_train, y_train, lambda_value):
-    y_train = y_train.reshape(-1, 1)
+def evaluate_model(df):
+    folds = kfold_indices(len(df), k=10, seed=42)
 
-    if lambda_value == 0:
-        result = np.linalg.lstsq(X_train, y_train, rcond=None)
-        weights = result[0]
+    rmses = []
+    maes = []
+    r2_scores = []
 
-        return weights
+    feature_names = numeric_features + categorical_features
+    X = df[feature_names]
+    y = df[TARGET_COLUMN]
 
-    regularizer = np.eye(X_train.shape[1])
-    regularizer[0, 0] = 0.0
+    for fold_index in range(10):
+        test_idx = folds[fold_index]
+        train_folds = []
 
-    X_transpose = X_train.T
+        for other_fold_index in range(10):
+            if other_fold_index != fold_index:
+                train_folds.append(folds[other_fold_index])
 
-    left_side = np.matmul(X_transpose, X_train)
-    left_side = left_side + (lambda_value * regularizer)
+        train_idx = np.hstack(train_folds)
 
-    right_side = np.matmul(X_transpose, y_train)
+        X_train = X.iloc[train_idx]
+        X_test = X.iloc[test_idx]
+        y_train = y.iloc[train_idx].to_numpy(dtype=float)
+        y_test = y.iloc[test_idx].to_numpy(dtype=float)
 
-    return np.linalg.solve(left_side, right_side)
+        # train on 9 folds, then predict Yelp ratings for the held-out fold
+        model = make_model()
+        model.fit(X_train, y_train)
+        y_pred = model.predict(X_test)
+
+        rmses.append(rmse(y_test, y_pred))
+        maes.append(mae(y_test, y_pred))
+        r2_scores.append(r2_score(y_test, y_pred))
+
+    mean_rmse = np.mean(rmses)
+    mean_mae = np.mean(maes)
+    mean_r2 = np.mean(r2_scores)
+
+    return mean_rmse, mean_mae, mean_r2
 
 
 def main():
     df = pd.read_csv(DATA_PATH)
-    # handle missing data
-    df["neighbourhood_name"] = df["neighbourhood_name"].fillna("Unknown")
-    folds = kfold_indices(len(df), k=10, seed=42)
+    mean_rmse, mean_mae, mean_r2 = evaluate_model(df)
 
-    print("\nRegression for Yelp Rating Prediction\n")
-    print("lambda |  RMSE  |  MAE   |   R^2")
-    print("----------------------------------")
+    print("\nLinear Regression for Yelp Rating Prediction\n")
+    print(f"Data: {DATA_PATH}")
+    print(f"Rows used: {len(df)}")
+    print(f"Ridge lambda: {LAMBDA_VALUE}")
 
-    for lambda_value in LAMBDA_VALUES:
-        rmses = []
-        maes = []
-        r2_scores = []
-
-        for i in range(10):
-            test_idx = folds[i]
-            train_folds = []
-
-            for j in range(10):
-                if j != i:
-                    train_folds.append(folds[j])
-
-            train_idx = np.hstack(train_folds)
-
-            train_df = df.iloc[train_idx]
-            test_df = df.iloc[test_idx]
-
-            y_train = train_df[TARGET_COLUMN].to_numpy(dtype=float)
-            y_test = test_df[TARGET_COLUMN].to_numpy(dtype=float)
-
-            # use the preprocessing functions
-            params = fit_preprocess(train_df, feature_plan)
-            X_train = add_intercept(transform(train_df, feature_plan, params))
-            X_test = add_intercept(transform(test_df, feature_plan, params))
-
-            weights = fit_ridge_regression(X_train, y_train, lambda_value)
-            predictions = np.matmul(X_test, weights)
-            y_pred = predictions.reshape(-1)
-
-            rmses.append(rmse(y_test, y_pred))
-            maes.append(mae(y_test, y_pred))
-            r2_scores.append(r2_score(y_test, y_pred))
-
-        # print the output
-        mean_rmse = np.mean(rmses)
-        mean_mae = np.mean(maes)
-        mean_r2 = np.mean(r2_scores)
-
-        print(f"{lambda_value:<6} | {mean_rmse:.4f} | {mean_mae:.4f} | {mean_r2:.4f}")
+    print("10-fold cross-validation performance:")
+    print(f"RMSE = {mean_rmse:.2f}")
+    print(f"MAE = {mean_mae:.2f}")
+    print(f"R^2 = {mean_r2:.2f}")
 
 
 if __name__ == "__main__":
