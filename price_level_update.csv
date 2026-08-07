@@ -1,0 +1,551 @@
+store_name,city,zip_code,latitude,longitude,review_count,price_level,primary_category,target_rating,target_is_successful
+Singapore Hawker,Coquitlam,V3B 0J1,49.2836123,-122.7982817,147,2,Singaporean,4.0,1
+Bubble Waffle,Richmond,V6X 0A4,49.183871723875754,-123.13376631702836,116,1,Chinese,3.4,0
+Trattoria by Italian Kitchen,Burnaby,V5H 2A9,49.23020501851105,-123.0039327,407,2,Italian,3.2,0
+Wo Fung Noodle Express,Richmond,V6Y 1T1,49.16431799999999,-123.1352578,65,1,Chicken Wings,3.8,0
+Landmark Hotpot House,Vancouver,V5Z 2X9,49.2498660758194,-123.11556053834,130,3,Chinese,3.9,0
+Shanghai River,Richmond,V6X 4J4,49.17074,-123.13848,884,3,Chinese,3.9,0
+Night Owl Cafe,Richmond,V6X 4J8,49.18407,-123.12846,14,2,Cafes,2.9,0
+Burger Crush,Vancouver,V6Z 1V3,49.27977707759172,-123.12350184856517,87,2,Burgers,4.3,1
+Laughing Bean Coffee Company,Vancouver,V5K 1Z5,49.281419607212,-123.049625348003,66,1,Coffee & Tea,3.5,0
+Mek's Delight,Surrey,V3R 1M7,49.1912982626951,-122.808646894991,57,2,Thai,3.9,0
+Kami Sushi,Surrey,V3S 9N6,49.04206,-122.77977,48,2,Japanese,4.1,1
+Gotham Steakhouse & Bar,Vancouver,V6B 3K3,49.28290359590047,-123.115883832301,477,4,Steakhouses,4.1,1
+Liquids And Solids,Vancouver,V6A,49.28135,-123.08461,24,1,Cafes,3.6,0
+Breka Bakery & Café,Vancouver,V5V 3R5,49.24383730986246,-123.10114614665508,68,2,Bakeries,3.9,0
+Tap & Barrel - Convention Centre,Vancouver,V6C 0C3,49.289845529586,-123.116857235515,390,2,Comfort Food,3.8,0
+Burnaby Palace Restaurant,Burnaby,V5M 4A2,49.25629080307701,-123.02312393097921,145,2,Chinese,3.4,0
+Taf's Café,Vancouver,V6Z 1K7,49.2810768,-123.1202897,58,1,Cafes,2.4,0
+Second Cup,Vancouver,V6H 3N1,49.2450981314324,-123.12436663912466,9,1,Cafes,3.0,0
+Captain Wa,Richmond,V6X 3Y2,49.1698185,-123.1330757,19,1,Chinese,3.8,0
+Dinesty Dumpling House,Richmond,V7C 0B8,49.17337272804199,-123.14636050013584,102,2,Dim Sum,3.8,0
+Waves Coffee House,Surrey,V3T 0E6,49.19847,-122.851331,14,1,Coffee & Tea,3.5,0
+St Lawrence Restaurant,Vancouver,V6A 1G3,49.2832584031253,-123.097993419888,196,3,French,4.4,1
+Continental Coffee House,Vancouver,V5V 3P8,49.2472882191904,-123.101281828922,61,1,Cafes,4.0,1
+Dragon Village Restaurant,Surrey,V3S 4C6,49.10558,-122.73478,27,1,Chinese,4.3,1
+TurF,Vancouver,V6J 1N3,49.2682200041763,-123.151621297002,66,2,Cafes,3.8,0
+Pak Punjab Sweet & Samosas House,Surrey,V3V 6V9,49.17733,-122.86766,25,1,Pakistani,4.0,1
+Maruhachi Ra-Men,Vancouver,V6B 0E7,49.27854065320407,-123.1157914,282,2,Ramen,4.1,1
+Dublin Crossing Irish Pub,Surrey,V3S 7Y3,49.12426199999999,-122.702092,92,2,Irish,3.4,0
+Cha Don,Richmond,V6X 4E4,49.18085294842844,-123.13506904435879,27,2,Hong Kong Style Cafe,4.3,1
+Happy Lamb Hot Pot,Burnaby,V5H 4W2,49.2280567,-122.9973696,173,2,Hot Pot,3.4,0
+Pho Holiday,Coquitlam,V3K 3P3,49.24880778894382,-122.8631980544926,53,1,Vietnamese,4.1,1
+Chongqing,Burnaby,V5H 2E5,49.22671131459038,-122.99363543518693,106,2,Chinese,3.4,0
+Mean Poutine,Vancouver,V6Z 1A8,49.2794438014385,-123.123368918896,309,1,Hot Dogs,3.9,0
+The Keg Steakhouse + Bar,Surrey,V3W 3N2,49.14734458968876,-122.88976,56,3,Steakhouses,3.8,0
+Tom Sushi,Vancouver,V6E 1N2,49.2815608,-123.1327476,392,2,Sushi Bars,4.7,1
+Katsu San,Richmond,V7C 1T4,49.169982779066,-123.181773349643,180,2,Japanese,4.5,1
+Waves Coffee House,New Westminster,V3M 1B2,49.2021378,-122.9101707,45,1,Coffee & Tea,3.1,0
+YL's Curry Bowl,Surrey,V3R 8X2,49.18444,-122.79879,33,1,Malaysian,4.0,1
+Bodega On Main,Vancouver,V6A 2W1,49.27548853708847,-123.09968391901442,246,2,Spanish,3.8,0
+Earls Kitchen + Bar,Vancouver,V6E 1B5,49.285968141691775,-123.12656576441812,246,2,Canadian (New),3.8,0
+Burger Heaven,New Westminster,V3M 3X4,49.20138,-122.91604,185,2,Burgers,3.6,0
+Happy Lamb Hot Pot,Coquitlam,V3B 8A9,49.28083,-122.79272,47,3,Hot Pot,3.3,0
+Elisa,Vancouver,V6B 5P6,49.27597599917006,-123.12142339325409,291,4,Steakhouses,4.3,1
+Bbong,Coquitlam,V3K,49.243302112406,-122.891211349691,54,2,Korean,3.6,0
+Pho Chan,New Westminster,V3L 2B8,49.2228583293267,-122.914227216925,62,2,Vietnamese,3.8,0
+Rodney's Oyster House,Vancouver,V6B 6L2,49.274326,-123.123131,909,2,Seafood,4.0,1
+Kam Tou Seafood Restaurant,Richmond,V6X 3Z9,49.185102,-123.129532,31,3,Seafood,4.0,1
+The Keg Steakhouse + Bar,Coquitlam,V3B 6J6,49.27798957201443,-122.79372942511934,125,3,Steakhouses,3.8,0
+Showshaa - The Modern Taproom,Surrey,V4P 3N7,49.05722,-122.80085,69,2,Tapas Bars,4.1,1
+Catfe,Vancouver,V6B 6N9,49.28029,-123.10675,119,2,Cafes,3.5,0
+Earls Kitchen + Bar,Surrey,V3R 9W9,49.186991576535846,-122.80065204219159,112,2,Canadian (New),3.1,0
+Don Chepe's Restaurant,Coquitlam,V3K 6V7,49.2365844,-122.8530121,30,2,Salvadoran,3.3,0
+The Old Spaghetti Factory,New Westminster,V3M 3N8,49.201925687134,-122.91260507829,174,2,Italian,3.5,0
+Agora Cafe,Vancouver,V6T 1Z4,49.28573972263773,-123.12224768834332,6,1,Cafes,4.2,1
+Pho Tau Bay,Surrey,V3R 3X6,49.19805,-122.81226,67,1,Vietnamese,4.2,1
+Dragon's Chop Suey House,Surrey,V4N 0G2,49.15719,-122.77781,44,2,Chinese,3.5,0
+Sura Korean BBQ,Richmond,V6X 4J7,49.183364007189134,-123.13371992699435,265,2,Korean,3.7,0
+Pizzeria Ludica,New Westminster,V3M 1E3,49.2040696455815,-122.909304314068,49,2,Pizza,3.5,0
+West Village Cafe,Surrey,V3S 3K2,49.1047524116854,-122.799629199329,45,2,Sandwiches,3.6,0
+Ikoi Sushi,New Westminster,V3L 3X5,49.23018,-122.89239,75,2,Japanese,4.4,1
+Green Bean Café,Richmond,V7B 0A4,49.1947594,-123.1762466,32,2,Coffee & Tea,1.6,0
+Taqueria Playa Tropical,New Westminster,V3L 3B1,49.2097840906051,-122.91639733055,432,2,Mexican,3.7,0
+The Story Cafe,Richmond,V6X 1V5,49.19359319408656,-123.1279178,259,2,Pizza,4.1,1
+The Patty Shop,Vancouver,V6L 2N8,49.250721434013,-123.167994263811,124,1,Caribbean,4.4,1
+Woking Dragon,Coquitlam,V3E 1J7,49.2838747027523,-122.810149566042,74,2,Chinese,3.5,0
+Matchstick Coffee,Vancouver,V5T 2R6,49.257302653286,-123.090361582581,224,1,Cafes,3.9,0
+Me-n-Ed's Pizza Parlors,Coquitlam,V3K 3P4,49.24927,-122.86047,59,2,Pizza,4.2,1
+McDonald's,Richmond,V6Y 2C6,49.161632939461,-123.13589096593,47,1,Fast Food,2.6,0
+Hi Five,Burnaby,V3N 2S9,49.23062773,-122.9063846,30,2,Fast Food,3.4,0
+Bubble World,New Westminster,V3M 1G9,49.2048187,-122.9100876,65,1,Bubble Tea,3.3,0
+Mr. Black Restaurant,Richmond,V6X 0A4,49.18408,-123.13404,24,2,Japanese,3.5,0
+Happy Noodle House,Vancouver,V6B 2G5,49.27664,-123.12578,237,2,Dim Sum,4.6,1
+Lee Garden Seafood Restaurant,Burnaby,V5E 0A6,49.2199018142223,-122.970365929831,93,2,Dim Sum,3.4,0
+The Paper Crane,Vancouver,V5T 1X4,49.2626112,-123.0922038,26,1,Cafes,4.0,1
+Nuba in Gastown,Vancouver,V6B 1K6,49.2827625062516,-123.109646101134,839,3,Mediterranean,4.0,1
+Italian Tomato Restaurant,Richmond,V6X 3C7,49.19188,-123.1303,224,2,Italian,3.4,0
+Hello Kitty Cafe,Vancouver,V6E 3Z6,49.28660343734038,-123.12819655984639,45,2,Themed Cafes,3.8,0
+Steveston Cafe & Hotel,Richmond,V7E 3K2,49.125397,-123.186121,22,2,Cafes,3.5,0
+Hello Nori ,Vancouver,V6E 1B5,49.28559747478766,-123.1261163,328,2,Japanese,4.5,1
+Cardero's Restaurant & Marine Pub,Vancouver,V6G 3E7,49.2914561357511,-123.127575841549,777,3,Seafood,3.9,0
+Enjoy Cafe 1 Plus1,Richmond,V6X 1A7,49.1708290571772,-123.13414408185102,67,2,Cafes,3.1,0
+Yoko Sushi & Noodle House,Surrey,V4N 0G2,49.15737,-122.77828,28,1,Japanese,3.9,0
+Victoria Sushi,New Westminster,V3L 0A9,49.213378,-122.89888,161,2,Japanese,4.0,1
+Rocanini Coffee Roasters,Vancouver,V6B 2M6,49.27719779103568,-123.11522535767266,83,2,Coffee Roasteries,4.2,1
+Railtown Cafe,Vancouver,V6A 1A4,49.2850022,-123.0955516,98,2,Cafes,4.1,1
+The Chopped Leaf,New Westminster,V3L 3B9,49.2122867,-122.9190461,22,2,Salad,3.5,0
+Cafe Algarve,Vancouver,V5N 2A2,49.2597049,-123.0700568,4,1,Portuguese,3.8,0
+Dosanko,Vancouver,V6A 1G9,49.28278,-123.09194,114,2,Japanese,4.0,1
+Ramen DANBO - Kitsilano,Vancouver,V6J 1M4,49.26828,-123.146431,562,2,Ramen,4.3,1
+TAKO,Vancouver,V6B 0J5,49.278816,-123.1078822,235,1,Korean,4.0,1
+Hansel Deli,Surrey,V3S 4E2,49.10792,-122.73477,16,1,Delis,4.4,1
+The Viet Noodle Guy,Burnaby,V5C 3Z2,49.26721987665755,-123.00572763320035,216,2,Vietnamese,4.1,1
+YUAN’S HOT POT,Richmond,V6X 4J7,49.1831220296222,-123.133927292474,53,3,Hot Pot,4.2,1
+Ukrainian Village,Vancouver,V6G 2L7,49.2914123,-123.1358196,186,2,Ukrainian,4.1,1
+Green & Oak Malaysian Restaurant,Burnaby,V5C 2H5,49.28081,-123.02185,139,2,Malaysian,3.9,0
+Nando's Peri-Peri,Richmond,V6X 0M5,49.17855951502775,-123.1217548,50,2,Portuguese,3.6,0
+BIN 4 Burger Lounge,Burnaby,V5M 3Z3,49.2641572,-123.022698,69,2,Burgers,4.0,1
+Sprouts,Vancouver,V6T 1Z1,49.267585874444904,-123.25039128042667,12,1,Vegetarian,4.4,1
+Diamond Buffet,Surrey,V3S 1V3,49.11172,-122.72963,15,1,Buffets,2.4,0
+Sushi Bar Kilala,Burnaby,V5C 2K8,49.2811517065771,-122.995635763696,85,2,Sushi Bars,4.3,1
+Yuan's Garden Restaurant 隨園,Richmond,V6X 3A6,49.178968,-123.134826,170,2,Chinese,3.9,0
+Kyabia Japanese Restaurant,Richmond,V6X 4B7,49.18769,-123.13128,73,2,Japanese,3.7,0
+Ding Hao Noodle House,Coquitlam,V3B 1C2,49.278788895755625,-122.8070915324994,45,1,Taiwanese,3.9,0
+New Sun Restaurant,Vancouver,V5Z 2V7,49.2592643,-123.1152101,28,1,Chinese,3.5,0
+Fanny Bay Oyster Bar & Shellfish Market,Vancouver,V6B 2P2,49.2787525,-123.1138689,979,3,Seafood,4.4,1
+Sawasdee Thai Restaurant,Vancouver,V5V 3P9,49.24703,-123.1008,378,2,Thai,4.0,1
+Mui Garden Restaurant,Richmond,V6X 4J4,49.17097613037639,-123.13941066161337,115,2,Malaysian,3.6,0
+Waves Coffee House,Vancouver,V6H 1E2,49.263615784527,-123.128756644037,32,1,Coffee & Tea,3.3,0
+Royal Oak,Surrey,V3R 3P5,49.16437,-122.79765,58,2,Pizza,3.4,0
+Lazzez's Grill Indian Cuisine,Coquitlam,V3B 1B9,49.27743,-122.80492,189,2,Indian,4.3,1
+Angus T,Vancouver,V6B 2T4,49.2762326068102,-123.119233623147,125,2,Cafes,4.3,1
+Juillet Cafe,Burnaby,V3N 4N4,49.2448537809919,-122.89281354352,45,1,Cafes,3.9,0
+The Mackenzie Room,Vancouver,V6A 1G7,49.2832349,-123.0948578,220,4,Canadian (New),4.5,1
+OZ Korean Cuisine,Coquitlam,V3B 0J5,49.282471094178,-122.793583392269,116,2,Korean,4.0,1
+Chop Steakhouse & Bar,Richmond,V6X 2M9,49.1890367,-123.1120171,33,3,Steakhouses,4.0,1
+Taste of Zen,Richmond,V7A 1M5,49.13293,-123.12171,13,2,Vegetarian,4.1,1
+Kimbap Cheonguk,Coquitlam,V3K 3V8,49.2446982,-122.8918313,144,1,Sushi Bars,4.4,1
+Bluefin Sushi,New Westminster,V3L 3W8,49.22665044765496,-122.89299105765632,28,1,Sushi Bars,3.6,0
+Royal Crown Pizza,New Westminster,V3M 3R5,49.2084010373217,-122.920245955181,31,1,Pizza,3.9,0
+Kokoro Tokyo Mazesoba,Coquitlam,V3J 1N7,49.2508308,-122.8926851,80,2,Ramen,4.1,1
+Six Acres,Vancouver,V6B 2J2,49.283363150344336,-123.1044223000027,324,2,Pubs,3.9,0
+Ramen DANBO - Robson,Vancouver,V6E 2B1,49.2874959131639,-123.128934167326,764,2,Ramen,4.4,1
+Provisions Kitsilano,Vancouver,V6K 1N8,49.268062,-123.157371,15,2,Cafes,4.0,1
+The Greek By Anatoli,Vancouver,V6B,49.276285,-123.1197178,298,2,Greek,3.8,0
+Little Minh's,Burnaby,V5J 0A3,49.1990675,-122.9799962,149,2,Vietnamese,4.3,1
+Lu Charcoal Grill,Richmond,V6X 1E4,49.1800883459181,-123.135372530006,21,1,Chinese,3.2,0
+Kokoro Tokyo Mazesoba,Burnaby,V5H 4L6,49.228287011321385,-123.00315331667662,68,2,Ramen,4.0,1
+Cora,Coquitlam,V3B 6J6,49.274923,-122.791039,160,2,Breakfast & Brunch,3.7,0
+Green Leaf Cafe,Burnaby,V3J 1M2,49.2533051,-122.8982928,256,2,Sushi Bars,4.1,1
+New Town Bakery & Restaurant,Vancouver,V6A 1T3,49.280153,-123.101201,483,1,Bakeries,3.8,0
+John B Neighbourhood Pub,Coquitlam,V3K 3P1,49.24869,-122.86724,108,2,Pubs,3.6,0
+Bubble World,Coquitlam,V3B 6J6,49.2790792849535,-122.794279898607,59,2,Taiwanese,2.7,0
+Medina Cafe,Vancouver,V6B 3A4,49.2804429972571,-123.117036269849,2791,2,Breakfast & Brunch,4.2,1
+Soup Plus,Coquitlam,V3K 3P5,49.24868,-122.86186,64,1,Soup,3.8,0
+Happy Tree House BBQ,Richmond,V6X 1C3,49.1789476669097,-123.13367071167,95,2,Barbeque,3.2,0
+Cioffi's Meat Market & Deli,Burnaby,V5C 2J4,49.280911944717026,-123.012598,92,2,Delis,3.7,0
+Daddy's Grill,Richmond,V6X 2V1,49.1842679432228,-123.091404421526,168,2,Halal,4.4,1
+Takenaka,Vancouver,V5L 2A8,49.2783093,-123.0755801,115,2,Japanese,4.3,1
+Pho Newton,Surrey,V3W 0H9,49.1392040260342,-122.843214712932,29,2,Vietnamese,3.6,0
+Tendon Kohaku,Burnaby,V5H 4M8,49.2278910406839,-123.00348046083376,49,2,Japanese,3.7,0
+Grandt Kitchen,Surrey,V3T 2W6,49.189707024899,-122.846393287182,70,1,Filipino,3.9,0
+PappaRoti,Coquitlam,V3B 2P7,49.2840263,-122.793144,49,2,Juice Bars & Smoothies,4.1,1
+Daan Korean Cuisine,Richmond,V6Y 1K3,49.1553651,-123.124776,83,2,Korean,4.0,1
+Mongo Bongo,New Westminster,V3L 5H3,49.2135179,-122.9193884,88,2,Mongolian,3.9,0
+Pho & Japolo,Burnaby,V3J 1P1,49.253645,-122.892575,35,2,Vietnamese,3.7,0
+Papa Johns Pizza,New Westminster,V3L 1V3,49.21329659729184,-122.91968736842949,23,2,Pizza,3.1,0
+Navraj Sweets & Restaurant,Surrey,V3W,49.1501801430419,-122.866437749758,24,2,Indian,4.4,1
+Nobi Nobi,Richmond,V7A 5J5,49.133102,-123.098042,65,2,Japanese,4.5,1
+Chili House Restaurant,Surrey,V3S 6K7,49.1144981,-122.6806335,91,2,Asian Fusion,4.3,1
+Mega Sushi,Coquitlam,V3K 7B6,49.24858070525632,-122.81784885439474,87,2,Sushi Bars,3.9,0
+Guu with Garlic,Vancouver,V6G 1C7,49.290249,-123.1338142,1115,2,Japanese,4.3,1
+Joy's Taiwanese Kitchen,Richmond,V6X 2C3,49.1819171,-123.1363782,23,1,Taiwanese,3.9,0
+The Canadian Brewhouse & Grill,Richmond,V6X 0M5,49.17762,-123.12371,171,2,Sports Bars,3.4,0
+Gyu-Kaku Japanese BBQ,Vancouver,V6Z 2H1,49.28031,-123.12467,425,2,Japanese,4.0,1
+Sushi Modo,Burnaby,V3N 1B8,49.225836,-122.937422,121,2,Sushi Bars,4.3,1
+Kozak Ukranian Eatery,New Westminster,V3L 3B3,49.2114757572234,-122.918422905028,153,1,Bakeries,4.4,1
+Dominion Bar + Kitchen,Surrey,V3T 1V8,49.19024372736193,-122.84822741467201,57,3,Canadian (New),3.7,0
+Waves Coffee House,Coquitlam,V3B 5R5,49.2784614,-122.7985418,6,2,Coffee & Tea,3.0,0
+Cactus Club Cafe,Vancouver,V6C 0C3,49.288953168131265,-123.1170999,1072,2,Canadian (New),4.2,1
+Japadog,Richmond,V6X 2X9,49.17513197931976,-123.13605273665104,28,1,Hot Dogs,4.0,1
+Re-Up BBQ,New Westminster,V3M 6B9,49.2000834965815,-122.911374465514,187,2,Barbeque,3.8,0
+Urban Gate,Coquitlam,V3B 0C6,49.28222,-122.7962049,122,2,Persian/Iranian,3.1,0
+JJ Bean Coffee Roasters,Vancouver,V6C 0B2,49.287471,-123.116865,39,1,Cafes,3.8,0
+Fatburger,Coquitlam,V3K,49.23409,-122.86301,50,2,Burgers,3.4,0
+Saigon Ivy,New Westminster,V3L 3B4,49.21207002304541,-122.91928025557237,48,2,Vietnamese,3.4,0
+Sushi Bar Shu,Vancouver,V6P 4Z5,49.2123904,-123.14068048650988,78,4,Sushi Bars,4.4,1
+Aaron's Restaurant,Surrey,V3S 1H1,49.1062,-122.73329,27,3,Italian,3.2,0
+Kirin Restaurant,New Westminster,V3M 7A3,49.1867640831858,-122.955329577009,153,2,Seafood,3.5,0
+Desi Turka Indian Cuisine,Burnaby,V3N 3N1,49.220269,-122.929508,78,2,Indian,3.9,0
+New Lakeview Seafood & Wunton,Burnaby,V3N 3M9,49.2204185639885,-122.930049553083,71,2,Seafood,3.3,0
+Yin Ji Chang Fen,Richmond,V6X 3L4,49.17786599999999,-123.1294224,136,2,Cantonese,4.3,1
+Chao Shou Wang,Burnaby,V5H 2A9,49.2290734,-123.0048795,44,1,Chinese,4.1,1
+The Apron,Richmond,V6X 4K3,49.19085129402266,-123.13391892507546,48,3,Breakfast & Brunch,4.0,1
+John 3:16 Malaysian Delights,Vancouver,V6H 1E2,49.26371,-123.12812,85,2,Malaysian,4.2,1
+Marugame Udon,Vancouver,V6B 6A3,49.2801931,-123.11028743227573,102,2,Japanese,4.0,1
+Just Waffles,Vancouver,V5K 2A8,49.28128196346295,-123.02744138985871,148,2,Breakfast & Brunch,4.5,1
+Charisma Cafe & Dessert House,Vancouver,V6B 6C1,49.27998259460614,-123.1087145,59,1,Desserts,3.9,0
+Motonobu Udon,Vancouver,V5K 0E5,49.2813968,-123.0280718,137,2,Japanese,4.2,1
+Afghan Turkish Cuisine,Burnaby,V5C 5G4,49.2807738,-123.0028986,62,1,Afghan,4.0,1
+Lee Gar Nei,Surrey,V3R 8X7,49.1856150038833,-122.799098426308,27,2,Korean,4.0,1
+Balkan House,Burnaby,V3N 1B4,49.22219,-122.94393,71,2,Modern European,3.4,0
+Caffe Mira,Vancouver,V5T 3G7,49.2568399,-123.10088,46,1,Cafes,4.2,1
+Chili Pepper House,Vancouver,V5R 5J6,49.236254639793266,-123.04171146419897,174,2,Hakka,3.8,0
+Pho Capital,Richmond,V7C 0C7,49.174322922726276,-123.1480213,127,1,Vietnamese,4.0,1
+49th Parallel Coffee,Vancouver,V5T 0C1,49.2591330651218,-123.10088478104,534,1,Cafes,4.1,1
+Round Table Pizza,Richmond,V7C 1H5,49.15436908349,-123.157198331033,26,2,Pizza,3.2,0
+Pink Peppercorn Seafood House,Vancouver,V5N 2R6,49.2493583,-123.0739159,165,3,Seafood,4.4,1
+Greens & Beans Deli,New Westminster,V3L 3V9,49.2229306,-122.8931559,46,1,Delis,4.3,1
+GoGo Chicken & BBQ,Coquitlam,V3B 2P7,49.282972,-122.796674,20,2,Korean,4.4,1
+Artigiano,Richmond,V7B 0B7,49.197903,-123.140842,16,1,Cafes,2.9,0
+Sun Century Cafe,Richmond,V6X 2C1,49.18621,-123.13344,13,1,Chinese,3.9,0
+Tommies Jerk,Surrey,V3S 4K5,49.10037,-122.72386,10,1,Caribbean,4.7,1
+Planet India,Surrey,V3W 9Z1,49.13379,-122.83907,66,2,Indian,3.8,0
+Wicked Cafe,Vancouver,V6H 1B8,49.26544874408263,-123.135842,137,2,Cafes,3.8,0
+The One Restaurant,Burnaby,V5J 1H2,49.2211721,-122.9774371,266,2,Taiwanese,3.4,0
+Kamini's Corner Cafe,New Westminster,V3L 1N3,49.21256260644152,-122.93630497238739,7,1,Cafes,4.4,1
+Hokkaido Ramen Santouka,Vancouver,V6G 1C7,49.290236,-123.133811,1012,2,Ramen,4.2,1
+Diamond Sweets Restaurant,Surrey,V4N 0Y3,49.1585503,-122.7814484,35,1,Indian,3.4,0
+Taste of Splendour,Burnaby,V5G 1H3,49.25518,-123.0087,9,1,Caterers,4.1,1
+The Hide Out Cafe,New Westminster,V3M 6V4,49.2029257,-122.9108691,85,1,Coffee & Tea,4.2,1
+Brewster's Sports Pub & Liquor store,Surrey,V3W 5A5,49.13690145,-122.84518586,41,2,Burgers,2.3,0
+Belle's Cafe,Surrey,V4P 2A8,49.060498878556444,-122.83416005374684,11,1,Cafes,4.3,1
+Pho Tau Bay,Surrey,V3W 5A5,49.135731,-122.844616,67,1,Vietnamese,3.5,0
+Peaked Pies,Burnaby,V5C 2J7,49.28077,-123.01351,53,2,Australian,4.1,1
+Vegan Supply Surrey,Surrey,V4P 2J2,49.059709,-122.833843,6,2,Health Markets,4.3,1
+JOY Cafe,Vancouver,V6P 5X8,49.2098293,-123.1182943,53,2,Cafes,3.5,0
+Chad Thai,Burnaby,V5C 2H9,49.2809351,-123.0160318,231,2,Thai,4.1,1
+Ginger Indian Cuisine,Richmond,V6Y 3R9,49.15413956143999,-123.1245297116645,74,2,Indian,3.7,0
+La Grotta Del Formaggio,Vancouver,V5N 4A4,49.2688848,-123.0697849,230,1,Delis,4.3,1
+Kanpeki Teppanyaki & Seafood Bar,Richmond,V6X 1C3,49.1787958,-123.1314609,14,3,Japanese,3.4,0
+Honeybrew,Vancouver,V6Z 2S7,49.27770339765184,-123.1269430835161,43,2,Bistros,4.1,1
+Big Way Hot Pot,New Westminster,V3M 0G3,49.20104990676527,-122.91260437496537,16,2,Chinese,4.6,1
+Anton's Pasta Bar,Burnaby,V5C 2J6,49.28072,-123.00984,557,2,Italian,3.5,0
+Matoi Sushi,Coquitlam,V3B 6J6,49.274538,-122.791584,89,2,Japanese,3.5,0
+Ash Street Bistro,Vancouver,V5Z,49.233925,-123.118871,13,2,Bistros,4.2,1
+L'Abattoir,Vancouver,V6B 2J1,49.2831869855333,-123.104450140894,621,3,French,4.2,1
+Gateway Pizza & Curry,Surrey,V3R 3W7,49.1699399,-122.8125,46,2,Indian,3.4,0
+The Morrissey Pub,Vancouver,V6Z 1M5,49.2769058,-123.1268211,189,2,Pubs,3.7,0
+Sura Korean Cuisine,Vancouver,V6G 1C3,49.2888601838143,-123.131742169312,482,2,Korean,4.1,1
+Takara Sushi,Burnaby,V5G 1G4,49.2545851,-123.0220016,108,2,Sushi Bars,4.5,1
+Browns Socialhouse QE Theatre,Vancouver,V6B 2P1,49.279919,-123.112788,85,2,Burgers,4.3,1
+Sushi California,Coquitlam,V3J 1N7,49.2493323318395,-122.892389360117,351,2,Sushi Bars,3.4,0
+The Spud Shack Fry,New Westminster,V3M 0G3,49.20095020309591,-122.91302027887068,213,2,Belgian,4.0,1
+Agra Tandoori Restaurant,Burnaby,V5G 1G4,49.25443,-123.02066,205,2,Indian,3.9,0
+Yianni's Greek Taverna,New Westminster,V3L 3B5,49.2124240808659,-122.919168452339,91,2,Greek,3.7,0
+Thierry,Vancouver,V6E 1A1,49.2848818,-123.1228949,1042,2,Patisserie/Cake Shop,4.0,1
+Zakkushi on Denman,Vancouver,V6G 2L7,49.291208,-123.136248,285,3,Japanese,4.2,1
+Nana's Green Tea,Vancouver,V6M 1Z6,49.267587,-123.1086543,214,2,Desserts,4.2,1
+Breakfast Table,Vancouver,V6H 1H6,49.25855,-123.13856,295,2,Breakfast & Brunch,4.3,1
+The Red Accordion,Vancouver,V6G 1A6,49.29025,-123.131768,148,2,Cocktail Bars,4.6,1
+Koto Izakaya,Richmond,V6X 1C3,49.1785,-123.13362,85,2,Japanese,3.0,0
+Waffleland Cafe,Vancouver,V6B 1A5,49.2834917,-123.1050237,58,2,Waffles,4.1,1
+Village Sushi Bar,Richmond,V7E 6S4,49.1186027526855,-123.158828735352,64,1,Sushi Bars,4.4,1
+Empire Seafood Restaurant,Richmond,V6X 2E3,49.170860309787,-123.13706284400321,250,2,Seafood,3.3,0
+Pearl Hot Pot,Burnaby,V5E 2W5,49.2188387,-122.964481,103,2,Hot Pot,3.3,0
+Axum Restaurant,Vancouver,V6A 1S4,49.2814936637038,-123.07779582314,82,2,Ethiopian,4.4,1
+IT Char Burger,New Westminster,V3L 2B8,49.222413,-122.9122126,81,1,Burgers,4.5,1
+Waves Coffee House,Richmond,V7E 3M3,49.1241798712256,-123.182890052597,49,1,Coffee & Tea,3.0,0
+Seasons In the Park,Vancouver,V5Y 2M5,49.2416705486198,-123.112535476685,599,3,Seafood,4.0,1
+Main Choice Chinese Restaurant,Surrey,V3W 2N5,49.1338858,-122.8518572,66,2,Chinese,3.8,0
+Kosoo,Vancouver,V6E 1B2,49.28494,-123.12592,176,2,Korean,4.3,1
+Guildford Station Pub,Surrey,V3R 4J6,49.18759,-122.79506,115,2,Pubs,3.5,0
+Han Lin Noodle House,New Westminster,V3L 3B2,49.210381277082135,-122.91715603819993,143,2,Chinese,3.5,0
+Commercial Street Cafe,Vancouver,V5N 4E8,49.2526261,-123.0681265,75,2,Cafes,3.5,0
+The Dolar Shop - Richmond,Richmond,V6X 2C7,49.1752620984987,-123.134143498425,253,3,Hot Pot,4.1,1
+The Sandbar Seafood Restaurant,Vancouver,V6H 3R9,49.271502,-123.134151,845,3,Seafood,3.7,0
+Hanaya Japanese Restaurant,Surrey,V4P 1G6,49.05326,-122.80091,73,2,Japanese,4.0,1
+White Lotus Cafe,Burnaby,V5B 2Y1,49.2656111504516,-122.97883607144,98,2,Vietnamese,4.5,1
+Excellent Ice,Surrey,V3S 5X7,49.1016051,-122.8070208,8,4,Skating Rinks,3.3,0
+New Amsterdam Café,Vancouver,V6B 1H6,49.283004,-123.110008,79,1,Cafes,3.9,0
+Abyssinia Ethiopian Restaurant,Burnaby,V3N 1B4,49.2224351,-122.9437792,35,2,Ethiopian,3.9,0
+East Cafe,Vancouver,V5K 1Y8,49.2812767,-123.0563278,60,1,Coffee & Tea,4.3,1
+Japanese Bistro Kamome,Vancouver,V5R 6C9,49.2371553,-123.0327306,51,2,Japanese,3.9,0
+Mediterranean Donair House,New Westminster,V3L 3C6,49.215202,-122.9225917,18,1,Greek,3.8,0
+Butchers Block BBQ,Burnaby,V5C 1R3,49.28129,-123.01453,143,2,Barbeque,3.8,0
+CRAFT Beer Market False Creek,Vancouver,V5Y 0C4,49.2705604,-123.1063494,557,2,Beer Bar,3.4,0
+Conte Food Importers,Burnaby,V3N 0B9,49.1930765013523,-122.971642618571,12,2,Specialty Food,4.4,1
+L'Artista,Burnaby,V5E 2H7,49.281231129459975,-123.0188885,60,2,Italian,4.0,1
+The Taco Factory,New Westminster,V3L 3W9,49.22904,-122.89241,39,2,Mexican,3.4,0
+Kokoro Tokyo Mazesoba,Vancouver,V6B 3H6,49.2833927,-123.115078,518,2,Japanese,4.1,1
+The Greek Corner,Surrey,V3W 5A5,49.1343307,-122.8452682,91,2,Greek,3.6,0
+Banana Leaf,Vancouver,V5Z 1J8,49.26302,-123.1225,351,2,Malaysian,3.7,0
+Taverna Greka Restaurant,New Westminster,V3L 1A6,49.2049414,-122.9043168,166,2,Greek,4.1,1
+Encore Suite,Vancouver,V6B 6G1,49.2776420028873,-123.109174971689,3,2,Sports Bars,4.3,1
+Banh Mi Bar Restaurant,New Westminster,V3M 6V4,49.20279527932723,-122.91101334289715,133,1,Sandwiches,4.7,1
+Grand Chinese Restaurant,Burnaby,V5C 3Z2,49.266893,-123.004262,68,2,Chinese,4.0,1
+Steveston Pizza Company,Richmond,V7E 3A2,49.1250589553541,-123.185554660698,320,2,Pizza,4.2,1
+Chambar,Vancouver,V6B 2L3,49.2801460007961,-123.109925328073,1668,2,Belgian,4.2,1
+Thai By Thai,Surrey,V3V 4B5,49.1698001,-122.8900551,107,2,Thai,4.1,1
+Gyubee Japanese Grill,Richmond,V6X 3K2,49.1712466,-123.1351984,120,3,Japanese,4.3,1
+D Original Sausage Haus,Richmond,V7E 3L9,49.1262632,-123.1825342,22,2,Delis,4.8,1
+Calabash Bistro,Vancouver,V6B 2J7,49.281004479966,-123.104228199529,308,2,Caribbean,4.0,1
+South Castle Korean Restaurant,Coquitlam,V3K 3P5,49.2487155457237,-122.859535957053,26,2,Korean,4.1,1
+Sun Sui Wah Seafood Restaurant,Richmond,V5V 3N9,49.17807135336199,-123.13554115581708,462,2,Seafood,3.5,0
+Roundel Cafe,Vancouver,V5K 1Y8,49.28129402513607,-123.055357,175,2,Breakfast & Brunch,3.5,0
+New Mandarin Seafood Restaurant,Vancouver,V5N 5A2,49.2430789410403,-123.062085096174,282,2,Dim Sum,4.1,1
+Basant Sweet House,Surrey,V3W 1R1,49.1509914,-122.8677853,7,2,Restaurants,4.1,1
+El Comal,Burnaby,V5A 2H4,49.247876818077,-122.940112248954,53,1,Mexican,3.9,0
+Big Way Hot Pot,Burnaby,V5H 1Z8,49.2310987,-123.0083309711633,105,2,Hot Pot,4.0,1
+JOEY Burrard,Vancouver,V6Z 1X9,49.282606,-123.1231879,687,2,Canadian (New),4.1,1
+Starbucks,Surrey,V3W 3K3,49.1043053,-122.7393799,4,1,Cafes,4.5,1
+Safari Snack House And Grill,Burnaby,V5E 3N1,49.239118670642895,-122.96287338465577,45,2,African,3.9,0
+Anh and Chi,Vancouver,V5V 3M7,49.2550314422938,-123.100882202153,796,3,Vietnamese,4.0,1
+Linh Cafe,Vancouver,V6Z 1N2,49.2746716,-123.12989802,366,2,Vietnamese,3.9,0
+Ramen DANBO,Vancouver,V6M 2A3,49.23480431478797,-123.15913584083317,31,2,Ramen,4.4,1
+Siam Le Bien,Burnaby,V5C 2J5,49.2813,-123.01068,106,2,Thai,4.3,1
+Hee Rae Deung,Coquitlam,V3K 3V9,49.2475518179184,-122.891984134912,70,2,Korean,4.0,1
+Cabizerra Bistro,Surrey,V3R 1V8,49.1987463,-122.8134292,12,1,Filipino,4.8,1
+ChongQing Restaurant,Surrey,V3W 3N4,49.15272034339086,-122.88974194707586,64,2,Chinese,3.1,0
+Breka Bakery & Cafe,Vancouver,V6E 1Y4,49.2857242811844,-123.1271553452,395,1,Cafes,3.9,0
+Shanghai Fortune Cuisine,Burnaby,V5H 2A9,49.22954179328731,-123.00467593195059,32,1,Chinese,3.9,0
+Sal y Limon,Surrey,V3S 9H7,49.0469347453396,-122.77867790858,111,2,Mexican,3.8,0
+Creme de la Crumb Bakeshop & Catering,Vancouver,V5L 3K6,49.2738565,-123.0775108,16,1,Bakeries,3.3,0
+Sushi Heaven,New Westminster,V3L 3X6,49.2306827,-122.8929216,64,1,Sushi Bars,3.8,0
+Vault Restaurant,Surrey,V3S 4C8,49.10711,-122.73478,173,2,Steakhouses,3.9,0
+50's Burgers,Burnaby,V3N 1B9,49.22481,-122.94043,130,2,Burgers,3.6,0
+Barcelos Flame Grilled Chicken,Burnaby,V5J 1P8,49.19813330438935,-122.97878590283268,49,2,Portuguese,3.8,0
+Chan's Garden,New Westminster,V3L 3X4,49.2298584,-122.8930588,81,2,Chinese,3.7,0
+Steve's Poké Bar,Surrey,V3R 4G5,49.18376,-122.80127,102,2,Hawaiian,4.5,1
+Whole Food Market,Vancouver,V5Z 1C6,49.2640495,-123.1150513,17,1,Coffee & Tea,3.9,0
+Double Double Restaurant 老油条,Richmond,V6X 2C2,49.18038,-123.13547,193,2,Cantonese,3.4,0
+Cafe 106,Burnaby,V5H 2G1,49.2237644468902,-122.988622382664,52,1,Coffee & Tea,4.3,1
+Social Corner,Vancouver,V6B 5S3,49.2785831916346,-123.118480343303,335,3,Pizza,3.6,0
+S2 Cafe House,Vancouver,V6A,49.2807503,-123.0853195,12,1,Cafes,3.8,0
+Kiki's Restaurant,Surrey,V4A 9E3,49.03728,-122.80147,48,2,Mediterranean,3.8,0
+Lido Restaurant,Richmond,V6X 3L7,49.18254316529722,-123.13415835841272,394,2,Hong Kong Style Cafe,3.6,0
+Score on Davie,Vancouver,V6J 5L1,49.2823221457395,-123.134614739512,382,2,Sports Bars,4.3,1
+Sabai Thai Restaurant,Surrey,V3R 4B1,49.1909867,-122.8065349,110,2,Thai,4.0,1
+North Noodle House,New Westminster,V3M 0G3,49.200992,-122.913094,127,2,Chinese,3.9,0
+Minami,Vancouver,V6B 2T9,49.2752733,-123.1207029,846,3,Japanese,4.1,1
+Black Frog Eatery,Vancouver,V6B 2M8,49.284598,-123.108687,240,2,Pubs,3.8,0
+Chen,Burnaby,V5C 2J6,49.28086095595619,-123.0091730738817,28,2,Vietnamese,4.1,1
+Osteria Savio Volpe,Vancouver,V5T 3K5,49.2574913,-123.0909344,500,3,Italian,4.2,1
+Thai New West,New Westminster,V3L 3W9,49.229001,-122.89251,95,2,Thai,3.8,0
+Marulilu Cafe,Vancouver,V5Y 1R4,49.26338,-123.11415,303,2,Cafes,4.0,1
+Kojima Sushi,New Westminster,V3L 3B1,49.2106056213379,-122.917495727539,54,1,Sushi Bars,2.8,0
+75 West Coast Grill,Richmond,V6X 1A3,49.170509,-123.140563,80,2,Lounges,3.8,0
+Redbud Cafe,Richmond,V6Y 1P3,49.1622807256808,-123.131702194383,35,2,Hong Kong Style Cafe,3.1,0
+Lahori Sweets & Restaurant,Surrey,V3W 0E6,49.1484413,-122.8649063,49,2,Halal,4.0,1
+Sapporo Kitchen,Surrey,V4A 4N3,49.03159912001535,-122.80144046744887,102,2,Japanese,3.9,0
+Earls Kitchen + Bar,Vancouver,V6Z 1V3,49.281536,-123.12368,334,2,Canadian (New),3.7,0
+Saku,Vancouver,V6G 2G5,49.28923400821203,-123.13230361739015,525,2,Japanese,4.5,1
+Dutch Anchor Restaurant,New Westminster,V3M 5B3,49.19446139999999,-122.9279768,56,2,Greek,3.3,0
+Salmon n' Bannock,Vancouver,V6H 1G5,49.2631378,-123.1296705,270,2,Canadian (New),4.5,1
+Maruhachi Ra-men,Vancouver,V6G 2J6,49.2905691,-123.1333951,809,2,Ramen,4.3,1
+Oddfish,Vancouver,V6J 5B8,49.2708136,-123.1475237,108,3,Seafood,4.1,1
+R & H Chinese Food,Richmond,V6X 2X9,49.17571487673434,-123.13191884109995,222,2,Food Court,4.0,1
+Bamboo Grove,Richmond,V6X 1A5,49.163311,-123.13637,32,2,Seafood,3.4,0
+Zhous Chinese Restaurant,Coquitlam,V3J 3R3,49.2626492660541,-122.839037613753,28,1,Chinese,3.3,0
+Anny's Dairy Bar,New Westminster,V3L 3C5,49.214855,-122.922433,141,1,Canadian (New),4.2,1
+European Breads,Vancouver,V5V 4G3,49.2463202,-123.0899976,26,1,Bakeries,3.7,0
+Omega Pizza & Wings,Surrey,V3W 5A8,49.14043655771575,-122.8459367,35,1,Pizza,2.6,0
+Tasty Donair,Surrey,V3W 2P2,49.133938,-122.842573,55,1,Donairs,4.3,1
+The Dirty Apron Delicatessen,Vancouver,V6B 2L3,49.2805632,-123.1091772,74,2,Cafes,4.5,1
+Hangang Korean Restaurant,Coquitlam,V3K 3P5,49.24868041062316,-122.85874128895493,12,2,Korean,4.1,1
+Red Robin Gourmet Burgers and Brews,Surrey,V3R 4G6,49.18838300274452,-122.80139260276438,116,2,Burgers,3.6,0
+Garden Cafe at VanDusen Garden,Vancouver,V6M 4H1,49.2383826,-123.1281484,54,2,Cafes,3.1,0
+Crispy Falafel,Coquitlam,V3K 6P9,49.2352018438231,-122.855761778291,25,2,Falafel,3.7,0
+La Forêt,Burnaby,V5J 4B3,49.2212819390063,-122.995836958493,590,2,Coffee & Tea,3.7,0
+Browns Socialhouse Panorama,Surrey,V3S 5K7,49.10397,-122.798523,56,2,Pubs,3.3,0
+Jam Cafe on Beatty,Vancouver,V6B 2L3,49.2802586,-123.1096376,1573,2,Breakfast & Brunch,4.4,1
+The Flying Pig - Yaletown,Vancouver,V6B 2S2,49.27501,-123.122,1436,2,Canadian (New),4.0,1
+Cactus Club Cafe,Burnaby,V5C 3Y6,49.26671212,-123.01085799,176,2,Canadian (New),3.7,0
+Crossroads Cafe,Vancouver,V6Z 1S4,49.28288,-123.12191,2,1,Cafes,4.5,1
+Parker Place Aberdeen Meat & B.B.Q,Richmond,V6X 3V7,49.1819617,-123.1364551,186,2,Meat Shops,4.2,1
+C Market Coffee,Coquitlam,V3K 6V9,49.2338639121429,-122.85304601602519,104,2,Coffee Roasteries,4.0,1
+Sushi Mori,Surrey,V4A 2H9,49.0457580108793,-122.7973473,73,2,Japanese,3.4,0
+Chopsticks On Pho,Surrey,V3S 0X9,49.1044634,-122.7986729,108,2,Vietnamese,3.8,0
+The Taste of Africa,Surrey,V3T 2X6,49.196348,-122.845649,35,1,African,4.4,1
+Red Dot Cafe,Richmond,V6V 2H7,49.1861496,-123.0807571,14,2,Cafes,3.7,0
+Boston Pizza,Burnaby,V5H 4L7,49.2267071,-123.0039352,76,2,Pizza,2.5,0
+No.1 Beef Noodle House,Burnaby,V5G 3H5,49.2425291,-123.004037333135,215,2,Taiwanese,3.4,0
+Ole Ole Mexican Deli,New Westminster,V3M 4K4,49.21157,-122.93511,53,2,Mexican,3.5,0
+Lunch Lady,Vancouver,V5L 3W9,49.27497,-123.06915,368,2,Vietnamese,4.2,1
+Faubourg,Vancouver,V6M 1Z1,49.2344771,-123.1574179,206,2,Bakeries,3.5,0
+Tendon Kohaku,Vancouver,V6Z 2S9,49.28107123873706,-123.12179426645872,216,2,Japanese,4.3,1
+Pho Den,Burnaby,V5H 4J2,49.21985466539446,-122.970256331213,47,2,Vietnamese,3.9,0
+Cafe Ami,Vancouver,V5Z,49.260803,-123.123994,10,1,Cafes,3.6,0
+Nordel Sushi,Surrey,V3W 1P6,49.1609149,-122.8885017,69,2,Japanese,3.3,0
+Afghan Chopan Restaurant,Richmond,V6X 3Y2,49.16996743188082,-123.13302061349333,72,2,Afghan,4.3,1
+Super Stars Cafe,Richmond,V6X 4A8,49.179515426395476,-123.1350582,30,1,Cafes,3.1,0
+Afghan Chopan Restaurant,Surrey,V3W 3A8,49.147471095003574,-122.86530131592922,113,2,Afghan,3.9,0
+Sushi U,Burnaby,V5B 2Y1,49.2654624429451,-122.978147623681,67,2,Japanese,4.5,1
+LA Grill & Bistro,Richmond,V7C 5J9,49.1536432938359,-123.158798217773,103,1,American,3.3,0
+Prado Cafe,Vancouver,V6B 1G8,49.2818961,-123.1074141,96,2,Cafes,3.9,0
+Harvest Community Foods,Vancouver,V6A 2B2,49.277781,-123.0980624,76,2,Grocery,3.6,0
+Caveman Cafe,Vancouver,V6B 6N8,49.280802324947445,-123.10703500282291,313,2,Organic Stores,4.4,1
+Amelia Restaurant,New Westminster,V3M 4J4,49.20876,-122.93227,22,1,American,4.3,1
+Gyu-Kaku Japanese BBQ,Richmond,V6X 2A4,49.1774949,-123.1372648,155,2,Japanese,3.7,0
+Malaysian Hut,Surrey,V3R 1V9,49.1989290068985,-122.814328819513,47,1,Malaysian,4.0,1
+Cactus Club Cafe,Burnaby,V5H 4L7,49.22775581945971,-123.00329214418927,173,2,Cocktail Bars,3.9,0
+Their There,Vancouver,V6J 1M9,49.2679649501648,-123.151158941154,161,2,Breakfast & Brunch,4.2,1
+Great Canadian Casino Vancouver,Coquitlam,V3K 6W3,49.2276116,-122.8378131,48,1,Casinos,2.5,0
+Fresh Sushi Roll,New Westminster,V3L 3C2,49.2133039,-122.9207809,11,1,Sushi Bars,2.8,0
+Cuchillo,Vancouver,V6A 2Z1,49.283262611469,-123.098110155039,314,2,Latin American,4.2,1
+Fresh Donair,Vancouver,V6Z 1L4,49.2792016361722,-123.12335201658,59,2,Donairs,4.7,1
+Westcoast Poke,Richmond,V7A 1N6,49.13223459520562,-123.09558136751669,48,2,Hawaiian,3.9,0
+Prabu Sweets,Surrey,V3W 4E1,49.13036,-122.86825,41,2,Desserts,3.9,0
+The Dolar Shop - Station Square,Burnaby,V5H 0H5,49.2277884925998,-123.00316795158997,169,3,Hot Pot,4.3,1
+España Restaurant,Vancouver,V6G 2M8,49.2880552,-123.1404114,269,2,Spanish,4.2,1
+Skye Avenue Kitchen & Lounge,Surrey,V3T 0A3,49.1876994453086,-122.84848282640564,21,3,Canadian (New),4.1,1
+To Live For Bakery,Vancouver,V6L 4T8,49.27121199258215,-123.0565958,65,2,Bakeries,4.6,1
+Ki Cafe,Burnaby,V5J 4J2,49.2208272,-122.9884543,125,2,Desserts,3.9,0
+Sushi Tree,Coquitlam,V3B 8A9,49.28064321231323,-122.79281080583213,42,1,Sushi Bars,4.4,1
+Broyé Cafe & Bakery,Vancouver,V5W 3A4,49.22632,-123.09036,51,2,Bakeries,4.0,1
+Seaport City Seafood Restaurant,Vancouver,V5Z 4M5,49.263921119674905,-123.115152,116,3,Dim Sum,4.2,1
+Uno Beef Noodle,Richmond,V6X 2B2,49.193218109957115,-123.12980856746434,129,2,Noodles,4.4,1
+Sushi Jin,Vancouver,V6Z 1A8,49.2795794102629,-123.123817518353,154,3,Japanese,4.6,1
+Dynasty Seafood Restaurant,Vancouver,V5Z 4J7,49.2635999,-123.12138,375,2,Dim Sum,3.6,0
+John 3:16 Malaysian Delights,Richmond,V6Y 2C4,49.1641317,-123.1362195,296,2,Malaysian,4.1,1
+Birdies,Burnaby,V5C 6N4,49.2655537242762,-123.01959240000002,80,2,Salad,4.0,1
+Finch's Market,Vancouver,V6A 1X8,49.2785699636665,-123.093410391164,47,2,Cafes,4.0,1
+Miku,Vancouver,V6C 1S4,49.28691298612272,-123.11304877258942,2600,3,Japanese,4.4,1
+Mango Mama Cafe,Richmond,V6X 3L7,49.18257822582507,-123.1341600423283,78,2,Desserts,2.1,0
+Paradise Donair and Coffee Mania,New Westminster,V3M 4J9,49.2102203,-122.9331284,37,1,Cafes,3.4,0
+Silver Tower Cafe Restaurant,Richmond,V6X 3L4,49.1781781,-123.1291034,131,1,Hong Kong Style Cafe,3.3,0
+Park Crest Diner,Burnaby,V5B 2Y1,49.26536,-122.97789,35,1,Cafes,3.8,0
+Boston Pizza,New Westminster,V3M 1C4,49.200572324849,-122.918331664376,51,2,Pizza,2.3,0
+Apna Chaat House,Surrey,V3W 3N1,49.138979,-122.889138,155,2,Indian,3.7,0
+Atlas Steak + Fish,Burnaby,V5G 1C7,49.256747,-123.006931,189,3,Steakhouses,4.0,1
+Nagano Japanese Restaurant,Coquitlam,V3B 2P5,49.2819484741704,-122.799879881647,148,2,Japanese,3.6,0
+Mr Shawarma,Vancouver,V6E 1B2,49.28526,-123.12075,227,1,Middle Eastern,4.4,1
+La La Island,Vancouver,V6K 4N3,49.26435443750349,-123.171443449561,12,2,Bakeries,4.6,1
+Neptune Palace Seafood Restaurant,Surrey,V3T 2W1,49.18693877584426,-122.8461404527314,122,2,Dim Sum,3.1,0
+Stefanos Restaurant,New Westminster,V3L 1A7,49.2054199,-122.90424,105,2,Greek,3.0,0
+Pho Super Bowl,Coquitlam,V3J 3X4,49.261720508586464,-122.89092417221093,49,2,Vietnamese,4.2,1
+The Meat Up,Burnaby,V5H 2E6,49.2254546362785,-122.98992646931154,62,3,Barbeque,4.1,1
+Hart House Restaurant,Burnaby,V5E 4H3,49.23804,-122.96671,154,3,Seafood,3.6,0
+Sahota's Live Grill,Surrey,V3W 3N1,49.1399565,-122.88953034710507,29,2,Indian,3.0,0
+Bacchus Restaurant & Lounge,Vancouver,V6Z 1T9,49.28229823003116,-123.12255606127431,231,3,Lounges,4.1,1
+Denji Sushi,Surrey,V4N 3G6,49.1266,-122.70143,59,2,Sushi Bars,4.0,1
+A&W,Surrey,V3W 2M1,49.1343815,-122.88677929,49,1,Fast Food,4.6,1
+Samsoonie Noodle & Rice,Richmond,V6X 1A7,49.1707688466573,-123.133460687081,146,2,Korean,3.8,0
+Leaf Tea,Surrey,V4A 4N2,49.031406,-122.800901,27,2,Cafes,4.4,1
+X-Site Grill & Bistro,Burnaby,V5C 2K6,49.2811349,-122.9993576,173,1,Bars,3.8,0
+Scarlet Tapas Lounge,Vancouver,V6Z 1M4,49.2768837,-123.126335,6,2,Cafes,2.2,0
+Pakwan,Surrey,V3W 2V7,49.1406884,-122.8611251,10,2,Indian,4.1,1
+Chettinad Dosa Palace,Burnaby,V5E 3N1,49.23933,-122.96364,83,2,Indian,3.2,0
+Anatolia's Gate Restaurant,Burnaby,V5E 1E7,49.2183151,-122.9579254,155,2,Halal,3.8,0
+Milestones,Coquitlam,V3E 1K9,49.2784,-122.80925,93,2,Canadian (New),3.2,0
+La Belle Patate,Vancouver,V6E 1N4,49.2820547306569,-123.133442922354,610,2,Poutineries,4.2,1
+Pizza Garden,Burnaby,V5H 2Y8,49.2252262,-123.0037541,44,2,Pizza,4.0,1
+Fung May,Burnaby,V5H 2A9,49.2288939318384,-123.004783375498,30,1,Chinese,3.4,0
+Browns Socialhouse Semiahmoo,Surrey,V4A 4N3,49.03143295501853,-122.80147612331338,40,2,Canadian (New),3.1,0
+Angus T Bakery,Vancouver,V5S 0C2,49.20539421938929,-123.03085358154756,5,2,Bakeries,4.2,1
+Thierry - Mount Pleasant,Vancouver,V5T 4V1,49.262040137647766,-123.09941897473132,55,2,Desserts,4.0,1
+Bread Garden Urban Cafe,Richmond,V7B 1M8,49.1945454,-123.1747399,3,1,Cafes,3.0,0
+Galiano Cafe,Richmond,V7B 1B8,49.1806507736516,-123.170255156663,4,2,Airport Lounges,3.3,0
+Kook Korean BBQ,Vancouver,V5M 4N9,49.26894,-123.04565,212,3,Korean,4.2,1
+Kozak Ukrainian Restaurant,Vancouver,V6C 3N8,49.28266968028282,-123.1045676752585,112,2,Ukrainian,4.6,1
+Ramengers Feat. Smoking pig,Coquitlam,V3K 1E7,49.2386215122336,-122.86375656724,129,2,Korean,3.9,0
+Shoestring Cafe,Richmond,V6V 2L3,49.17987407755384,-123.0695583361763,116,2,French,4.6,1
+Mount Everest Kitchen & Grill,Vancouver,V6B 3J5,49.28343057225757,-123.1142148824853,113,2,Indian,4.6,1
+Seoul Grill House,Surrey,V3R 7V4,49.18662844935571,-122.80218576441264,142,2,Korean,3.4,0
+Chef Tony,Richmond,V6X 2C2,49.1805103,-123.1363684,372,2,Dim Sum,3.7,0
+Kaffina Coffee,Surrey,V4P 0E5,49.056098987177705,-122.80476269500356,47,2,Cafes,4.3,1
+Old Xian's Food,Richmond,V6X 3Z9,49.1852876,-123.1290331,57,2,Chinese,3.8,0
+Le Marché St. George,Vancouver,V5V 4A3,49.2456344,-123.0941734,197,2,Cafes,4.1,1
+Earls Kitchen + Bar,Burnaby,V5H 0H5,49.2279486,-123.0027748,131,2,Canadian (New),3.9,0
+Excellent Tofu & Snacks,Richmond,V6X 3L7,49.18257600567325,-123.13418552693622,242,1,Desserts,4.2,1
+Texx Big Burger,Surrey,V3T 4H4,49.189932,-122.841323,132,2,Burgers,4.1,1
+Double East Cuisine,Richmond,V6X 2C2,49.183023,-123.135604,20,2,Seafood,2.8,0
+Perfecto Cafe,Vancouver,V6B 2G6,49.276804,-123.125213,32,2,Cafes,4.1,1
+International Food Fair,Vancouver,V6C 3B6,49.28533,-123.11718,12,2,Fast Food,3.8,0
+Twinkle Cube Cafe,Richmond,V6X,49.1824873073973,-123.133310191333,16,1,Cafes,3.1,0
+Freshslice Pizza,Richmond,V6Y 4E2,49.16855,-123.13571927116394,10,1,Pizza,3.8,0
+Crackle Creme,Vancouver,V6A 2B2,49.27776,-123.0981399,300,1,Desserts,4.3,1
+Round Table Pizza,Richmond,V6Y 2N6,49.15502603363286,-123.12585702070231,62,2,Pizza,3.0,0
+ARC Restaurant,Vancouver,V6C 3L5,49.28733537787621,-123.11385049155078,225,3,Canadian (New),4.0,1
+Hainan Kitchen,Richmond,V6Y 3X9,49.1553651,-123.1238682,52,2,Singaporean,3.3,0
+Royal Tandoori Indian Restaurant,New Westminster,V3L 2Z8,49.20512,-122.90983,107,2,Indian,3.7,0
+Waves Coffee House,Richmond,V6X 2E3,49.17090010978671,-123.13681390292656,36,1,Coffee & Tea,3.1,0
+Cactus Club Cafe,Surrey,V4P 0A2,49.0604907475,-122.804682831,102,2,Canadian (New),4.0,1
+Golden Pita Lebanese Restaurant,Burnaby,V3J 1M2,49.2531819933441,-122.897602039217,81,1,Mediterranean,4.2,1
+Zaaki Cuisine,New Westminster,V3L 1V3,49.2131145,-122.9200483,71,1,Donairs,4.6,1
+Talay Thai Restaurant,Vancouver,V6P 4Z8,49.210809,-123.140764,105,2,Thai,3.9,0
+Straight Outta Brooklyn NYC Pizzeria,Vancouver,V6B 2B2,49.2791165,-123.1166227,262,1,Pizza,4.1,1
+Cactus Club Cafe,Burnaby,V5J 0A2,49.2020089718037,-122.981729507446,174,2,Canadian (New),3.7,0
+Kulinarya,Vancouver,V5L 3X2,49.2744901,-123.0693269,85,2,Filipino,4.0,1
+Ricky's Café,Burnaby,V5C 5Y1,49.265735924672,-123.00574472331364,35,2,Desserts,3.5,0
+Aquarium Cafe,Vancouver,V6G 3E2,49.3012428,-123.1294403,7,1,Cafes,3.9,0
+El Inka Latin Deli,Burnaby,V5G,49.24941,-123.01912,64,2,Peruvian,4.4,1
+Din Tai Fung 鼎泰豐,Vancouver,V6E 1A5,49.28562,-123.124798,356,3,Dim Sum,4.4,1
+Fantastico Pizza 2001,Vancouver,V6B 1V5,49.284057261538024,-123.1136320546639,63,1,Pizza,4.1,1
+MR MIKES,Coquitlam,V3B 6J6,49.27726890000161,-122.79442574110845,95,2,Steakhouses,3.3,0
+Chào Mámi,Burnaby,V5C 2J3,49.2808832078838,-123.014717570458,213,2,Vietnamese,4.0,1
+Canffle,Vancouver,V5R 5L9,49.2322894,-123.0268249,76,2,Waffles,4.2,1
+Spice World Hotpot Restaurant,Richmond,V6X 4B3,49.1778510035881,-123.12732142157,25,2,Hot Pot,3.8,0
+Nemesis Coffee,Vancouver,V6B 2N4,49.28281595985871,-123.11027107703038,421,2,Cafes,4.4,1
+Cup Full Dessert Cafe,Coquitlam,V3B 8A9,49.28083,-122.79272,27,1,Desserts,3.7,0
+El Santo,New Westminster,V3M 1A9,49.2022405,-122.9093807,282,2,Mexican,3.7,0
+Tenen,Burnaby,V5J 4J8,49.21549,-122.98895,88,2,Barbeque,4.2,1
+Hanwoori Korean Restaurant,Burnaby,V5J 1G2,49.22153,-122.9806,139,2,Korean,3.4,0
+Manoush'eh,Vancouver,V6B 2G5,49.276653,-123.125728,275,1,Lebanese,4.8,1
+Vesta Grill,Coquitlam,V3B 4S4,49.2774881,-122.7930624,22,2,Barbeque,4.3,1
+Oceans 999,Vancouver,V6C 3B5,49.2881297,-123.1148699,48,3,Canadian (New),3.5,0
+Kin Thai Kitchen & Bar,Surrey,V3S 0M6,49.0466759494366,-122.77521704598,49,2,Thai,3.5,0
+The Fish Counter,Vancouver,V5V 3P2,49.250774041930285,-123.1012792,394,2,Fish & Chips,4.4,1
+Frankie's Jazz Club,Vancouver,V6B 2M1,49.2781593,-123.11342570644008,65,2,Italian,3.9,0
+Great Dane Coffee,Vancouver,V6T 0B4,49.2700488028238,-123.250755445288,74,1,Cafes,4.2,1
+Sooda Korean BBQ,Burnaby,V5C 3Z6,49.2680924,-123.0003773,152,2,Korean,4.1,1
+Sweet Memory,Richmond,V6X 1E4,49.1795389,-123.1348249,107,2,Desserts,4.2,1
+Angelina's,New Westminster,V3M 6B9,49.200022,-122.91173,403,2,Breakfast & Brunch,3.9,0
+Neptune Wonton Noodle,Surrey,V3T 2W1,49.186577418518404,-122.84743837116434,24,2,Noodles,3.3,0
+Cafe & Life Co,Richmond,V6Y 0L3,49.16367265363718,-123.13465985287418,20,2,Breakfast & Brunch,4.3,1
+Cactus Club Cafe,Coquitlam,V3K 4X8,49.23306607674114,-122.85075084472223,191,2,Canadian (New),4.0,1
+Chada Thai Fine Cuisine,Coquitlam,V3B 6J6,49.27777943404405,-122.794719444731,129,2,Thai,3.5,0
+The Acorn,Vancouver,V5V 3P5,49.24958,-123.10143,506,2,Vegan,3.9,0
+Fable Diner,Vancouver,V5T 1W1,49.2630749,-123.1019822,359,2,Diners,3.9,0
+Moodswing Coffee And Bar,New Westminster,V3M 1A2,49.2022517,-122.9085935,106,2,Coffee & Tea,4.0,1
+Bánh Mì Très Bon - Richmond,Richmond,V6X 0M6,49.177852,-123.120688,365,2,Vietnamese,3.8,0
+Indian Wok,Burnaby,V5H 2G1,49.2248408,-122.9884673,99,2,Hakka,4.2,1
+Sushi Yen,New Westminster,V3L 2Z1,49.2038975160565,-122.908591367304,25,1,Sushi Bars,3.8,0
+Burnaby Mountain Clubhouse,Burnaby,V5A 4M8,49.265138,-122.943048,62,2,Lounges,4.1,1
+Showcase Restaurant & Bar,Vancouver,V6E 4R5,49.2879858,-123.1204414,145,2,Seafood,4.1,1
+Uncle Lu,Richmond,V6X 1J8,49.18570262126169,-123.12860998281006,59,2,Taiwanese,3.1,0
+Homer St. Cafe and Bar,Vancouver,V6B 2W5,49.27842589023651,-123.11812388962129,404,2,Canadian (New),3.8,0
+The Gray Olive Cafeteria,Burnaby,V5C 2J4,49.2807699,-123.01164,246,2,Breakfast & Brunch,4.1,1
+Liberty Kitchen,Surrey,V3Z 0R5,49.0452889438938,-122.778361737728,40,2,Comfort Food,3.9,0
+Five Sails Restaurant,Vancouver,V6C 3E1,49.2880313351364,-123.113292160758,245,4,French,4.4,1
+Golden Samosa Bakery,Surrey,V3W 1W1,49.162635078126854,-122.88879025997797,31,1,Indian,4.1,1
+CHAU Veggie Express,Vancouver,V6H 3S2,49.2726237,-123.1356235,41,2,Vietnamese,4.2,1
+Sing Yee Chinese Restaurant,Richmond,V6X 3Z9,49.1849605,-123.1282953,35,2,Seafood,3.5,0
+Shanghai Dimsum House,Burnaby,V5H 4V2,49.2294464,-123.0044077,160,2,Dim Sum,4.0,1
+Ask For Luigi,Vancouver,V6A 1C4,49.2844485,-123.0976786,591,2,Italian,4.1,1
+The 515 bar,Vancouver,V6B 3H6,49.283842,-123.1144244,21,2,Beer Bar,4.7,1
+Saffron Indian Cuisine,Burnaby,V5H 1Z8,49.2311623,-123.0085405,263,2,Indian,3.8,0
+Butter Baked Goods & Cafe,Vancouver,V6N 1G8,49.24213957138887,-123.1704097,108,2,Cafes,3.4,0
+Sushi California - Surrey,Surrey,V3R 7P6,49.1893963,-122.7993351,144,2,Japanese,3.9,0
+Khob Khun Thai Cuisine,Coquitlam,V3K 3P4,49.249218,-122.858859,134,2,Thai,4.3,1
+Pizza One,Coquitlam,V3J 3R3,49.262742,-122.838984,19,2,Pizza,3.3,0
+Sushi Farm,New Westminster,V3M 3S3,49.2118195905541,-122.924703396857,14,2,Japanese,4.1,1
+Gordon Ramsay Steak,Richmond,V6X 3P8,49.19709365861781,-123.12741703210153,55,4,Steakhouses,3.7,0
+Nīzu Cafe,Vancouver,V6C 1J8,49.28529078349641,-123.11634502209047,41,2,Cafes,4.1,1
+La Taqueria Pinche Taco Shop,Vancouver,V5Z 3V6,49.263617,-123.112593,711,2,Mexican,4.2,1
+Ay Chihuahua,Surrey,V4A 4N4,49.0332999,-122.80094,47,2,Mexican,4.1,1
+Trafiq Cafe & Bakery,Vancouver,V5V 3R1,49.2474862,-123.1011218,339,2,Cafes,4.4,1
+MYST Asian Fusion,Burnaby,V5E 1C5,49.21936313246308,-122.9706842,269,2,Chinese,3.6,0
+Doppio Zero Pizza,Coquitlam,V3J 3P7,49.2635549,-122.847654,63,2,Italian,3.6,0
+The Village Barbeque,Surrey,V3V 4C1,49.17621,-122.88987,18,1,Barbeque,3.6,0
+HAAN Korean,Coquitlam,V3B 6S2,49.27459,-122.79247,76,2,Korean,3.8,0
+Aka Sushi,Surrey,V3S 1E9,49.11859,-122.71199,38,2,Sushi Bars,4.0,1
+Earls Kitchen + Bar,Richmond,V6X 2X9,49.1762654,-123.1318797,166,2,Canadian (New),3.2,0
+Rosie's Country Cafe,Surrey,V4P 1B8,49.056674380316,-122.80853109372926,28,2,Cafes,3.9,0
+Peaches,Richmond,V6X 4B3,49.1781063932489,-123.127360152108,25,2,Cantonese,3.5,0
+Kishimoto Japanese Kitchen,Vancouver,V5N 4A9,49.2665099,-123.06935,554,3,Japanese,4.4,1
+Continental Seafood Restaurant,Richmond,V6X 1L5,49.18391,-123.09426,219,2,Seafood,3.7,0
+Japadog,Vancouver,V6B 1E1,49.285942555161974,-123.1123797035985,34,1,Hot Dogs,4.1,1
+Hakone Sushi Bar,Coquitlam,V3B,49.28224,-122.79587,45,2,Sushi Bars,4.2,1
+Cactus Club Cafe,Vancouver,V5Z 1E6,49.2633734327403,-123.117130327243,176,2,Canadian (New),3.8,0
+OEB Breakfast Co. - Yaletown,Vancouver,V6Z 2Y3,49.273438,-123.119289,1034,2,Breakfast & Brunch,4.3,1
+Spice of Nepal,Surrey,V3W 2N8,49.13339,-122.84879,60,2,Himalayan/Nepalese,4.2,1
+Tokyo In April,Vancouver,V6B 2L1,49.2806813,-123.1073936,129,2,Japanese,4.4,1
+Ramen Takanotsume,Richmond,V6X 0A4,49.1841116494066,-123.133542872965,56,2,Ramen,3.7,0
+The Samosa House,Surrey,V3W 3K2,49.162746,-122.866827,93,1,Indian,4.4,1
+Delta Pizza,Surrey,V3W 1B3,49.15558,-122.86452,12,2,Pizza,3.9,0
+McDonald's,New Westminster,V3L 5H1,49.2123616960379,-122.918872872422,20,1,Fast Food,2.5,0
+STEM Japanese Eatery,Burnaby,V5J 2B7,49.21497276456137,-122.98816101534423,125,2,Japanese,4.2,1
+G-men Ramen,Richmond,V6X 1C3,49.1784915815574,-123.129821190468,351,2,Ramen,3.9,0
+The Lion's Den Cafe,Vancouver,V5T 2R6,49.257273,-123.089984,78,1,Breakfast & Brunch,3.8,0
+LOCAL Public Eatery Gastown,Vancouver,V6A 1B2,49.2836468,-123.1039495,196,2,Gastropubs,4.3,1
+Sushi Boss,Coquitlam,V3E 2Z4,49.2986583,-122.7872987,38,2,Sushi Bars,4.0,1
+Pizza Pizzeria,Burnaby,V3N 2S9,49.2308488,-122.9058827,49,1,Pizza,4.2,1
+Jejudo,Burnaby,V3N 4R7,49.2439366,-122.8942123,59,2,Japanese,3.5,0
+Sciué Italian Bakery Caffé,Vancouver,V6E 0A7,49.28691,-123.1224397,25,2,Breakfast & Brunch,3.1,0
+Pourhouse Restaurant,Vancouver,V6B 1B2,49.2841134475502,-123.10842879595,606,2,Cocktail Bars,4.0,1
+Boy With a Knife Grill,Richmond,V6V 1X7,49.190947,-123.073984,55,2,Burgers,3.6,0
+Sushi Garden,Burnaby,V5E 1E2,49.2191,-122.96725,169,2,Japanese,3.4,0
+JOEY Coquitlam,Coquitlam,V3K 3S3,49.2457652,-122.89261,221,2,Canadian (New),4.0,1
+Tokyo Joe Sushi,Richmond,V6X 3K8,49.172186088951655,-123.1336462733865,248,2,Japanese,3.6,0
