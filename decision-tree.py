@@ -1,29 +1,32 @@
 import numpy as np
 import pandas as pd
 
-from project_helper import fit_preprocess, transform
+from sklearn.compose import ColumnTransformer
+from sklearn.impute import SimpleImputer
+from sklearn.metrics import mean_absolute_error
+from sklearn.metrics import mean_squared_error
+from sklearn.metrics import r2_score
+from sklearn.pipeline import Pipeline
+from sklearn.preprocessing import OneHotEncoder
 from sklearn.tree import DecisionTreeRegressor
 
 
-DATA_PATH = "full_information.csv"
-TARGET_COLUMN = "target_rating"
+DATA_PATH = "location-information.csv"
+TARGET_COLUMN = "log_review_count"
 
-MAX_DEPTH_VALUES = [2, 3, 4, 5, None]
-MIN_SAMPLES_LEAF_VALUES = [5, 10, 20]
+MAX_DEPTH = 4
+MIN_SAMPLES_LEAF = 5
 
-# need to update which features will end up being used
-feature_plan = {
-    "store_name": "drop",
-    "city": "one-hot",
-    "latitude": "drop",
-    "longitude": "drop",
-    "median_income": "drop",
-    "pop_density_sqkm": "drop",
-    "competitor_count_500m": "drop",
-    "nearest_transit_distance_m": "drop",
-    "pct_age_20_39": "drop",
-    "neighbourhood_name": "drop",
-}
+numeric_features = [
+    "price_level",
+    "latitude",
+    "longitude",
+]
+
+categorical_features = [
+    "city",
+    "primary_category",
+]
 
 
 # Code from A2
@@ -34,78 +37,97 @@ def kfold_indices(n, k=10, seed=42):
     return np.array_split(idx, k)
 
 
-# Code from A2
-def rmse(y_true, y_pred):
-    total_squared_error = 0.0
-    size = len(y_true)
+def prepare_data():
+    df = pd.read_csv(DATA_PATH)
 
-    for i in range(size):
-        difference = y_true[i] - y_pred[i]
-        total_squared_error = total_squared_error + (difference * difference)
+    # predict log(1 + review_count).
+    df[TARGET_COLUMN] = np.log1p(df["review_count"])
 
-    return np.sqrt(total_squared_error / size)
+    return df
 
 
-# Code from A2
-def mae(y_true, y_pred):
-    total_absolute_error = 0.0
-    size = len(y_true)
+def make_model():
+    numeric_pipeline = Pipeline(
+        steps=[
+            ("imputer", SimpleImputer(strategy="median")),
+        ]
+    )
 
-    for i in range(size):
-        difference = y_true[i] - y_pred[i]
-        total_absolute_error = total_absolute_error + abs(difference)
+    categorical_pipeline = Pipeline(
+        steps=[
+            ("imputer", SimpleImputer(strategy="most_frequent")),
+            (
+                "onehot",
+                OneHotEncoder(
+                    handle_unknown="ignore",
+                    sparse_output=False,
+                ),
+            ),
+        ]
+    )
 
-    return total_absolute_error / size
+    preprocessor = ColumnTransformer(
+        transformers=[
+            ("numeric", numeric_pipeline, numeric_features),
+            ("categorical", categorical_pipeline, categorical_features),
+        ]
+    )
+
+    model = Pipeline(
+        steps=[
+            ("preprocess", preprocessor),
+            (
+                "tree",
+                DecisionTreeRegressor(
+                    max_depth=MAX_DEPTH,
+                    min_samples_leaf=MIN_SAMPLES_LEAF,
+                    random_state=42,
+                ),
+            ),
+        ]
+    )
+
+    return model
 
 
-def r2_score(y_true, y_pred):
-    ss_residual = np.sum((y_true - y_pred) ** 2)
-    ss_total = np.sum((y_true - np.mean(y_true)) ** 2)
-    return 1 - (ss_residual / ss_total)
-
-
-def evaluate_decision_tree(df, max_depth, min_samples_leaf):
-
+def evaluate_decision_tree(df):
     folds = kfold_indices(len(df), k=10, seed=42)
+
     rmses = []
     maes = []
     r2_scores = []
 
-    for i in range(10):
-        test_idx = folds[i]
+    feature_names = numeric_features + categorical_features
+    X = df[feature_names]
+    y = df[TARGET_COLUMN]
+
+    for fold_index in range(10):
+        test_idx = folds[fold_index]
         train_folds = []
 
-        for j in range(10):
-            if j != i:
-                train_folds.append(folds[j])
+        for other_fold_index in range(10):
+            if other_fold_index != fold_index:
+                train_folds.append(folds[other_fold_index])
 
         train_idx = np.hstack(train_folds)
 
-        train_df = df.iloc[train_idx]
-        test_df = df.iloc[test_idx]
+        X_train = X.iloc[train_idx]
+        X_test = X.iloc[test_idx]
+        y_train = y.iloc[train_idx]
+        y_test = y.iloc[test_idx]
 
-        y_train = train_df[TARGET_COLUMN].to_numpy(dtype=float)
-        y_test = test_df[TARGET_COLUMN].to_numpy(dtype=float)
-
-        # fit preprocessing on the training fold only
-        params = fit_preprocess(train_df, feature_plan)
-        X_train = transform(train_df, feature_plan, params)
-        X_test = transform(test_df, feature_plan, params)
-
-        # train the decision tree regression model
-        model = DecisionTreeRegressor(
-            max_depth=max_depth,
-            min_samples_leaf=min_samples_leaf,
-            random_state=42,
-        )
+        # preprocess and train
+        model = make_model()
         model.fit(X_train, y_train)
-
-        # predict Yelp ratings for the test fold
         y_pred = model.predict(X_test)
 
-        rmses.append(rmse(y_test, y_pred))
-        maes.append(mae(y_test, y_pred))
-        r2_scores.append(r2_score(y_test, y_pred))
+        rmse = mean_squared_error(y_test, y_pred) ** 0.5
+        mae = mean_absolute_error(y_test, y_pred)
+        r2 = r2_score(y_test, y_pred)
+
+        rmses.append(rmse)
+        maes.append(mae)
+        r2_scores.append(r2)
 
     mean_rmse = np.mean(rmses)
     mean_mae = np.mean(maes)
@@ -115,61 +137,19 @@ def evaluate_decision_tree(df, max_depth, min_samples_leaf):
 
 
 def main():
+    df = prepare_data()
+    mean_rmse, mean_mae, mean_r2 = evaluate_decision_tree(df)
 
-    df = pd.read_csv(DATA_PATH)
-    df["neighbourhood_name"] = df["neighbourhood_name"].fillna("Unknown")
+    print("\nDecision Tree Regression for Review Count Prediction\n")
 
-    print("\nDecision Tree Regression for Yelp Rating Prediction\n")
-    print("depth | min leaf |  RMSE  |  MAE   |   R^2")
-    print("--------------------------------------------")
+    print("Decision tree settings:")
+    print(f"max_depth = {MAX_DEPTH}")
+    print(f"min_samples_leaf = {MIN_SAMPLES_LEAF}\n")
 
-    best_rmse = None
-    best_depth = None
-    best_min_samples_leaf = None
-    best_mae = None
-    best_r2 = None
-
-    for max_depth in MAX_DEPTH_VALUES:
-        for min_samples_leaf in MIN_SAMPLES_LEAF_VALUES:
-            mean_rmse, mean_mae, mean_r2 = evaluate_decision_tree(
-                df,
-                max_depth,
-                min_samples_leaf,
-            )
-
-            if max_depth is None:
-                depth_label = "None"
-            else:
-                depth_label = str(max_depth)
-
-            print(
-                f"{depth_label:<5} | "
-                f"{min_samples_leaf:<8} | "
-                f"{mean_rmse:.4f} | "
-                f"{mean_mae:.4f} | "
-                f"{mean_r2:.4f}"
-            )
-
-            if best_rmse is None:
-                best_rmse = mean_rmse
-                best_depth = max_depth
-                best_min_samples_leaf = min_samples_leaf
-                best_mae = mean_mae
-                best_r2 = mean_r2
-            else:
-                if mean_rmse < best_rmse:
-                    best_rmse = mean_rmse
-                    best_depth = max_depth
-                    best_min_samples_leaf = min_samples_leaf
-                    best_mae = mean_mae
-                    best_r2 = mean_r2
-
-    print("\nBest decision tree setting:")
-    print(f"max_depth = {best_depth}")
-    print(f"min_samples_leaf = {best_min_samples_leaf}")
-    print(f"RMSE = {best_rmse:.4f}")
-    print(f"MAE = {best_mae:.4f}")
-    print(f"R^2 = {best_r2:.4f}")
+    print("10-fold cross-validation performance:")
+    print(f"RMSE = {mean_rmse:.4f}")
+    print(f"MAE = {mean_mae:.4f}")
+    print(f"R^2 = {mean_r2:.4f}")
 
 
 if __name__ == "__main__":
