@@ -7,7 +7,10 @@ NUMERIC_IMPUTE_COLUMNS = [
     "pop_density_sqkm",
     "competitor_count_500m",
     "nearest_transit_distance_m",
+    "pct_age_20_39",
 ]
+
+CATEGORICAL_MISSING_VALUE = "__missing__"
 
 
 def engineer_features(df, numeric_impute_values=None):
@@ -45,7 +48,8 @@ def fit_preprocess(train_df, feature_plan):
                 sigma = 1.0
             params["standard"][col] = (mu, sigma)
         elif how == "one-hot":
-            params["onehot"][col] = sorted(train_df[col].unique())
+            cats = train_df[col].fillna(CATEGORICAL_MISSING_VALUE).astype(str).unique()
+            params["onehot"][col] = sorted(cats)
     return params
 
 
@@ -64,7 +68,8 @@ def transform(df, feature_plan, params):
             cats = params["onehot"][col]
             onehot = np.zeros((len(df), len(cats)))
             cat_to_idx = {c: i for i, c in enumerate(cats)}
-            for i, v in enumerate(df[col]):
+            values = df[col].fillna(CATEGORICAL_MISSING_VALUE).astype(str)
+            for i, v in enumerate(values):
                 if v in cat_to_idx:
                     onehot[i, cat_to_idx[v]] = 1.0
             X_parts.append(onehot)
