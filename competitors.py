@@ -2,7 +2,7 @@ import pandas as pd
 import numpy as np
 from sklearn.neighbors import BallTree as bt
 
-DATA_PATH = "test_information.csv"
+DATA_PATH = "location-information.csv"  # Path to the CSV file containing latitude and longitude data
 EARTH_RADIUS = 6371000  # in meters
 
 # load data from csv (latitude and longitude)
@@ -36,6 +36,6 @@ comp_df["competitor_count_500m"] = neighbors - 1 # subtract 1 to exclude the sto
 transit_distances_rad, _ = transit_tree.query(coords_rad, k=1)
 comp_df["nearest_transit_distance_m"] = transit_distances_rad[:, 0] * EARTH_RADIUS
 
-comp_df.to_csv(DATA_PATH, index=False)
+comp_df.to_csv("location-information-with-competitors.csv", index=False)
 
 print(f"Competitor count and nearest transit stop distance calculated and saved to {DATA_PATH}")

@@ -1,0 +1,25 @@
+[project]
+name = "cmpt310-project"
+version = "0.1.0"
+description = "A barebones machine learning application which predicts the success based on yelp rating of a restuarant/cafe in the metrovan area"
+authors = [
+    {name = "Your Name",email = "you@example.com"}
+]
+license = {text = "MIT"}
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "scikit-learn (>=1.9.0,<2.0.0)",
+    "xgboost (>=3.4.0,<4.0.0)",
+    "matplotlib (>=3.11.1,<4.0.0)",
+    "pandas (>=3.0.5,<4.0.0)",
+    "requests (>=2.34.2,<3.0.0)",
+    "argparse (>=1.4.0,<2.0.0)",
+    "geopandas (>=1.1.4,<2.0.0)",
+    "pycancensus (>=0.2.0,<0.3.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"

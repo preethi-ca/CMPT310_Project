@@ -24,14 +24,17 @@ NUMERIC_IMPUTE_COLUMNS = [
 
 feature_plan = {
     "store_name": "drop",
-    "city": "one-hot",
+    "city": "drop",
     "latitude": "drop",
     "longitude": "drop",
-    "median_income": "drop",
-    "pop_density_sqkm": "drop",
-    "competitor_count_500m": "drop",
-    "nearest_transit_distance_m": "drop",
-    "pct_age_20_39": "drop",
+    "median_income": "standard",
+    "pop_density_sqkm": "standard",
+    "competitor_count_500m": "standard",
+    "nearest_transit_distance_m": "standard",
+    "pct_age_20_39": "standard",
+    "primary_category": "drop",
+    "price_level": "drop",
+    "zip_code": "drop",
     "log_median_income": "standard",
     "log_pop_density_sqkm": "standard",
     "log_competitor_count_500m": "standard",
@@ -114,7 +117,7 @@ def stratified_kfold_indices(y, n_splits=5, seed=42):
     return [np.array(f) for f in folds]
 
 
-def tune_knn(X, y, k_values, cv_folds=5, p_values=[2], weights_options=[None, 'distance']):
+def tune_knn(X, y, k_values, cv_folds=3, p_values=[2], weights_options=[None, 'distance']):
     folds = stratified_kfold_indices(y, n_splits=cv_folds, seed=42)
     best = None
     results = []
