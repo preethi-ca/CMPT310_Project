@@ -12,13 +12,12 @@ from sklearn.tree import DecisionTreeRegressor
 
 
 DATA_PATH = "location-information.csv"
-TARGET_COLUMN = "log_review_count"
+TARGET_COLUMN = "target_rating"
 
 MAX_DEPTH = 4
-MIN_SAMPLES_LEAF = 5
+MIN_SAMPLES_LEAF = 30
 
 numeric_features = [
-    "price_level",
     "latitude",
     "longitude",
 ]
@@ -35,15 +34,6 @@ def kfold_indices(n, k=10, seed=42):
     idx = np.arange(n)
     rng.shuffle(idx)
     return np.array_split(idx, k)
-
-
-def prepare_data():
-    df = pd.read_csv(DATA_PATH)
-
-    # predict log(1 + review_count).
-    df[TARGET_COLUMN] = np.log1p(df["review_count"])
-
-    return df
 
 
 def make_model():
@@ -116,7 +106,7 @@ def evaluate_decision_tree(df):
         y_train = y.iloc[train_idx]
         y_test = y.iloc[test_idx]
 
-        # preprocess and train
+        # preprocess the features, train the tree, then predict Yelp ratings
         model = make_model()
         model.fit(X_train, y_train)
         y_pred = model.predict(X_test)
@@ -137,10 +127,13 @@ def evaluate_decision_tree(df):
 
 
 def main():
-    df = prepare_data()
+    df = pd.read_csv(DATA_PATH)
     mean_rmse, mean_mae, mean_r2 = evaluate_decision_tree(df)
 
-    print("\nDecision Tree Regression for Review Count Prediction\n")
+    print("\nDecision Tree Regression for Yelp Rating Prediction\n")
+    print("Target: target_rating")
+    print("Features: city, primary_category, latitude, longitude")
+    print(f"Rows used: {len(df)}\n")
 
     print("Decision tree settings:")
     print(f"max_depth = {MAX_DEPTH}")
