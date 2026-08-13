@@ -3,9 +3,12 @@ name = "cmpt310-project"
 version = "0.1.0"
 description = "A barebones machine learning application which predicts the success based on yelp rating of a restuarant/cafe in the metrovan area"
 authors = [
-    {name = "Your Name",email = "you@example.com"}
+    {name = "Romandeep Chauhan"},
+    {name = "Preethi Chidambaram"},
+    {name = "Shelby Haines"},
+    {name = "Aymen Jerbi"}
 ]
-license = {text = "MIT"}
+license = {text = "Copyright remains with the authors; academic-use permission granted to Simon Fraser University and the CMPT 310 instructional team."}
 readme = "README.md"
 requires-python = ">=3.13"
 dependencies = [

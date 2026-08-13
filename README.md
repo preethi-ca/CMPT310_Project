@@ -127,12 +127,19 @@ python src/knn-visualization.py
 
 These helper scripts support the dataset-building process. The four main model scripts listed above are the reproducible model pipeline for the final code submission.
 
+## License And Permission
+
+Copyright remains with the authors: Romandeep Chauhan, Preethi Chidambaram, Shelby Haines, and Aymen Jerbi.
+
+The authors grant Simon Fraser University and the CMPT 310 instructional team permission to reproduce, distribute, and post this guide and project materials for non-commercial academic and educational use, including sharing them with future CMPT 310 students.
+
 ## Code Submission Checklist
 
 For the Canvas ZIP submission, include:
 
 - Source code: `src/`, `run_pipeline.py`, and the config files.
 - Dependencies/config: `requirements.txt`, `pyproject.toml`, and `poetry.lock`.
+- License/permission: `LICENSE`.
 - Data files required to reproduce the models, especially `data/location-information.csv` and `data/location-information-with-competitors.csv`.
 - Existing output plots if required by the report: files in `outputs/`.
 - This `README.md`.
@@ -144,6 +151,7 @@ PowerShell example for a model-code submission ZIP:
 ```powershell
 $items = @(
   "README.md",
+  "LICENSE",
   "requirements.txt",
   "pyproject.toml",
   "poetry.lock",
