@@ -1,4 +1,5 @@
 import matplotlib.pyplot as plt
+from pathlib import Path
 
 from sklearn.metrics import ConfusionMatrixDisplay, confusion_matrix
 from sklearn.model_selection import train_test_split
@@ -13,6 +14,10 @@ from knn_classification import (
     load_and_engineer,
 )
 from project_helper import FeaturePreprocessor
+
+
+OUTPUT_DIR = Path("outputs")
+OUTPUT_DIR.mkdir(exist_ok=True)
 
 
 def main():
@@ -92,7 +97,7 @@ def main():
     plt.tight_layout()
 
     plt.savefig(
-        "knn_performance_vs_k.png",
+        OUTPUT_DIR / "knn_performance_vs_k.png",
         dpi=300,
         bbox_inches="tight",
     )
@@ -141,7 +146,7 @@ def main():
     plt.tight_layout()
 
     plt.savefig(
-        "knn_confusion_matrix.png",
+        OUTPUT_DIR / "knn_confusion_matrix.png",
         dpi=300,
         bbox_inches="tight",
     )

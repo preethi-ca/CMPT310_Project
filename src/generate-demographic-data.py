@@ -20,9 +20,9 @@ import pandas
 import pycancensus
 
 
-INPUT_FILE = Path("updated-columns.csv")
+INPUT_FILE = Path("data/updated-columns.csv")
 # input file needs the latitude/longitude columns
-OUTPUT_FILE = Path("full_information.csv")
+OUTPUT_FILE = Path("data/full_information.csv")
 ENV_FILE = Path(".env")
 
 # info for the api

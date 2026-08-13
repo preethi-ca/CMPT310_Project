@@ -13,7 +13,7 @@ from project_helper import FeaturePreprocessor
 # -----------------------------
 # Config
 # -----------------------------
-DATA_PATH = "yelp-and-demo-info.csv"
+DATA_PATH = "data/location-information-with-competitors.csv"
 
 NUMERIC_IMPUTE_COLUMNS = [
     "median_income",

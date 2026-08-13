@@ -1,10 +1,21 @@
-# CMPT 310 Location AI Interface
+# CMPT 310 Location Interface
 
-Local website prototype for Aymen's interface task in the CMPT 310 AI Introduction project.
+Local website prototype for the CMPT 310 restaurant location success project.
 
-The app lets a user enter a Metro Vancouver restaurant or cafe location, adjust generated feature values, and compare model-style outputs for expected Yelp rating, success classification, and review demand.
+The interface lets a user choose a Metro Vancouver restaurant location, select which project models to compare, adjust the input features, and read the two main prediction outputs:
 
-The current visual direction is inspired by Wealthsimple Predict for styling only: dark hero area, muted neutral/sage palette, large rounded typography, soft motion, guided workflow tabs, and polished summary cards adapted to restaurant-location decisions.
+- Expected Yelp rating
+- Successful or not successful classification
+
+The generated feature table shows the input values used by the selected models. It is not a separate model output.
+
+## Technology Stack
+
+- TypeScript and TSX for the React interface
+- CSS/Tailwind tooling for styling
+- JavaScript/Node.js for scripts and build tooling
+- Vinext/Vite for the frontend build
+- Leaflet with OpenStreetMap tiles for the map
 
 ## Run Locally
 
@@ -19,11 +30,9 @@ Open `http://localhost:3000/`.
 
 Reference repository: `https://github.com/preethi-ca/CMPT310_Project`
 
-The current version uses a browser-side model adapter generated from the reference repo CSVs. It ports the KNN feature-engineering path from `project_helper.py` and `knn_classification.py`, bundles 1,535 classification/rating rows, and uses 550 `location-information.csv` rows for review-demand estimates.
+The current version uses a browser-side TypeScript adapter generated from the project CSV files for the demo interface. The project repository contains the Python scripts for Ridge regression, Decision Tree regression, KNN classification, and XGBoost classification. When the team exports API-ready trained model artifacts, the interface can replace the local adapter with a server or API route that loads those artifacts directly.
 
-The reference repo currently contains training scripts, CSVs, and charts, but no exported `.pkl`, `.joblib`, `.json`, or API-ready trained model files. When the team exports trained Ridge/KNN/XGBoost/Decision Tree artifacts, the interface can replace the local adapter with a server/API route that loads those artifacts.
-
-To refresh the bundled model data after the GitHub repo changes:
+To refresh the bundled model data after the project repo changes:
 
 ```bash
 git clone https://github.com/preethi-ca/CMPT310_Project.git ../CMPT310_Project
@@ -32,13 +41,4 @@ node scripts/import-project-model-data.mjs ../CMPT310_Project
 
 ## Deployment Notes
 
-This app can be deployed as a static/reactive site because prediction currently runs in TypeScript in the browser. Vercel is a good option for a public class demo. Resend is not needed unless the team adds email features such as contact forms, reports, or notifications.
-
-## Interface Includes
-
-- Address, city, category, price, demographic, competition, and transit inputs
-- Real OpenStreetMap/Leaflet map with clickable Metro Vancouver example locations
-- Generated feature summary matching the project columns
-- Data-backed outputs for expected rating, success probability, and review demand
-- Model comparison section for Ridge regression, KNN/XGBoost, and Decision Tree
-- Repository chart assets for regression and KNN results
+The current app can be deployed as a static/reactive site because prediction logic runs in TypeScript in the browser for the class demo. Vercel is a good option for a public demo.

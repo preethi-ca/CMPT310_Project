@@ -1,0 +1,9 @@
+import pandas as pd
+
+# load the dataset
+df = pd.read_csv("data/location-information.csv")
+
+df = df.drop(columns=['zip_code'])
+# print(df)
+
+df.to_csv("data/location-information.csv", index=False)

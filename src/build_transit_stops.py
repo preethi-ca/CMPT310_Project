@@ -4,7 +4,7 @@ from zipfile import ZipFile
 
 import pandas as pd
 
-DEFAULT_GTFS_PATH = "google_transit.zip"
+DEFAULT_GTFS_PATH = "data/google_transit.zip"
 
 
 def read_stops_from_path(source_path: Path) -> pd.DataFrame:
@@ -42,19 +42,19 @@ def load_stops_from_gtfs(source_path: str) -> pd.DataFrame:
 
 def main() -> None:
 	parser = argparse.ArgumentParser(
-		description="Build transit_stops.csv from a local GTFS stops.txt source."
+		description="Build data/transit_stops.csv from a local GTFS stops.txt source."
 	)
 	parser.add_argument(
 		"source",
 		nargs="?",
 		default=DEFAULT_GTFS_PATH,
-		help="GTFS directory or .zip archive (default: google_transit.zip)",
+		help="GTFS directory or .zip archive (default: data/google_transit.zip)",
 	)
 	parser.add_argument(
 		"-o",
 		"--output",
-		default="transit_stops.csv",
-		help="Output CSV path (default: transit_stops.csv)",
+		default="data/transit_stops.csv",
+		help="Output CSV path (default: data/transit_stops.csv)",
 	)
 	args = parser.parse_args()
 

@@ -1,2 +1,5 @@
 __pycache__/
 *.pyc
+.venv/
+.pytest_cache/
+CMPT310_Project_code_submission.zip

@@ -18,7 +18,7 @@ from knn_classification import feature_plan, load_and_engineer
 from project_helper import FeaturePreprocessor
 
 
-DATA_PATH = "yelp-and-demo-info.csv"
+DATA_PATH = "data/location-information-with-competitors.csv"
 RANDOM_STATE = 42
 
 

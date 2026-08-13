@@ -3,27 +3,28 @@ import pandas as pd
 
 from sklearn.compose import ColumnTransformer
 from sklearn.impute import SimpleImputer
-from sklearn.linear_model import Ridge
+from sklearn.metrics import mean_absolute_error
+from sklearn.metrics import mean_squared_error
 from sklearn.metrics import r2_score
 from sklearn.pipeline import Pipeline
 from sklearn.preprocessing import OneHotEncoder
-from sklearn.preprocessing import StandardScaler
+from sklearn.tree import DecisionTreeRegressor
 
 
-DATA_PATH = "location-information.csv"
+DATA_PATH = "data/location-information.csv"
 TARGET_COLUMN = "target_rating"
-LAMBDA_VALUE = 10.0
+
+MAX_DEPTH = 4
+MIN_SAMPLES_LEAF = 30
+
+numeric_features = [
+    "latitude",
+    "longitude",
+]
 
 categorical_features = [
     "city",
     "primary_category",
-    "price_level",
-]
-
-numeric_features = [
-    "median_income",
-    "latitude",
-    "longitude",
 ]
 
 
@@ -35,52 +36,26 @@ def kfold_indices(n, k=10, seed=42):
     return np.array_split(idx, k)
 
 
-# Code from A2
-def rmse(y_true, y_pred):
-    total_squared_error = 0.0
-    size = len(y_true)
-
-    for i in range(size):
-        difference = y_true[i] - y_pred[i]
-        total_squared_error = total_squared_error + (difference * difference)
-
-    return np.sqrt(total_squared_error / size)
-
-
-# Code from A2
-def mae(y_true, y_pred):
-    total_absolute_error = 0.0
-    size = len(y_true)
-
-    for i in range(size):
-        difference = y_true[i] - y_pred[i]
-        total_absolute_error = total_absolute_error + abs(difference)
-
-    return total_absolute_error / size
-
-
 def make_model():
     numeric_pipeline = Pipeline(
-        steps = [
-            ("imputer", SimpleImputer(strategy = "median")),
-            ("scaler", StandardScaler()),
+        steps=[
+            ("imputer", SimpleImputer(strategy="median")),
         ]
     )
 
     categorical_pipeline = Pipeline(
         steps=[
-            ("imputer", SimpleImputer(strategy = "most_frequent")),
+            ("imputer", SimpleImputer(strategy="most_frequent")),
             (
                 "onehot",
                 OneHotEncoder(
-                    handle_unknown = "ignore",
-                    sparse_output = False,
+                    handle_unknown="ignore",
+                    sparse_output=False,
                 ),
             ),
         ]
     )
 
-    # convert categorical columns and scale numeric columns before regression
     preprocessor = ColumnTransformer(
         transformers=[
             ("numeric", numeric_pipeline, numeric_features),
@@ -88,18 +63,24 @@ def make_model():
         ]
     )
 
-    #  linear regression with regularization
     model = Pipeline(
-        steps = [
+        steps=[
             ("preprocess", preprocessor),
-            ("ridge", Ridge(alpha=LAMBDA_VALUE)),
+            (
+                "tree",
+                DecisionTreeRegressor(
+                    max_depth=MAX_DEPTH,
+                    min_samples_leaf=MIN_SAMPLES_LEAF,
+                    random_state=42,
+                ),
+            ),
         ]
     )
 
     return model
 
 
-def evaluate_model(df):
+def evaluate_decision_tree(df):
     folds = kfold_indices(len(df), k=10, seed=42)
 
     rmses = []
@@ -122,17 +103,21 @@ def evaluate_model(df):
 
         X_train = X.iloc[train_idx]
         X_test = X.iloc[test_idx]
-        y_train = y.iloc[train_idx].to_numpy(dtype=float)
-        y_test = y.iloc[test_idx].to_numpy(dtype=float)
+        y_train = y.iloc[train_idx]
+        y_test = y.iloc[test_idx]
 
-        # train on 9 folds, then predict Yelp ratings for the held-out fold
+        # preprocess the features, train the tree, then predict Yelp ratings
         model = make_model()
         model.fit(X_train, y_train)
         y_pred = model.predict(X_test)
 
-        rmses.append(rmse(y_test, y_pred))
-        maes.append(mae(y_test, y_pred))
-        r2_scores.append(r2_score(y_test, y_pred))
+        rmse = mean_squared_error(y_test, y_pred) ** 0.5
+        mae = mean_absolute_error(y_test, y_pred)
+        r2 = r2_score(y_test, y_pred)
+
+        rmses.append(rmse)
+        maes.append(mae)
+        r2_scores.append(r2)
 
     mean_rmse = np.mean(rmses)
     mean_mae = np.mean(maes)
@@ -143,17 +128,21 @@ def evaluate_model(df):
 
 def main():
     df = pd.read_csv(DATA_PATH)
-    mean_rmse, mean_mae, mean_r2 = evaluate_model(df)
+    mean_rmse, mean_mae, mean_r2 = evaluate_decision_tree(df)
 
-    print("\nLinear Regression for Yelp Rating Prediction\n")
-    print(f"Data: {DATA_PATH}")
-    print(f"Rows used: {len(df)}")
-    print(f"Ridge lambda: {LAMBDA_VALUE}")
+    print("\nDecision Tree Regression for Yelp Rating Prediction\n")
+    print("Target: target_rating")
+    print("Features: city, primary_category, latitude, longitude")
+    print(f"Rows used: {len(df)}\n")
+
+    print("Decision tree settings:")
+    print(f"max_depth = {MAX_DEPTH}")
+    print(f"min_samples_leaf = {MIN_SAMPLES_LEAF}\n")
 
     print("10-fold cross-validation performance:")
-    print(f"RMSE = {mean_rmse:.2f}")
-    print(f"MAE = {mean_mae:.2f}")
-    print(f"R^2 = {mean_r2:.2f}")
+    print(f"RMSE = {mean_rmse:.4f}")
+    print(f"MAE = {mean_mae:.4f}")
+    print(f"R^2 = {mean_r2:.4f}")
 
 
 if __name__ == "__main__":

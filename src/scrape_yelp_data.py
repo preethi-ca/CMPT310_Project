@@ -114,4 +114,4 @@ businesses_df = businesses_df.reset_index(drop=True)
 businesses_df = businesses_df.drop(columns=["yelp_id"])
 
 # save the dataframe as a CSV file
-businesses_df.to_csv("price_level_update.csv", index=False)
+businesses_df.to_csv("data/price_level_update.csv", index=False)

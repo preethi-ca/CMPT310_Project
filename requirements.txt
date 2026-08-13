@@ -1,0 +1,11 @@
+# Core model pipeline
+numpy
+pandas
+scikit-learn
+xgboost
+matplotlib
+
+# Data collection and feature-building helpers
+requests
+geopandas
+pycancensus

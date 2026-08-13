@@ -1,4 +1,9 @@
 import matplotlib.pyplot as plt
+from pathlib import Path
+
+
+OUTPUT_DIR = Path("outputs")
+OUTPUT_DIR.mkdir(exist_ok=True)
 
 # Results from linear-regression.py
 lambda_labels = ["0", "0.01", "1", "10"]
@@ -17,7 +22,7 @@ plt.ylabel("RMSE")
 plt.title("RMSE vs Lambda")
 plt.grid(True)
 plt.tight_layout()
-plt.savefig("rmse_vs_lambda.png", dpi=300, bbox_inches="tight")
+plt.savefig(OUTPUT_DIR / "rmse_vs_lambda.png", dpi=300, bbox_inches="tight")
 plt.show()
 
 # -----------------------------
@@ -30,7 +35,7 @@ plt.ylabel("MAE")
 plt.title("MAE vs Lambda")
 plt.grid(True)
 plt.tight_layout()
-plt.savefig("mae_vs_lambda.png", dpi=300, bbox_inches="tight")
+plt.savefig(OUTPUT_DIR / "mae_vs_lambda.png", dpi=300, bbox_inches="tight")
 plt.show()
 
 # -----------------------------
@@ -43,5 +48,5 @@ plt.ylabel("R²")
 plt.title("R² vs Lambda")
 plt.grid(True)
 plt.tight_layout()
-plt.savefig("r2_vs_lambda.png", dpi=300, bbox_inches="tight")
+plt.savefig(OUTPUT_DIR / "r2_vs_lambda.png", dpi=300, bbox_inches="tight")
 plt.show()

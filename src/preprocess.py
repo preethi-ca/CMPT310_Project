@@ -5,7 +5,7 @@ from project_helper import fit_preprocess, transform
 # -----------------------------
 # Config
 # -----------------------------
-DATA_PATH = "full_information.csv"
+DATA_PATH = "data/full_information.csv"
 
 feature_plan = {
     "store_name": "drop",
